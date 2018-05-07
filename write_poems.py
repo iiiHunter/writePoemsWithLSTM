@@ -16,9 +16,9 @@ def write_poem():  # 根据概率分布选择与直接选择可能性最大的
         print("==============")
         return words[sample], words[sample2]
 
-    logits, probs, stack_cell, _initial_state, last_state = build_rnn(batch_size=batch_size,vocab_size=vocab_size)
     # input_size:(batch_size, feature_length)
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
+    logits, probs, stack_cell, _initial_state, last_state = build_rnn(batch_size=batch_size,vocab_size=vocab_size,input_sequences=input_sequences)
     with tf.Session() as sess:
         # sess.run(tf.initialize_all_variables())
         sess.run(tf.global_variables_initializer())

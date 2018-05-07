@@ -1,9 +1,7 @@
 # coding = utf-8
 import tensorflow as tf
 
-def build_rnn(hidden_units=128, layers=2, batch_size=1, vocab_size=0):
-	# input_size:(batch_size, feature_length)
-	input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
+def build_rnn(hidden_units=128, layers=2, batch_size=1, vocab_size=0,input_sequences=None):
 	# embeding
 	with tf.variable_scope("embedding"):
 		embedding = tf.get_variable("embedding", [vocab_size, hidden_units], dtype=tf.float32)

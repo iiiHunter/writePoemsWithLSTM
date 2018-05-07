@@ -9,10 +9,9 @@ from lstm import build_rnn
 def train(reload=False):
     model_save_path = os.getcwd() + "/peotry/peotry"
     # build rnn
-    logits, probs, _, _, _ = build_rnn(batch_size=batch_size,vocab_size=vocab_size)
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
     output_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
-
+    logits, probs, _, _, _ = build_rnn(batch_size=batch_size, vocab_size=vocab_size,input_sequences=input_sequences)
     targets = tf.reshape(output_sequences, [-1])
 
     loss = tf.contrib.legacy_seq2seq.sequence_loss_by_example(

@@ -1,10 +1,7 @@
 # coding = utf-8
-
 import collections
 import numpy as np
-import tensorflow as tf
 import codecs
-import os
 
 # 数据读取与预处理,先用一个比较简单的数据集
 def get_data(poetry_file = 'data/poetry.txt',batch_size = 1):
