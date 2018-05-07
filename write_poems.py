@@ -10,11 +10,11 @@ def write_poem():  # 根据概率分布选择与直接选择可能性最大的
         t = np.cumsum(weights)
         s = np.sum(weights)
         sample = int(np.searchsorted(t, np.random.rand(1) * s))
-        sample2 = int(np.argmax(weights))
+        #sample2 = int(np.argmax(weights))
         print("sample:%d/%d:" % (sample, len(words)))
-        print("sample2:%d/%d:" % (sample2, len(words)))
+        #print("sample2:%d/%d:" % (sample2, len(words)))
         print("==============")
-        return words[sample], words[sample2]
+        return words[sample]
 
     # input_size:(batch_size, feature_length)
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
@@ -26,26 +26,23 @@ def write_poem():  # 根据概率分布选择与直接选择可能性最大的
         module_file = tf.train.latest_checkpoint("./peotry")
         print("load sess from file:", module_file)
         saver.restore(sess, module_file)
-
         _state = sess.run(stack_cell.zero_state(1, dtype=tf.float32))
-
         x = np.array([[word2idfunc('[')]])
-
         prob_, _state = sess.run([probs, last_state], feed_dict={input_sequences: x, _initial_state: _state})
-
-        word, word2 = to_word(prob_)
+        word = to_word(prob_)
 
         poem = ''
-        poem2 = ''
-
+        count = 1
         while word != ']':
             poem += word
-            poem2 += word2
+            count +=1
             x = np.array([[word2idfunc(word)]])
             [probs_, _state] = sess.run([probs, last_state], feed_dict={input_sequences: x, _initial_state: _state})
-            word, word2 = to_word(probs_)
-
-    return poem, poem2
+            word = to_word(probs_)
+            if count > 79:
+                print("Fail to generate poem, you might try again!")
+                exit(-1)
+    return poem
 
 
 def write_head_poem(heads):
@@ -53,13 +50,12 @@ def write_head_poem(heads):
         t = np.cumsum(weights)
         s = np.sum(weights)
         sample = int(np.searchsorted(t, np.random.rand(1) * s))
-        print("sample:", sample)
-        print("len Words:", len(words))
-        # sample = np.argmax(weights)
+        print("sample:%d/%d:" % (sample, len(words)))
+        print("==============")
         return words[sample]
 
-    logits, probs, stack_cell, _initial_state, last_state = build_rnn()
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
+    logits, probs, stack_cell, _initial_state, last_state = build_rnn(batch_size=batch_size,vocab_size=vocab_size,input_sequences=input_sequences)
 
     with tf.Session() as sess:
         sess.run(tf.initialize_all_variables())
@@ -90,7 +86,5 @@ if __name__ == '__main__':
     batch_size = 1
     _, _, words, word2idfunc = get_data(poetry_file='data/poetry.txt', batch_size=batch_size)
     vocab_size = len(words) + 1
-    r1,r2 = write_poem()
-    print(r1)
-    print(r2)
+    print(write_poem())
     #print(write_head_poem(u"春风十里"))

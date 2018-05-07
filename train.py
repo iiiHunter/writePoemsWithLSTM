@@ -1,13 +1,12 @@
 # coding = utf-8
-import numpy as np
 import tensorflow as tf
 import os
 from prepare_data import get_data
 from lstm import build_rnn
 
-
 def train(reload=False):
-    model_save_path = os.getcwd() + "/peotry/peotry"
+    file_name = "peotry"
+    model_save_path = os.path.join(os.getcwd(), "peotry", file_name)
     # build rnn
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
     output_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
