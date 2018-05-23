@@ -20,6 +20,7 @@ def get_data(poetry_file = 'data/poetry.txt',batch_size = 1):
                 poetrys.append(content)
             except Exception as e:
                 print(e)
+
     # 按诗的字数排序
     poetrys = sorted(poetrys, key=lambda line: len(line))
     print(u'唐诗总数: ', len(poetrys))  # 3w多首诗
@@ -55,3 +56,6 @@ def get_data(poetry_file = 'data/poetry.txt',batch_size = 1):
         y[:, :-1] = x[:, 1:]
         Y_data.append(y)
     return X_data, Y_data, words, word2idfunc
+
+if __name__=="__main__":
+    X,Y,w,w2id = get_data()

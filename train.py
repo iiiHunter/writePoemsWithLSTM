@@ -1,12 +1,17 @@
 # coding = utf-8
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "2, 3"
 import tensorflow as tf
 import os
-from prepare_data import get_data
+#from prepare_data import get_data
+from database.readdb import get_data
 from lstm import build_rnn
 
+
 def train(reload=False):
-    file_name = "peotry"
-    model_save_path = os.path.join(os.getcwd(), "peotry", file_name)
+    file_name = "save_model"
+    save_dir = "peotry_bigdb"
+    model_save_path = os.path.join(os.getcwd(), save_dir, file_name)
     # build rnn
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
     output_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
@@ -30,7 +35,7 @@ def train(reload=False):
         saver = tf.train.Saver(write_version=tf.train.SaverDef.V2)
 
         if reload:
-            module_file = tf.train.latest_checkpoint("./peotry")
+            module_file = tf.train.latest_checkpoint(save_dir)
             start_epoch = int(module_file.split('-')[-1])
             saver.restore(sess, module_file)
             print("reload sess from file successfully!")
@@ -55,8 +60,10 @@ def train(reload=False):
                     saver.save(sess, model_save_path, global_step=epoch)
 
 if __name__ == '__main__':
-    batch_size = 1
-    X_data, Y_data, words, word2idfunc = get_data(poetry_file='data/poetry.txt', batch_size=batch_size)
+    batch_size = 5
+    #X_data, Y_data, words, word2idfunc = get_data(poetry_file='data/poetry.txt', batch_size=batch_size)
+    X_data, Y_data, words, word2idfunc = get_data(poetry_file= os.path.join(os.getcwd(), "database", "json"),
+                                                  batch_size=batch_size, poet_index=2)
     vocab_size = len(words) + 1
     # input_size:(batch_size, feature_length)
-    train(reload=True)
+    train(reload=False)

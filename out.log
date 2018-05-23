@@ -1,0 +1,3650 @@
+nohup: 忽略输入
+2018-05-23 00:07:58.083525: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-23 00:07:58.083560: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-23 00:07:58.083568: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-23 00:07:58.083573: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-23 00:07:58.083579: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2018-05-23 00:08:01.510744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti
+major: 6 minor: 1 memoryClockRate (GHz) 1.62
+pciBusID 0000:4d:00.0
+Total memory: 10.91GiB
+Free memory: 10.75GiB
+2018-05-23 00:08:01.510784: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2018-05-23 00:08:01.510792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2018-05-23 00:08:01.510801: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:4d:00.0)
+2018-05-23 00:08:03.759034: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 26149 get requests, put_count=26116 evicted_count=1000 eviction_rate=0.0382907 and unsatisfied allocation rate=0.0433286
+2018-05-23 00:08:03.759104: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+2018-05-23 00:08:50.183737: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 126663 get requests, put_count=126663 evicted_count=1000 eviction_rate=0.00789497 and unsatisfied allocation rate=0.00807655
+2018-05-23 00:08:50.183795: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 256 to 281
+2018-05-23 00:15:28.219548: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 8872233 get requests, put_count=8872230 evicted_count=10000 eviction_rate=0.00112711 and unsatisfied allocation rate=0.00113027
+2018-05-23 00:16:21.591846: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 10103283 get requests, put_count=10103281 evicted_count=20000 eviction_rate=0.00197955 and unsatisfied allocation rate=0.00198223
+2018-05-23 00:19:39.875161: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 4461325 get requests, put_count=4461326 evicted_count=9000 eviction_rate=0.00201734 and unsatisfied allocation rate=0.00202339
+2018-05-23 00:19:39.875221: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 309 to 339
+2018-05-23 00:22:27.310216: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 815463 get requests, put_count=815470 evicted_count=2000 eviction_rate=0.00245257 and unsatisfied allocation rate=0.00249306
+2018-05-23 00:22:27.310282: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 449 to 493
+2018-05-23 00:23:43.595057: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 117290 get requests, put_count=117060 evicted_count=1000 eviction_rate=0.00854263 and unsatisfied allocation rate=0.011382
+2018-05-23 00:23:43.595102: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:259] Raising pool_size_limit_ from 1158 to 1273
+唐诗总数:  57591
+one more epoch, learning_rate decrease
+epoch:0 steps:0/11518 loss:9.121615
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:100/11518 loss:7.279609
+epoch:0 steps:200/11518 loss:6.149490
+epoch:0 steps:300/11518 loss:5.704021
+epoch:0 steps:400/11518 loss:5.436090
+epoch:0 steps:500/11518 loss:5.660560
+epoch:0 steps:600/11518 loss:5.646819
+epoch:0 steps:700/11518 loss:5.769316
+epoch:0 steps:800/11518 loss:5.583871
+epoch:0 steps:900/11518 loss:5.561808
+epoch:0 steps:1000/11518 loss:5.675339
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:1100/11518 loss:5.699751
+epoch:0 steps:1200/11518 loss:5.924805
+epoch:0 steps:1300/11518 loss:5.994593
+epoch:0 steps:1400/11518 loss:5.733306
+epoch:0 steps:1500/11518 loss:5.506174
+epoch:0 steps:1600/11518 loss:5.430552
+epoch:0 steps:1700/11518 loss:5.573507
+epoch:0 steps:1800/11518 loss:5.695256
+epoch:0 steps:1900/11518 loss:5.688323
+epoch:0 steps:2000/11518 loss:5.857662
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:2100/11518 loss:5.670238
+epoch:0 steps:2200/11518 loss:5.644318
+epoch:0 steps:2300/11518 loss:5.802155
+epoch:0 steps:2400/11518 loss:5.326906
+epoch:0 steps:2500/11518 loss:5.556566
+epoch:0 steps:2600/11518 loss:5.915152
+epoch:0 steps:2700/11518 loss:5.618094
+epoch:0 steps:2800/11518 loss:5.331228
+epoch:0 steps:2900/11518 loss:5.932384
+epoch:0 steps:3000/11518 loss:5.389700
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:3100/11518 loss:5.029020
+epoch:0 steps:3200/11518 loss:5.735010
+epoch:0 steps:3300/11518 loss:5.849837
+epoch:0 steps:3400/11518 loss:5.648666
+epoch:0 steps:3500/11518 loss:5.466465
+epoch:0 steps:3600/11518 loss:5.857956
+epoch:0 steps:3700/11518 loss:5.459030
+epoch:0 steps:3800/11518 loss:6.211478
+epoch:0 steps:3900/11518 loss:5.579561
+epoch:0 steps:4000/11518 loss:5.632647
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:4100/11518 loss:5.673277
+epoch:0 steps:4200/11518 loss:5.246030
+epoch:0 steps:4300/11518 loss:5.534994
+epoch:0 steps:4400/11518 loss:5.492364
+epoch:0 steps:4500/11518 loss:5.294169
+epoch:0 steps:4600/11518 loss:5.824505
+epoch:0 steps:4700/11518 loss:5.120140
+epoch:0 steps:4800/11518 loss:5.047194
+epoch:0 steps:4900/11518 loss:4.938084
+epoch:0 steps:5000/11518 loss:4.585989
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:5100/11518 loss:4.923701
+epoch:0 steps:5200/11518 loss:5.895753
+epoch:0 steps:5300/11518 loss:5.253565
+epoch:0 steps:5400/11518 loss:5.103402
+epoch:0 steps:5500/11518 loss:4.932406
+epoch:0 steps:5600/11518 loss:5.397072
+epoch:0 steps:5700/11518 loss:4.781353
+epoch:0 steps:5800/11518 loss:5.485147
+epoch:0 steps:5900/11518 loss:4.411708
+epoch:0 steps:6000/11518 loss:5.539255
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:6100/11518 loss:5.251518
+epoch:0 steps:6200/11518 loss:4.847719
+epoch:0 steps:6300/11518 loss:5.092476
+epoch:0 steps:6400/11518 loss:4.799167
+epoch:0 steps:6500/11518 loss:4.727905
+epoch:0 steps:6600/11518 loss:4.713326
+epoch:0 steps:6700/11518 loss:5.052824
+epoch:0 steps:6800/11518 loss:5.757062
+epoch:0 steps:6900/11518 loss:5.485532
+epoch:0 steps:7000/11518 loss:5.239363
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:7100/11518 loss:5.755025
+epoch:0 steps:7200/11518 loss:5.586524
+epoch:0 steps:7300/11518 loss:5.424240
+epoch:0 steps:7400/11518 loss:5.859370
+epoch:0 steps:7500/11518 loss:5.494653
+epoch:0 steps:7600/11518 loss:5.431500
+epoch:0 steps:7700/11518 loss:5.081991
+epoch:0 steps:7800/11518 loss:5.294856
+epoch:0 steps:7900/11518 loss:5.141955
+epoch:0 steps:8000/11518 loss:5.007369
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:8100/11518 loss:5.293002
+epoch:0 steps:8200/11518 loss:5.167126
+epoch:0 steps:8300/11518 loss:4.988859
+epoch:0 steps:8400/11518 loss:5.292408
+epoch:0 steps:8500/11518 loss:5.132585
+epoch:0 steps:8600/11518 loss:5.660588
+epoch:0 steps:8700/11518 loss:5.257618
+epoch:0 steps:8800/11518 loss:5.533790
+epoch:0 steps:8900/11518 loss:5.512069
+epoch:0 steps:9000/11518 loss:5.609181
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:9100/11518 loss:5.498843
+epoch:0 steps:9200/11518 loss:5.399939
+epoch:0 steps:9300/11518 loss:5.295521
+epoch:0 steps:9400/11518 loss:5.041023
+epoch:0 steps:9500/11518 loss:4.861235
+epoch:0 steps:9600/11518 loss:4.944668
+epoch:0 steps:9700/11518 loss:5.057002
+epoch:0 steps:9800/11518 loss:5.427318
+epoch:0 steps:9900/11518 loss:5.433263
+epoch:0 steps:10000/11518 loss:5.439366
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:10100/11518 loss:5.559666
+epoch:0 steps:10200/11518 loss:5.607221
+epoch:0 steps:10300/11518 loss:6.211292
+epoch:0 steps:10400/11518 loss:5.299373
+epoch:0 steps:10500/11518 loss:5.040924
+epoch:0 steps:10600/11518 loss:5.160960
+epoch:0 steps:10700/11518 loss:5.383653
+epoch:0 steps:10800/11518 loss:5.498974
+epoch:0 steps:10900/11518 loss:5.586212
+epoch:0 steps:11000/11518 loss:5.458389
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:0 steps:11100/11518 loss:5.601435
+epoch:0 steps:11200/11518 loss:5.310380
+epoch:0 steps:11300/11518 loss:5.610346
+epoch:0 steps:11400/11518 loss:5.710265
+epoch:0 steps:11500/11518 loss:5.687792
+one more epoch, learning_rate decrease
+epoch:1 steps:82/11518 loss:4.912635
+epoch:1 steps:182/11518 loss:4.694149
+epoch:1 steps:282/11518 loss:5.114329
+epoch:1 steps:382/11518 loss:4.428846
+epoch:1 steps:482/11518 loss:3.950651
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:582/11518 loss:4.795585
+epoch:1 steps:682/11518 loss:4.664524
+epoch:1 steps:782/11518 loss:4.094432
+epoch:1 steps:882/11518 loss:4.789451
+epoch:1 steps:982/11518 loss:5.224075
+epoch:1 steps:1082/11518 loss:4.991416
+epoch:1 steps:1182/11518 loss:3.980076
+epoch:1 steps:1282/11518 loss:4.624597
+epoch:1 steps:1382/11518 loss:4.565074
+epoch:1 steps:1482/11518 loss:4.772910
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:1582/11518 loss:4.928310
+epoch:1 steps:1682/11518 loss:5.103534
+epoch:1 steps:1782/11518 loss:4.531929
+epoch:1 steps:1882/11518 loss:4.408218
+epoch:1 steps:1982/11518 loss:5.647607
+epoch:1 steps:2082/11518 loss:4.897168
+epoch:1 steps:2182/11518 loss:4.306821
+epoch:1 steps:2282/11518 loss:5.147404
+epoch:1 steps:2382/11518 loss:4.467400
+epoch:1 steps:2482/11518 loss:4.689431
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:2582/11518 loss:4.612689
+epoch:1 steps:2682/11518 loss:5.097546
+epoch:1 steps:2782/11518 loss:4.526671
+epoch:1 steps:2882/11518 loss:4.809207
+epoch:1 steps:2982/11518 loss:5.114416
+epoch:1 steps:3082/11518 loss:4.705532
+epoch:1 steps:3182/11518 loss:4.711964
+epoch:1 steps:3282/11518 loss:4.559425
+epoch:1 steps:3382/11518 loss:4.811593
+epoch:1 steps:3482/11518 loss:4.589355
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:3582/11518 loss:4.572438
+epoch:1 steps:3682/11518 loss:5.647625
+epoch:1 steps:3782/11518 loss:5.043201
+epoch:1 steps:3882/11518 loss:4.073185
+epoch:1 steps:3982/11518 loss:4.974456
+epoch:1 steps:4082/11518 loss:5.026207
+epoch:1 steps:4182/11518 loss:4.783526
+epoch:1 steps:4282/11518 loss:4.535438
+epoch:1 steps:4382/11518 loss:4.324376
+epoch:1 steps:4482/11518 loss:4.619201
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:4582/11518 loss:4.281643
+epoch:1 steps:4682/11518 loss:4.706895
+epoch:1 steps:4782/11518 loss:4.110473
+epoch:1 steps:4882/11518 loss:3.971915
+epoch:1 steps:4982/11518 loss:4.163492
+epoch:1 steps:5082/11518 loss:4.894563
+epoch:1 steps:5182/11518 loss:4.899127
+epoch:1 steps:5282/11518 loss:4.617579
+epoch:1 steps:5382/11518 loss:4.530930
+epoch:1 steps:5482/11518 loss:4.371150
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:5582/11518 loss:4.175444
+epoch:1 steps:5682/11518 loss:4.819942
+epoch:1 steps:5782/11518 loss:4.830421
+epoch:1 steps:5882/11518 loss:4.787650
+epoch:1 steps:5982/11518 loss:5.690251
+epoch:1 steps:6082/11518 loss:4.680553
+epoch:1 steps:6182/11518 loss:4.503513
+epoch:1 steps:6282/11518 loss:4.641043
+epoch:1 steps:6382/11518 loss:4.435028
+epoch:1 steps:6482/11518 loss:4.357678
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:6582/11518 loss:4.230859
+epoch:1 steps:6682/11518 loss:4.633251
+epoch:1 steps:6782/11518 loss:4.936894
+epoch:1 steps:6882/11518 loss:4.631959
+epoch:1 steps:6982/11518 loss:5.201088
+epoch:1 steps:7082/11518 loss:5.003190
+epoch:1 steps:7182/11518 loss:4.934528
+epoch:1 steps:7282/11518 loss:5.370143
+epoch:1 steps:7382/11518 loss:5.329235
+epoch:1 steps:7482/11518 loss:5.338828
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:7582/11518 loss:4.792788
+epoch:1 steps:7682/11518 loss:4.753867
+epoch:1 steps:7782/11518 loss:4.901070
+epoch:1 steps:7882/11518 loss:4.966724
+epoch:1 steps:7982/11518 loss:4.417871
+epoch:1 steps:8082/11518 loss:4.606881
+epoch:1 steps:8182/11518 loss:4.806921
+epoch:1 steps:8282/11518 loss:4.595597
+epoch:1 steps:8382/11518 loss:4.907314
+epoch:1 steps:8482/11518 loss:4.740690
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:8582/11518 loss:4.746402
+epoch:1 steps:8682/11518 loss:4.800416
+epoch:1 steps:8782/11518 loss:4.348543
+epoch:1 steps:8882/11518 loss:5.025043
+epoch:1 steps:8982/11518 loss:5.434017
+epoch:1 steps:9082/11518 loss:4.586260
+epoch:1 steps:9182/11518 loss:5.089319
+epoch:1 steps:9282/11518 loss:4.646991
+epoch:1 steps:9382/11518 loss:5.053117
+epoch:1 steps:9482/11518 loss:5.274867
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:9582/11518 loss:4.995134
+epoch:1 steps:9682/11518 loss:4.993522
+epoch:1 steps:9782/11518 loss:5.038815
+epoch:1 steps:9882/11518 loss:4.599227
+epoch:1 steps:9982/11518 loss:5.256415
+epoch:1 steps:10082/11518 loss:5.215521
+epoch:1 steps:10182/11518 loss:4.826511
+epoch:1 steps:10282/11518 loss:5.537491
+epoch:1 steps:10382/11518 loss:5.048740
+epoch:1 steps:10482/11518 loss:4.862956
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:1 steps:10582/11518 loss:4.998252
+epoch:1 steps:10682/11518 loss:5.389035
+epoch:1 steps:10782/11518 loss:5.492323
+epoch:1 steps:10882/11518 loss:4.908714
+epoch:1 steps:10982/11518 loss:5.218912
+epoch:1 steps:11082/11518 loss:5.183434
+epoch:1 steps:11182/11518 loss:5.425872
+epoch:1 steps:11282/11518 loss:5.715084
+epoch:1 steps:11382/11518 loss:5.230377
+epoch:1 steps:11482/11518 loss:5.600379
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+one more epoch, learning_rate decrease
+epoch:2 steps:64/11518 loss:4.103368
+epoch:2 steps:164/11518 loss:4.994917
+epoch:2 steps:264/11518 loss:5.008355
+epoch:2 steps:364/11518 loss:4.685114
+epoch:2 steps:464/11518 loss:4.396572
+epoch:2 steps:564/11518 loss:4.516159
+epoch:2 steps:664/11518 loss:4.384439
+epoch:2 steps:764/11518 loss:4.451073
+epoch:2 steps:864/11518 loss:4.167498
+epoch:2 steps:964/11518 loss:4.111106
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:1064/11518 loss:5.203671
+epoch:2 steps:1164/11518 loss:4.076764
+epoch:2 steps:1264/11518 loss:4.699155
+epoch:2 steps:1364/11518 loss:4.232502
+epoch:2 steps:1464/11518 loss:4.136935
+epoch:2 steps:1564/11518 loss:4.631410
+epoch:2 steps:1664/11518 loss:4.362855
+epoch:2 steps:1764/11518 loss:4.918597
+epoch:2 steps:1864/11518 loss:4.126091
+epoch:2 steps:1964/11518 loss:4.591105
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:2064/11518 loss:4.272157
+epoch:2 steps:2164/11518 loss:4.189486
+epoch:2 steps:2264/11518 loss:4.185733
+epoch:2 steps:2364/11518 loss:4.343056
+epoch:2 steps:2464/11518 loss:4.407115
+epoch:2 steps:2564/11518 loss:4.354746
+epoch:2 steps:2664/11518 loss:4.347101
+epoch:2 steps:2764/11518 loss:3.812553
+epoch:2 steps:2864/11518 loss:5.309449
+epoch:2 steps:2964/11518 loss:4.704046
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:3064/11518 loss:4.478636
+epoch:2 steps:3164/11518 loss:4.741959
+epoch:2 steps:3264/11518 loss:4.650749
+epoch:2 steps:3364/11518 loss:5.089045
+epoch:2 steps:3464/11518 loss:5.380321
+epoch:2 steps:3564/11518 loss:4.905692
+epoch:2 steps:3664/11518 loss:4.876731
+epoch:2 steps:3764/11518 loss:3.540670
+epoch:2 steps:3864/11518 loss:5.168305
+epoch:2 steps:3964/11518 loss:4.456900
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:4064/11518 loss:4.534489
+epoch:2 steps:4164/11518 loss:4.527256
+epoch:2 steps:4264/11518 loss:4.550782
+epoch:2 steps:4364/11518 loss:4.038732
+epoch:2 steps:4464/11518 loss:4.641845
+epoch:2 steps:4564/11518 loss:4.339633
+epoch:2 steps:4664/11518 loss:4.757929
+epoch:2 steps:4764/11518 loss:4.245330
+epoch:2 steps:4864/11518 loss:4.004953
+epoch:2 steps:4964/11518 loss:4.144648
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:5064/11518 loss:4.124305
+epoch:2 steps:5164/11518 loss:4.416473
+epoch:2 steps:5264/11518 loss:5.046640
+epoch:2 steps:5364/11518 loss:4.763309
+epoch:2 steps:5464/11518 loss:4.317359
+epoch:2 steps:5564/11518 loss:4.305796
+epoch:2 steps:5664/11518 loss:4.834756
+epoch:2 steps:5764/11518 loss:4.410206
+epoch:2 steps:5864/11518 loss:4.872491
+epoch:2 steps:5964/11518 loss:4.200216
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:6064/11518 loss:4.578391
+epoch:2 steps:6164/11518 loss:4.853056
+epoch:2 steps:6264/11518 loss:4.563654
+epoch:2 steps:6364/11518 loss:4.522231
+epoch:2 steps:6464/11518 loss:5.505876
+epoch:2 steps:6564/11518 loss:4.552546
+epoch:2 steps:6664/11518 loss:4.219899
+epoch:2 steps:6764/11518 loss:4.481403
+epoch:2 steps:6864/11518 loss:5.327795
+epoch:2 steps:6964/11518 loss:4.517852
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:7064/11518 loss:4.621107
+epoch:2 steps:7164/11518 loss:4.858200
+epoch:2 steps:7264/11518 loss:4.694306
+epoch:2 steps:7364/11518 loss:5.124221
+epoch:2 steps:7464/11518 loss:4.831539
+epoch:2 steps:7564/11518 loss:4.286531
+epoch:2 steps:7664/11518 loss:4.723287
+epoch:2 steps:7764/11518 loss:4.731023
+epoch:2 steps:7864/11518 loss:4.412380
+epoch:2 steps:7964/11518 loss:4.805040
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:8064/11518 loss:4.415009
+epoch:2 steps:8164/11518 loss:4.349626
+epoch:2 steps:8264/11518 loss:4.682814
+epoch:2 steps:8364/11518 loss:4.309842
+epoch:2 steps:8464/11518 loss:4.832164
+epoch:2 steps:8564/11518 loss:4.494675
+epoch:2 steps:8664/11518 loss:4.826155
+epoch:2 steps:8764/11518 loss:4.318294
+epoch:2 steps:8864/11518 loss:5.031539
+epoch:2 steps:8964/11518 loss:4.991146
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:9064/11518 loss:4.730363
+epoch:2 steps:9164/11518 loss:4.969234
+epoch:2 steps:9264/11518 loss:4.470509
+epoch:2 steps:9364/11518 loss:4.764770
+epoch:2 steps:9464/11518 loss:4.636662
+epoch:2 steps:9564/11518 loss:5.346830
+epoch:2 steps:9664/11518 loss:5.182457
+epoch:2 steps:9764/11518 loss:5.393081
+epoch:2 steps:9864/11518 loss:4.892265
+epoch:2 steps:9964/11518 loss:4.404784
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:10064/11518 loss:4.715092
+epoch:2 steps:10164/11518 loss:4.909004
+epoch:2 steps:10264/11518 loss:5.242434
+epoch:2 steps:10364/11518 loss:5.060676
+epoch:2 steps:10464/11518 loss:4.909143
+epoch:2 steps:10564/11518 loss:5.293982
+epoch:2 steps:10664/11518 loss:4.719695
+epoch:2 steps:10764/11518 loss:5.181263
+epoch:2 steps:10864/11518 loss:5.147696
+epoch:2 steps:10964/11518 loss:5.179586
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:2 steps:11064/11518 loss:5.044435
+epoch:2 steps:11164/11518 loss:5.174889
+epoch:2 steps:11264/11518 loss:4.965368
+epoch:2 steps:11364/11518 loss:5.183508
+epoch:2 steps:11464/11518 loss:5.428523
+one more epoch, learning_rate decrease2018-05-23 01:11:00.679087: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 67917617 get requests, put_count=67918386 evicted_count=8000 eviction_rate=0.000117788 and unsatisfied allocation rate=0.000108529
+
+epoch:3 steps:46/11518 loss:3.858430
+epoch:3 steps:146/11518 loss:5.040037
+epoch:3 steps:246/11518 loss:4.991191
+epoch:3 steps:346/11518 loss:4.191745
+epoch:3 steps:446/11518 loss:3.727745
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:546/11518 loss:4.294392
+epoch:3 steps:646/11518 loss:4.302845
+epoch:3 steps:746/11518 loss:3.985702
+epoch:3 steps:846/11518 loss:4.008136
+epoch:3 steps:946/11518 loss:4.177783
+epoch:3 steps:1046/11518 loss:4.833553
+epoch:3 steps:1146/11518 loss:4.716002
+epoch:3 steps:1246/11518 loss:4.010495
+epoch:3 steps:1346/11518 loss:4.303439
+epoch:3 steps:1446/11518 loss:3.597592
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:1546/11518 loss:4.258327
+epoch:3 steps:1646/11518 loss:4.443592
+epoch:3 steps:1746/11518 loss:4.239401
+epoch:3 steps:1846/11518 loss:4.194202
+epoch:3 steps:1946/11518 loss:4.433216
+epoch:3 steps:2046/11518 loss:4.374178
+epoch:3 steps:2146/11518 loss:4.785482
+epoch:3 steps:2246/11518 loss:4.346563
+epoch:3 steps:2346/11518 loss:4.254777
+epoch:3 steps:2446/11518 loss:4.671683
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:2546/11518 loss:4.119746
+epoch:3 steps:2646/11518 loss:4.521471
+epoch:3 steps:2746/11518 loss:4.183604
+epoch:3 steps:2846/11518 loss:5.065559
+epoch:3 steps:2946/11518 loss:3.936126
+epoch:3 steps:3046/11518 loss:4.385009
+epoch:3 steps:3146/11518 loss:4.418186
+epoch:3 steps:3246/11518 loss:4.072574
+epoch:3 steps:3346/11518 loss:4.583798
+epoch:3 steps:3446/11518 loss:3.096179
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:3546/11518 loss:4.679788
+epoch:3 steps:3646/11518 loss:5.201971
+epoch:3 steps:3746/11518 loss:4.193645
+epoch:3 steps:3846/11518 loss:4.440898
+epoch:3 steps:3946/11518 loss:4.112314
+epoch:3 steps:4046/11518 loss:4.926098
+epoch:3 steps:4146/11518 loss:4.749064
+epoch:3 steps:4246/11518 loss:4.781954
+epoch:3 steps:4346/11518 loss:4.155889
+epoch:3 steps:4446/11518 loss:4.463497
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:4546/11518 loss:4.259564
+epoch:3 steps:4646/11518 loss:4.801195
+epoch:3 steps:4746/11518 loss:4.050433
+epoch:3 steps:4846/11518 loss:4.202170
+epoch:3 steps:4946/11518 loss:3.852406
+epoch:3 steps:5046/11518 loss:3.983880
+epoch:3 steps:5146/11518 loss:4.190453
+epoch:3 steps:5246/11518 loss:5.242681
+epoch:3 steps:5346/11518 loss:4.202808
+epoch:3 steps:5446/11518 loss:4.226614
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:5546/11518 loss:3.931654
+epoch:3 steps:5646/11518 loss:4.134335
+epoch:3 steps:5746/11518 loss:4.227822
+epoch:3 steps:5846/11518 loss:4.637727
+epoch:3 steps:5946/11518 loss:4.195332
+epoch:3 steps:6046/11518 loss:3.881057
+epoch:3 steps:6146/11518 loss:3.891501
+epoch:3 steps:6246/11518 loss:4.714435
+epoch:3 steps:6346/11518 loss:4.275754
+epoch:3 steps:6446/11518 loss:4.766127
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:6546/11518 loss:4.329171
+epoch:3 steps:6646/11518 loss:4.408708
+epoch:3 steps:6746/11518 loss:4.232579
+epoch:3 steps:6846/11518 loss:4.237127
+epoch:3 steps:6946/11518 loss:5.030614
+epoch:3 steps:7046/11518 loss:4.354688
+epoch:3 steps:7146/11518 loss:5.074690
+epoch:3 steps:7246/11518 loss:4.767293
+epoch:3 steps:7346/11518 loss:4.210882
+epoch:3 steps:7446/11518 loss:4.135062
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:7546/11518 loss:4.499865
+epoch:3 steps:7646/11518 loss:5.053265
+epoch:3 steps:7746/11518 loss:4.703071
+epoch:3 steps:7846/11518 loss:4.649154
+epoch:3 steps:7946/11518 loss:4.613593
+epoch:3 steps:8046/11518 loss:4.527584
+epoch:3 steps:8146/11518 loss:4.202456
+epoch:3 steps:8246/11518 loss:4.677274
+epoch:3 steps:8346/11518 loss:4.407310
+epoch:3 steps:8446/11518 loss:4.428082
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:8546/11518 loss:4.391212
+epoch:3 steps:8646/11518 loss:5.117722
+epoch:3 steps:8746/11518 loss:4.429447
+epoch:3 steps:8846/11518 loss:4.535393
+epoch:3 steps:8946/11518 loss:4.753004
+epoch:3 steps:9046/11518 loss:4.960865
+epoch:3 steps:9146/11518 loss:4.697492
+epoch:3 steps:9246/11518 loss:4.761134
+epoch:3 steps:9346/11518 loss:4.559169
+epoch:3 steps:9446/11518 loss:4.309279
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:9546/11518 loss:4.475044
+epoch:3 steps:9646/11518 loss:4.997146
+epoch:3 steps:9746/11518 loss:4.644718
+epoch:3 steps:9846/11518 loss:5.054306
+epoch:3 steps:9946/11518 loss:4.480196
+epoch:3 steps:10046/11518 loss:4.657723
+epoch:3 steps:10146/11518 loss:4.984776
+epoch:3 steps:10246/11518 loss:4.816289
+epoch:3 steps:10346/11518 loss:4.252936
+epoch:3 steps:10446/11518 loss:5.470184
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:3 steps:10546/11518 loss:4.867289
+epoch:3 steps:10646/11518 loss:4.921896
+epoch:3 steps:10746/11518 loss:4.563718
+epoch:3 steps:10846/11518 loss:4.541155
+epoch:3 steps:10946/11518 loss:4.906090
+epoch:3 steps:11046/11518 loss:4.931707
+epoch:3 steps:11146/11518 loss:5.292696
+epoch:3 steps:11246/11518 loss:5.310552
+epoch:3 steps:11346/11518 loss:5.096401
+epoch:3 steps:11446/11518 loss:5.301926
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+one more epoch, learning_rate decrease
+epoch:4 steps:28/11518 loss:0.000678
+epoch:4 steps:128/11518 loss:4.326625
+epoch:4 steps:228/11518 loss:4.376927
+epoch:4 steps:328/11518 loss:4.327196
+epoch:4 steps:428/11518 loss:4.103498
+epoch:4 steps:528/11518 loss:3.646025
+epoch:4 steps:628/11518 loss:4.042680
+epoch:4 steps:728/11518 loss:3.864568
+epoch:4 steps:828/11518 loss:4.228926
+epoch:4 steps:928/11518 loss:3.996674
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:1028/11518 loss:4.280390
+epoch:4 steps:1128/11518 loss:5.145246
+epoch:4 steps:1228/11518 loss:5.051191
+epoch:4 steps:1328/11518 loss:4.097247
+epoch:4 steps:1428/11518 loss:4.411980
+epoch:4 steps:1528/11518 loss:4.255919
+epoch:4 steps:1628/11518 loss:3.670093
+epoch:4 steps:1728/11518 loss:3.593561
+epoch:4 steps:1828/11518 loss:4.031016
+epoch:4 steps:1928/11518 loss:4.054704
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:2028/11518 loss:4.285169
+epoch:4 steps:2128/11518 loss:3.947061
+epoch:4 steps:2228/11518 loss:3.492882
+epoch:4 steps:2328/11518 loss:4.076275
+epoch:4 steps:2428/11518 loss:4.212181
+epoch:4 steps:2528/11518 loss:4.410068
+epoch:4 steps:2628/11518 loss:3.967094
+epoch:4 steps:2728/11518 loss:3.629759
+epoch:4 steps:2828/11518 loss:4.200123
+epoch:4 steps:2928/11518 loss:4.056320
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:3028/11518 loss:4.296101
+epoch:4 steps:3128/11518 loss:5.169050
+epoch:4 steps:3228/11518 loss:4.583677
+epoch:4 steps:3328/11518 loss:4.966642
+epoch:4 steps:3428/11518 loss:4.662162
+epoch:4 steps:3528/11518 loss:4.183878
+epoch:4 steps:3628/11518 loss:3.632648
+epoch:4 steps:3728/11518 loss:4.514357
+epoch:4 steps:3828/11518 loss:4.151615
+epoch:4 steps:3928/11518 loss:4.636064
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:4028/11518 loss:4.420053
+epoch:4 steps:4128/11518 loss:4.280698
+epoch:4 steps:4228/11518 loss:4.302989
+epoch:4 steps:4328/11518 loss:4.506903
+epoch:4 steps:4428/11518 loss:4.964155
+epoch:4 steps:4528/11518 loss:4.038538
+epoch:4 steps:4628/11518 loss:4.297566
+epoch:4 steps:4728/11518 loss:3.927197
+epoch:4 steps:4828/11518 loss:4.547727
+epoch:4 steps:4928/11518 loss:4.049674
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:5028/11518 loss:4.078673
+epoch:4 steps:5128/11518 loss:4.635063
+epoch:4 steps:5228/11518 loss:4.061022
+epoch:4 steps:5328/11518 loss:4.335285
+epoch:4 steps:5428/11518 loss:4.458669
+epoch:4 steps:5528/11518 loss:4.217281
+epoch:4 steps:5628/11518 loss:3.674843
+epoch:4 steps:5728/11518 loss:3.992780
+epoch:4 steps:5828/11518 loss:4.086557
+epoch:4 steps:5928/11518 loss:3.988123
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:6028/11518 loss:4.036839
+epoch:4 steps:6128/11518 loss:4.245316
+epoch:4 steps:6228/11518 loss:4.333792
+epoch:4 steps:6328/11518 loss:4.685684
+epoch:4 steps:6428/11518 loss:4.751212
+epoch:4 steps:6528/11518 loss:4.219019
+epoch:4 steps:6628/11518 loss:4.276147
+epoch:4 steps:6728/11518 loss:4.677538
+epoch:4 steps:6828/11518 loss:4.784599
+epoch:4 steps:6928/11518 loss:4.723588
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:7028/11518 loss:4.882319
+epoch:4 steps:7128/11518 loss:4.594854
+epoch:4 steps:7228/11518 loss:4.513793
+epoch:4 steps:7328/11518 loss:4.474068
+epoch:4 steps:7428/11518 loss:4.489860
+epoch:4 steps:7528/11518 loss:4.424285
+epoch:4 steps:7628/11518 loss:4.418437
+epoch:4 steps:7728/11518 loss:4.877353
+epoch:4 steps:7828/11518 loss:4.232577
+epoch:4 steps:7928/11518 loss:4.835558
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:8028/11518 loss:4.668223
+epoch:4 steps:8128/11518 loss:4.650476
+epoch:4 steps:8228/11518 loss:4.927503
+epoch:4 steps:8328/11518 loss:4.549215
+epoch:4 steps:8428/11518 loss:4.542682
+epoch:4 steps:8528/11518 loss:4.185829
+epoch:4 steps:8628/11518 loss:4.623496
+epoch:4 steps:8728/11518 loss:4.450144
+epoch:4 steps:8828/11518 loss:4.493722
+epoch:4 steps:8928/11518 loss:4.036599
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:9028/11518 loss:4.786354
+epoch:4 steps:9128/11518 loss:4.679159
+epoch:4 steps:9228/11518 loss:4.432342
+epoch:4 steps:9328/11518 loss:4.362365
+epoch:4 steps:9428/11518 loss:4.774333
+epoch:4 steps:9528/11518 loss:4.485782
+epoch:4 steps:9628/11518 loss:4.525172
+epoch:4 steps:9728/11518 loss:3.530449
+epoch:4 steps:9828/11518 loss:4.544600
+epoch:4 steps:9928/11518 loss:4.122271
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:10028/11518 loss:4.562347
+epoch:4 steps:10128/11518 loss:4.913552
+epoch:4 steps:10228/11518 loss:5.141475
+epoch:4 steps:10328/11518 loss:5.108083
+epoch:4 steps:10428/11518 loss:4.836393
+epoch:4 steps:10528/11518 loss:4.801479
+epoch:4 steps:10628/11518 loss:4.713664
+epoch:4 steps:10728/11518 loss:5.134133
+epoch:4 steps:10828/11518 loss:4.972514
+epoch:4 steps:10928/11518 loss:5.341066
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:4 steps:11028/11518 loss:5.085149
+epoch:4 steps:11128/11518 loss:4.903280
+epoch:4 steps:11228/11518 loss:5.037405
+epoch:4 steps:11328/11518 loss:5.133730
+epoch:4 steps:11428/11518 loss:5.428360
+one more epoch, learning_rate decrease
+epoch:5 steps:10/11518 loss:0.244893
+epoch:5 steps:110/11518 loss:4.004049
+epoch:5 steps:210/11518 loss:3.830830
+epoch:5 steps:310/11518 loss:4.174794
+epoch:5 steps:410/11518 loss:3.678215
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:510/11518 loss:3.806076
+epoch:5 steps:610/11518 loss:4.023495
+epoch:5 steps:710/11518 loss:3.995604
+epoch:5 steps:810/11518 loss:4.752874
+epoch:5 steps:910/11518 loss:4.141561
+epoch:5 steps:1010/11518 loss:4.735111
+epoch:5 steps:1110/11518 loss:3.829572
+epoch:5 steps:1210/11518 loss:3.316149
+epoch:5 steps:1310/11518 loss:3.909108
+epoch:5 steps:1410/11518 loss:3.748506
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:1510/11518 loss:3.789335
+epoch:5 steps:1610/11518 loss:4.105551
+epoch:5 steps:1710/11518 loss:4.368492
+epoch:5 steps:1810/11518 loss:4.103266
+epoch:5 steps:1910/11518 loss:4.598156
+epoch:5 steps:2010/11518 loss:3.661582
+epoch:5 steps:2110/11518 loss:4.308497
+epoch:5 steps:2210/11518 loss:4.292707
+epoch:5 steps:2310/11518 loss:3.857818
+epoch:5 steps:2410/11518 loss:4.053707
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:2510/11518 loss:4.161624
+epoch:5 steps:2610/11518 loss:4.315837
+epoch:5 steps:2710/11518 loss:4.311773
+epoch:5 steps:2810/11518 loss:4.343169
+epoch:5 steps:2910/11518 loss:4.193999
+epoch:5 steps:3010/11518 loss:3.726774
+epoch:5 steps:3110/11518 loss:4.075167
+epoch:5 steps:3210/11518 loss:4.036654
+epoch:5 steps:3310/11518 loss:4.705882
+epoch:5 steps:3410/11518 loss:4.395109
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:3510/11518 loss:4.348189
+epoch:5 steps:3610/11518 loss:4.462678
+epoch:5 steps:3710/11518 loss:4.067598
+epoch:5 steps:3810/11518 loss:4.184581
+epoch:5 steps:3910/11518 loss:4.214232
+epoch:5 steps:4010/11518 loss:4.279734
+epoch:5 steps:4110/11518 loss:4.557200
+epoch:5 steps:4210/11518 loss:4.061535
+epoch:5 steps:4310/11518 loss:4.236485
+epoch:5 steps:4410/11518 loss:4.241832
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:4510/11518 loss:4.257940
+epoch:5 steps:4610/11518 loss:4.623481
+epoch:5 steps:4710/11518 loss:4.763606
+epoch:5 steps:4810/11518 loss:4.603373
+epoch:5 steps:4910/11518 loss:4.365507
+epoch:5 steps:5010/11518 loss:4.720798
+epoch:5 steps:5110/11518 loss:4.504138
+epoch:5 steps:5210/11518 loss:4.172615
+epoch:5 steps:5310/11518 loss:4.390298
+epoch:5 steps:5410/11518 loss:4.423244
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:5510/11518 loss:4.457913
+epoch:5 steps:5610/11518 loss:3.936243
+epoch:5 steps:5710/11518 loss:4.241580
+epoch:5 steps:5810/11518 loss:4.137299
+epoch:5 steps:5910/11518 loss:4.328673
+epoch:5 steps:6010/11518 loss:4.525713
+epoch:5 steps:6110/11518 loss:4.250401
+epoch:5 steps:6210/11518 loss:4.079838
+epoch:5 steps:6310/11518 loss:3.764668
+epoch:5 steps:6410/11518 loss:4.085145
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:6510/11518 loss:4.114429
+epoch:5 steps:6610/11518 loss:4.129524
+epoch:5 steps:6710/11518 loss:4.370595
+epoch:5 steps:6810/11518 loss:4.928939
+epoch:5 steps:6910/11518 loss:5.208981
+epoch:5 steps:7010/11518 loss:3.952242
+epoch:5 steps:7110/11518 loss:3.931640
+epoch:5 steps:7210/11518 loss:4.517406
+epoch:5 steps:7310/11518 loss:5.313735
+epoch:5 steps:7410/11518 loss:4.695634
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:7510/11518 loss:5.054340
+epoch:5 steps:7610/11518 loss:4.598415
+epoch:5 steps:7710/11518 loss:4.921774
+epoch:5 steps:7810/11518 loss:4.496525
+epoch:5 steps:7910/11518 loss:4.319814
+epoch:5 steps:8010/11518 loss:4.391964
+epoch:5 steps:8110/11518 loss:4.494616
+epoch:5 steps:8210/11518 loss:4.782296
+epoch:5 steps:8310/11518 loss:4.455409
+epoch:5 steps:8410/11518 loss:4.298551
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:8510/11518 loss:4.291774
+epoch:5 steps:8610/11518 loss:4.292726
+epoch:5 steps:8710/11518 loss:4.413328
+epoch:5 steps:8810/11518 loss:4.574343
+epoch:5 steps:8910/11518 loss:4.237448
+epoch:5 steps:9010/11518 loss:4.129098
+epoch:5 steps:9110/11518 loss:4.931068
+epoch:5 steps:9210/11518 loss:4.442635
+epoch:5 steps:9310/11518 loss:4.218050
+epoch:5 steps:9410/11518 loss:4.412355
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:9510/11518 loss:4.505680
+epoch:5 steps:9610/11518 loss:4.535388
+epoch:5 steps:9710/11518 loss:4.411393
+epoch:5 steps:9810/11518 loss:4.571337
+epoch:5 steps:9910/11518 loss:4.005023
+epoch:5 steps:10010/11518 loss:4.790709
+epoch:5 steps:10110/11518 loss:4.599280
+epoch:5 steps:10210/11518 loss:4.341674
+epoch:5 steps:10310/11518 loss:5.049612
+epoch:5 steps:10410/11518 loss:4.761683
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:10510/11518 loss:4.811320
+epoch:5 steps:10610/11518 loss:4.689574
+epoch:5 steps:10710/11518 loss:5.304219
+epoch:5 steps:10810/11518 loss:4.667412
+epoch:5 steps:10910/11518 loss:4.752506
+epoch:5 steps:11010/11518 loss:4.603134
+epoch:5 steps:11110/11518 loss:4.951164
+epoch:5 steps:11210/11518 loss:5.459122
+epoch:5 steps:11310/11518 loss:5.200426
+epoch:5 steps:11410/11518 loss:5.236028
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:5 steps:11510/11518 loss:5.008368
+one more epoch, learning_rate decrease
+epoch:6 steps:92/11518 loss:3.5561422018-05-23 01:58:02.793623: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 136052762 get requests, put_count=136053487 evicted_count=18000 eviction_rate=0.000132301 and unsatisfied allocation rate=0.000128002
+
+epoch:6 steps:192/11518 loss:4.831337
+epoch:6 steps:292/11518 loss:4.184573
+epoch:6 steps:392/11518 loss:3.763899
+epoch:6 steps:492/11518 loss:4.265699
+epoch:6 steps:592/11518 loss:3.828637
+epoch:6 steps:692/11518 loss:3.998333
+epoch:6 steps:792/11518 loss:3.827431
+epoch:6 steps:892/11518 loss:4.290865
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:992/11518 loss:4.963697
+epoch:6 steps:1092/11518 loss:3.190840
+epoch:6 steps:1192/11518 loss:5.103519
+epoch:6 steps:1292/11518 loss:3.771317
+epoch:6 steps:1392/11518 loss:3.764449
+epoch:6 steps:1492/11518 loss:3.778635
+epoch:6 steps:1592/11518 loss:4.334050
+epoch:6 steps:1692/11518 loss:4.199202
+epoch:6 steps:1792/11518 loss:4.239422
+epoch:6 steps:1892/11518 loss:4.369320
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:1992/11518 loss:4.291173
+epoch:6 steps:2092/11518 loss:4.641082
+epoch:6 steps:2192/11518 loss:3.698735
+epoch:6 steps:2292/11518 loss:3.747230
+epoch:6 steps:2392/11518 loss:4.674714
+epoch:6 steps:2492/11518 loss:4.333675
+epoch:6 steps:2592/11518 loss:4.145053
+epoch:6 steps:2692/11518 loss:4.270492
+epoch:6 steps:2792/11518 loss:3.644871
+epoch:6 steps:2892/11518 loss:4.474692
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:2992/11518 loss:4.135034
+epoch:6 steps:3092/11518 loss:4.525773
+epoch:6 steps:3192/11518 loss:3.936475
+epoch:6 steps:3292/11518 loss:4.427399
+epoch:6 steps:3392/11518 loss:5.210968
+epoch:6 steps:3492/11518 loss:4.434785
+epoch:6 steps:3592/11518 loss:4.955915
+epoch:6 steps:3692/11518 loss:4.933508
+epoch:6 steps:3792/11518 loss:4.460656
+epoch:6 steps:3892/11518 loss:5.152470
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:3992/11518 loss:4.192801
+epoch:6 steps:4092/11518 loss:4.119767
+epoch:6 steps:4192/11518 loss:4.523510
+epoch:6 steps:4292/11518 loss:4.327210
+epoch:6 steps:4392/11518 loss:4.747841
+epoch:6 steps:4492/11518 loss:4.328321
+epoch:6 steps:4592/11518 loss:3.717275
+epoch:6 steps:4692/11518 loss:4.428437
+epoch:6 steps:4792/11518 loss:3.844837
+epoch:6 steps:4892/11518 loss:4.173425
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:4992/11518 loss:3.650081
+epoch:6 steps:5092/11518 loss:3.990737
+epoch:6 steps:5192/11518 loss:4.313300
+epoch:6 steps:5292/11518 loss:4.196900
+epoch:6 steps:5392/11518 loss:4.072598
+epoch:6 steps:5492/11518 loss:4.205284
+epoch:6 steps:5592/11518 loss:4.362789
+epoch:6 steps:5692/11518 loss:4.443968
+epoch:6 steps:5792/11518 loss:3.907522
+epoch:6 steps:5892/11518 loss:3.865667
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:5992/11518 loss:5.255697
+epoch:6 steps:6092/11518 loss:4.186403
+epoch:6 steps:6192/11518 loss:3.966859
+epoch:6 steps:6292/11518 loss:4.480771
+epoch:6 steps:6392/11518 loss:3.977191
+epoch:6 steps:6492/11518 loss:4.510136
+epoch:6 steps:6592/11518 loss:4.403430
+epoch:6 steps:6692/11518 loss:4.244836
+epoch:6 steps:6792/11518 loss:4.477171
+epoch:6 steps:6892/11518 loss:5.038156
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:6992/11518 loss:4.043412
+epoch:6 steps:7092/11518 loss:5.008954
+epoch:6 steps:7192/11518 loss:4.197976
+epoch:6 steps:7292/11518 loss:5.162956
+epoch:6 steps:7392/11518 loss:4.913452
+epoch:6 steps:7492/11518 loss:4.672214
+epoch:6 steps:7592/11518 loss:4.931196
+epoch:6 steps:7692/11518 loss:4.479574
+epoch:6 steps:7792/11518 loss:4.448582
+epoch:6 steps:7892/11518 loss:4.829963
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:7992/11518 loss:4.441792
+epoch:6 steps:8092/11518 loss:4.580534
+epoch:6 steps:8192/11518 loss:4.161334
+epoch:6 steps:8292/11518 loss:4.587352
+epoch:6 steps:8392/11518 loss:4.341801
+epoch:6 steps:8492/11518 loss:4.360573
+epoch:6 steps:8592/11518 loss:4.886937
+epoch:6 steps:8692/11518 loss:4.138222
+epoch:6 steps:8792/11518 loss:4.179079
+epoch:6 steps:8892/11518 loss:4.663939
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:8992/11518 loss:4.421954
+epoch:6 steps:9092/11518 loss:3.410645
+epoch:6 steps:9192/11518 loss:4.669751
+epoch:6 steps:9292/11518 loss:4.523714
+epoch:6 steps:9392/11518 loss:4.076186
+epoch:6 steps:9492/11518 loss:4.866740
+epoch:6 steps:9592/11518 loss:4.723320
+epoch:6 steps:9692/11518 loss:4.771369
+epoch:6 steps:9792/11518 loss:4.808424
+epoch:6 steps:9892/11518 loss:4.446172
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:9992/11518 loss:4.069054
+epoch:6 steps:10092/11518 loss:4.963844
+epoch:6 steps:10192/11518 loss:4.642774
+epoch:6 steps:10292/11518 loss:4.766845
+epoch:6 steps:10392/11518 loss:5.103298
+epoch:6 steps:10492/11518 loss:4.874828
+epoch:6 steps:10592/11518 loss:4.998569
+epoch:6 steps:10692/11518 loss:5.373089
+epoch:6 steps:10792/11518 loss:4.542487
+epoch:6 steps:10892/11518 loss:4.744357
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:6 steps:10992/11518 loss:5.132170
+epoch:6 steps:11092/11518 loss:4.834299
+epoch:6 steps:11192/11518 loss:4.848486
+epoch:6 steps:11292/11518 loss:4.887763
+epoch:6 steps:11392/11518 loss:5.164665
+epoch:6 steps:11492/11518 loss:5.389014
+one more epoch, learning_rate decrease
+epoch:7 steps:74/11518 loss:4.208688
+epoch:7 steps:174/11518 loss:3.977939
+epoch:7 steps:274/11518 loss:4.087799
+epoch:7 steps:374/11518 loss:3.993518
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:474/11518 loss:4.092751
+epoch:7 steps:574/11518 loss:3.749384
+epoch:7 steps:674/11518 loss:3.489580
+epoch:7 steps:774/11518 loss:4.223115
+epoch:7 steps:874/11518 loss:3.726145
+epoch:7 steps:974/11518 loss:3.783833
+epoch:7 steps:1074/11518 loss:4.864089
+epoch:7 steps:1174/11518 loss:4.281409
+epoch:7 steps:1274/11518 loss:3.710048
+epoch:7 steps:1374/11518 loss:3.731128
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:1474/11518 loss:4.026138
+epoch:7 steps:1574/11518 loss:4.233662
+epoch:7 steps:1674/11518 loss:3.693748
+epoch:7 steps:1774/11518 loss:4.328418
+epoch:7 steps:1874/11518 loss:4.194315
+epoch:7 steps:1974/11518 loss:4.122822
+epoch:7 steps:2074/11518 loss:4.169360
+epoch:7 steps:2174/11518 loss:3.856797
+epoch:7 steps:2274/11518 loss:4.081637
+epoch:7 steps:2374/11518 loss:4.053706
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:2474/11518 loss:4.422199
+epoch:7 steps:2574/11518 loss:4.230528
+epoch:7 steps:2674/11518 loss:4.043989
+epoch:7 steps:2774/11518 loss:4.139367
+epoch:7 steps:2874/11518 loss:5.001619
+epoch:7 steps:2974/11518 loss:4.505381
+epoch:7 steps:3074/11518 loss:4.255437
+epoch:7 steps:3174/11518 loss:4.499858
+epoch:7 steps:3274/11518 loss:4.620389
+epoch:7 steps:3374/11518 loss:3.979349
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:3474/11518 loss:4.482606
+epoch:7 steps:3574/11518 loss:4.173150
+epoch:7 steps:3674/11518 loss:4.407722
+epoch:7 steps:3774/11518 loss:3.968759
+epoch:7 steps:3874/11518 loss:4.802979
+epoch:7 steps:3974/11518 loss:4.014258
+epoch:7 steps:4074/11518 loss:4.696431
+epoch:7 steps:4174/11518 loss:4.665122
+epoch:7 steps:4274/11518 loss:4.021835
+epoch:7 steps:4374/11518 loss:3.769619
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:4474/11518 loss:4.434498
+epoch:7 steps:4574/11518 loss:4.272433
+epoch:7 steps:4674/11518 loss:4.660443
+epoch:7 steps:4774/11518 loss:4.005926
+epoch:7 steps:4874/11518 loss:4.426340
+epoch:7 steps:4974/11518 loss:3.933800
+epoch:7 steps:5074/11518 loss:4.495000
+epoch:7 steps:5174/11518 loss:4.677279
+epoch:7 steps:5274/11518 loss:4.320160
+epoch:7 steps:5374/11518 loss:4.030976
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:5474/11518 loss:4.049028
+epoch:7 steps:5574/11518 loss:3.925572
+epoch:7 steps:5674/11518 loss:4.327887
+epoch:7 steps:5774/11518 loss:4.060612
+epoch:7 steps:5874/11518 loss:4.046530
+epoch:7 steps:5974/11518 loss:4.139772
+epoch:7 steps:6074/11518 loss:3.591636
+epoch:7 steps:6174/11518 loss:4.284735
+epoch:7 steps:6274/11518 loss:4.138299
+epoch:7 steps:6374/11518 loss:4.041737
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:6474/11518 loss:4.172434
+epoch:7 steps:6574/11518 loss:4.088724
+epoch:7 steps:6674/11518 loss:3.783527
+epoch:7 steps:6774/11518 loss:4.743443
+epoch:7 steps:6874/11518 loss:4.545442
+epoch:7 steps:6974/11518 loss:4.997508
+epoch:7 steps:7074/11518 loss:3.808782
+epoch:7 steps:7174/11518 loss:5.180957
+epoch:7 steps:7274/11518 loss:5.048358
+epoch:7 steps:7374/11518 loss:4.008117
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:7474/11518 loss:4.471512
+epoch:7 steps:7574/11518 loss:4.064117
+epoch:7 steps:7674/11518 loss:4.549355
+epoch:7 steps:7774/11518 loss:4.188080
+epoch:7 steps:7874/11518 loss:4.798615
+epoch:7 steps:7974/11518 loss:3.920215
+epoch:7 steps:8074/11518 loss:4.310957
+epoch:7 steps:8174/11518 loss:4.185295
+epoch:7 steps:8274/11518 loss:4.214793
+epoch:7 steps:8374/11518 loss:4.260817
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:8474/11518 loss:4.469589
+epoch:7 steps:8574/11518 loss:4.237129
+epoch:7 steps:8674/11518 loss:3.946891
+epoch:7 steps:8774/11518 loss:4.293541
+epoch:7 steps:8874/11518 loss:4.689239
+epoch:7 steps:8974/11518 loss:4.592580
+epoch:7 steps:9074/11518 loss:4.752784
+epoch:7 steps:9174/11518 loss:4.364195
+epoch:7 steps:9274/11518 loss:4.971957
+epoch:7 steps:9374/11518 loss:4.400683
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:9474/11518 loss:4.488381
+epoch:7 steps:9574/11518 loss:4.425988
+epoch:7 steps:9674/11518 loss:4.162107
+epoch:7 steps:9774/11518 loss:3.754300
+epoch:7 steps:9874/11518 loss:4.670571
+epoch:7 steps:9974/11518 loss:3.671243
+epoch:7 steps:10074/11518 loss:4.557547
+epoch:7 steps:10174/11518 loss:4.455933
+epoch:7 steps:10274/11518 loss:4.756751
+epoch:7 steps:10374/11518 loss:4.737864
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:10474/11518 loss:4.940965
+epoch:7 steps:10574/11518 loss:4.692529
+epoch:7 steps:10674/11518 loss:4.986559
+epoch:7 steps:10774/11518 loss:4.943998
+epoch:7 steps:10874/11518 loss:5.174545
+epoch:7 steps:10974/11518 loss:4.981155
+epoch:7 steps:11074/11518 loss:4.241059
+epoch:7 steps:11174/11518 loss:4.589315
+epoch:7 steps:11274/11518 loss:4.845983
+epoch:7 steps:11374/11518 loss:5.153176
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:7 steps:11474/11518 loss:5.257849
+one more epoch, learning_rate decrease
+epoch:8 steps:56/11518 loss:4.367935
+epoch:8 steps:156/11518 loss:4.155565
+epoch:8 steps:256/11518 loss:4.343935
+epoch:8 steps:356/11518 loss:3.824756
+epoch:8 steps:456/11518 loss:3.837773
+epoch:8 steps:556/11518 loss:3.590731
+epoch:8 steps:656/11518 loss:4.178952
+epoch:8 steps:756/11518 loss:3.489896
+epoch:8 steps:856/11518 loss:3.571080
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:956/11518 loss:3.885881
+epoch:8 steps:1056/11518 loss:4.462104
+epoch:8 steps:1156/11518 loss:3.321491
+epoch:8 steps:1256/11518 loss:4.195398
+epoch:8 steps:1356/11518 loss:3.919870
+epoch:8 steps:1456/11518 loss:3.660194
+epoch:8 steps:1556/11518 loss:3.744282
+epoch:8 steps:1656/11518 loss:4.208591
+epoch:8 steps:1756/11518 loss:4.454429
+epoch:8 steps:1856/11518 loss:3.665925
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:1956/11518 loss:3.967925
+epoch:8 steps:2056/11518 loss:4.253016
+epoch:8 steps:2156/11518 loss:4.092820
+epoch:8 steps:2256/11518 loss:4.566833
+epoch:8 steps:2356/11518 loss:3.741589
+epoch:8 steps:2456/11518 loss:4.182374
+epoch:8 steps:2556/11518 loss:4.155622
+epoch:8 steps:2656/11518 loss:4.226594
+epoch:8 steps:2756/11518 loss:4.316508
+epoch:8 steps:2856/11518 loss:4.886705
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:2956/11518 loss:4.269768
+epoch:8 steps:3056/11518 loss:3.793760
+epoch:8 steps:3156/11518 loss:4.082066
+epoch:8 steps:3256/11518 loss:4.645742
+epoch:8 steps:3356/11518 loss:5.133964
+epoch:8 steps:3456/11518 loss:4.163587
+epoch:8 steps:3556/11518 loss:3.921339
+epoch:8 steps:3656/11518 loss:4.537364
+epoch:8 steps:3756/11518 loss:4.869993
+epoch:8 steps:3856/11518 loss:4.336692
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:3956/11518 loss:4.067498
+epoch:8 steps:4056/11518 loss:4.444570
+epoch:8 steps:4156/11518 loss:4.803096
+epoch:8 steps:4256/11518 loss:4.035352
+epoch:8 steps:4356/11518 loss:4.062778
+epoch:8 steps:4456/11518 loss:4.128843
+epoch:8 steps:4556/11518 loss:4.369120
+epoch:8 steps:4656/11518 loss:4.522855
+epoch:8 steps:4756/11518 loss:3.919115
+epoch:8 steps:4856/11518 loss:4.131248
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:4956/11518 loss:4.097177
+epoch:8 steps:5056/11518 loss:3.972591
+epoch:8 steps:5156/11518 loss:4.002540
+epoch:8 steps:5256/11518 loss:4.523531
+epoch:8 steps:5356/11518 loss:4.100931
+epoch:8 steps:5456/11518 loss:4.020479
+epoch:8 steps:5556/11518 loss:4.359351
+epoch:8 steps:5656/11518 loss:3.698901
+epoch:8 steps:5756/11518 loss:4.122140
+epoch:8 steps:5856/11518 loss:4.137953
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:5956/11518 loss:4.109254
+epoch:8 steps:6056/11518 loss:3.936792
+epoch:8 steps:6156/11518 loss:3.903583
+epoch:8 steps:6256/11518 loss:4.344777
+epoch:8 steps:6356/11518 loss:3.965896
+epoch:8 steps:6456/11518 loss:4.334317
+epoch:8 steps:6556/11518 loss:4.121078
+epoch:8 steps:6656/11518 loss:4.009295
+epoch:8 steps:6756/11518 loss:4.403809
+epoch:8 steps:6856/11518 loss:4.318646
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:6956/11518 loss:4.909049
+epoch:8 steps:7056/11518 loss:3.402601
+epoch:8 steps:7156/11518 loss:4.062407
+epoch:8 steps:7256/11518 loss:4.297137
+epoch:8 steps:7356/11518 loss:3.635744
+epoch:8 steps:7456/11518 loss:4.196410
+epoch:8 steps:7556/11518 loss:4.157035
+epoch:8 steps:7656/11518 loss:4.449885
+epoch:8 steps:7756/11518 loss:4.424951
+epoch:8 steps:7856/11518 loss:4.203476
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:7956/11518 loss:4.650429
+epoch:8 steps:8056/11518 loss:4.104326
+epoch:8 steps:8156/11518 loss:3.756799
+epoch:8 steps:8256/11518 loss:4.060678
+epoch:8 steps:8356/11518 loss:4.374332
+epoch:8 steps:8456/11518 loss:4.556286
+epoch:8 steps:8556/11518 loss:4.166648
+epoch:8 steps:8656/11518 loss:4.650125
+epoch:8 steps:8756/11518 loss:4.528880
+epoch:8 steps:8856/11518 loss:4.198590
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:8956/11518 loss:4.257668
+epoch:8 steps:9056/11518 loss:3.891329
+epoch:8 steps:9156/11518 loss:4.524742
+epoch:8 steps:9256/11518 loss:4.517704
+epoch:8 steps:9356/11518 loss:3.888083
+epoch:8 steps:9456/11518 loss:4.333626
+epoch:8 steps:9556/11518 loss:4.307848
+epoch:8 steps:9656/11518 loss:4.278345
+epoch:8 steps:9756/11518 loss:4.431197
+epoch:8 steps:9856/11518 loss:4.670866
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:9956/11518 loss:4.798874
+epoch:8 steps:10056/11518 loss:4.455224
+epoch:8 steps:10156/11518 loss:4.780058
+epoch:8 steps:10256/11518 loss:4.989981
+epoch:8 steps:10356/11518 loss:3.958947
+epoch:8 steps:10456/11518 loss:5.007713
+epoch:8 steps:10556/11518 loss:4.957534
+epoch:8 steps:10656/11518 loss:4.989585
+epoch:8 steps:10756/11518 loss:4.815244
+epoch:8 steps:10856/11518 loss:4.740420
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:8 steps:10956/11518 loss:4.862509
+epoch:8 steps:11056/11518 loss:4.910313
+epoch:8 steps:11156/11518 loss:4.781559
+epoch:8 steps:11256/11518 loss:5.227806
+epoch:8 steps:11356/11518 loss:5.133375
+epoch:8 steps:11456/11518 loss:5.085943
+one more epoch, learning_rate decrease
+epoch:9 steps:38/11518 loss:2.786206
+epoch:9 steps:138/11518 loss:3.612748
+epoch:9 steps:238/11518 loss:4.705633
+epoch:9 steps:338/11518 loss:3.654676
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 2018-05-23 02:45:21.557390: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 204193073 get requests, put_count=204193389 evicted_count=28000 eviction_rate=0.000137125 and unsatisfied allocation rate=0.000136263
+
+epoch:9 steps:438/11518 loss:3.565515
+epoch:9 steps:538/11518 loss:3.677196
+epoch:9 steps:638/11518 loss:3.857241
+epoch:9 steps:738/11518 loss:3.523202
+epoch:9 steps:838/11518 loss:4.114579
+epoch:9 steps:938/11518 loss:4.234338
+epoch:9 steps:1038/11518 loss:4.354427
+epoch:9 steps:1138/11518 loss:3.628609
+epoch:9 steps:1238/11518 loss:4.438162
+epoch:9 steps:1338/11518 loss:4.061481
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:1438/11518 loss:4.714616
+epoch:9 steps:1538/11518 loss:3.985006
+epoch:9 steps:1638/11518 loss:3.943549
+epoch:9 steps:1738/11518 loss:3.739374
+epoch:9 steps:1838/11518 loss:4.370924
+epoch:9 steps:1938/11518 loss:4.053184
+epoch:9 steps:2038/11518 loss:3.528911
+epoch:9 steps:2138/11518 loss:4.082894
+epoch:9 steps:2238/11518 loss:3.835373
+epoch:9 steps:2338/11518 loss:4.134345
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:2438/11518 loss:4.052706
+epoch:9 steps:2538/11518 loss:3.924826
+epoch:9 steps:2638/11518 loss:4.295672
+epoch:9 steps:2738/11518 loss:4.021672
+epoch:9 steps:2838/11518 loss:4.596060
+epoch:9 steps:2938/11518 loss:3.794364
+epoch:9 steps:3038/11518 loss:3.885596
+epoch:9 steps:3138/11518 loss:4.157194
+epoch:9 steps:3238/11518 loss:4.936512
+epoch:9 steps:3338/11518 loss:4.853811
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:3438/11518 loss:4.575579
+epoch:9 steps:3538/11518 loss:4.242412
+epoch:9 steps:3638/11518 loss:4.245242
+epoch:9 steps:3738/11518 loss:5.122022
+epoch:9 steps:3838/11518 loss:4.549659
+epoch:9 steps:3938/11518 loss:4.442410
+epoch:9 steps:4038/11518 loss:4.342671
+epoch:9 steps:4138/11518 loss:4.215074
+epoch:9 steps:4238/11518 loss:4.401986
+epoch:9 steps:4338/11518 loss:4.373058
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:4438/11518 loss:4.058438
+epoch:9 steps:4538/11518 loss:4.102131
+epoch:9 steps:4638/11518 loss:4.270976
+epoch:9 steps:4738/11518 loss:4.183064
+epoch:9 steps:4838/11518 loss:3.912751
+epoch:9 steps:4938/11518 loss:3.982760
+epoch:9 steps:5038/11518 loss:4.226755
+epoch:9 steps:5138/11518 loss:4.209617
+epoch:9 steps:5238/11518 loss:4.608314
+epoch:9 steps:5338/11518 loss:4.109212
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:5438/11518 loss:3.977333
+epoch:9 steps:5538/11518 loss:3.900033
+epoch:9 steps:5638/11518 loss:3.804574
+epoch:9 steps:5738/11518 loss:4.194313
+epoch:9 steps:5838/11518 loss:4.346210
+epoch:9 steps:5938/11518 loss:4.151206
+epoch:9 steps:6038/11518 loss:3.715189
+epoch:9 steps:6138/11518 loss:4.174196
+epoch:9 steps:6238/11518 loss:4.356491
+epoch:9 steps:6338/11518 loss:3.865021
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:6438/11518 loss:4.761144
+epoch:9 steps:6538/11518 loss:4.205394
+epoch:9 steps:6638/11518 loss:3.869883
+epoch:9 steps:6738/11518 loss:4.887000
+epoch:9 steps:6838/11518 loss:4.232282
+epoch:9 steps:6938/11518 loss:4.077949
+epoch:9 steps:7038/11518 loss:3.922882
+epoch:9 steps:7138/11518 loss:4.597872
+epoch:9 steps:7238/11518 loss:4.388999
+epoch:9 steps:7338/11518 loss:4.440207
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:7438/11518 loss:4.548012
+epoch:9 steps:7538/11518 loss:4.227901
+epoch:9 steps:7638/11518 loss:4.316285
+epoch:9 steps:7738/11518 loss:4.761529
+epoch:9 steps:7838/11518 loss:4.453140
+epoch:9 steps:7938/11518 loss:4.373203
+epoch:9 steps:8038/11518 loss:4.519154
+epoch:9 steps:8138/11518 loss:4.246854
+epoch:9 steps:8238/11518 loss:4.713139
+epoch:9 steps:8338/11518 loss:4.129715
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:8438/11518 loss:4.593043
+epoch:9 steps:8538/11518 loss:4.324075
+epoch:9 steps:8638/11518 loss:4.360111
+epoch:9 steps:8738/11518 loss:4.272364
+epoch:9 steps:8838/11518 loss:4.452378
+epoch:9 steps:8938/11518 loss:4.521280
+epoch:9 steps:9038/11518 loss:4.842649
+epoch:9 steps:9138/11518 loss:4.379363
+epoch:9 steps:9238/11518 loss:4.245762
+epoch:9 steps:9338/11518 loss:4.477389
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:9438/11518 loss:4.864940
+epoch:9 steps:9538/11518 loss:4.265936
+epoch:9 steps:9638/11518 loss:3.865782
+epoch:9 steps:9738/11518 loss:4.399633
+epoch:9 steps:9838/11518 loss:4.464626
+epoch:9 steps:9938/11518 loss:4.743622
+epoch:9 steps:10038/11518 loss:4.681484
+epoch:9 steps:10138/11518 loss:4.495138
+epoch:9 steps:10238/11518 loss:4.424408
+epoch:9 steps:10338/11518 loss:4.268916
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:10438/11518 loss:4.355740
+epoch:9 steps:10538/11518 loss:4.438549
+epoch:9 steps:10638/11518 loss:4.767297
+epoch:9 steps:10738/11518 loss:4.940173
+epoch:9 steps:10838/11518 loss:4.475464
+epoch:9 steps:10938/11518 loss:5.003435
+epoch:9 steps:11038/11518 loss:4.762767
+epoch:9 steps:11138/11518 loss:4.982105
+epoch:9 steps:11238/11518 loss:5.074578
+epoch:9 steps:11338/11518 loss:4.776344
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:9 steps:11438/11518 loss:5.045791
+one more epoch, learning_rate decrease
+epoch:10 steps:20/11518 loss:0.008547
+epoch:10 steps:120/11518 loss:4.353074
+epoch:10 steps:220/11518 loss:3.941723
+epoch:10 steps:320/11518 loss:4.197669
+epoch:10 steps:420/11518 loss:3.304466
+epoch:10 steps:520/11518 loss:4.228124
+epoch:10 steps:620/11518 loss:3.686253
+epoch:10 steps:720/11518 loss:3.732118
+epoch:10 steps:820/11518 loss:4.418250
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:920/11518 loss:4.494925
+epoch:10 steps:1020/11518 loss:4.440607
+epoch:10 steps:1120/11518 loss:3.396702
+epoch:10 steps:1220/11518 loss:4.695634
+epoch:10 steps:1320/11518 loss:4.201510
+epoch:10 steps:1420/11518 loss:3.817035
+epoch:10 steps:1520/11518 loss:3.924304
+epoch:10 steps:1620/11518 loss:3.678680
+epoch:10 steps:1720/11518 loss:4.083063
+epoch:10 steps:1820/11518 loss:3.921261
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:1920/11518 loss:4.285670
+epoch:10 steps:2020/11518 loss:4.177647
+epoch:10 steps:2120/11518 loss:3.683534
+epoch:10 steps:2220/11518 loss:4.209574
+epoch:10 steps:2320/11518 loss:3.976382
+epoch:10 steps:2420/11518 loss:3.892451
+epoch:10 steps:2520/11518 loss:4.207356
+epoch:10 steps:2620/11518 loss:3.905207
+epoch:10 steps:2720/11518 loss:4.365457
+epoch:10 steps:2820/11518 loss:3.795771
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:2920/11518 loss:4.450030
+epoch:10 steps:3020/11518 loss:3.901972
+epoch:10 steps:3120/11518 loss:4.103484
+epoch:10 steps:3220/11518 loss:4.300189
+epoch:10 steps:3320/11518 loss:4.196230
+epoch:10 steps:3420/11518 loss:4.464637
+epoch:10 steps:3520/11518 loss:4.304570
+epoch:10 steps:3620/11518 loss:3.538792
+epoch:10 steps:3720/11518 loss:4.045837
+epoch:10 steps:3820/11518 loss:4.863499
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:3920/11518 loss:4.619199
+epoch:10 steps:4020/11518 loss:4.041480
+epoch:10 steps:4120/11518 loss:4.548074
+epoch:10 steps:4220/11518 loss:4.676549
+epoch:10 steps:4320/11518 loss:3.933054
+epoch:10 steps:4420/11518 loss:4.029663
+epoch:10 steps:4520/11518 loss:4.140916
+epoch:10 steps:4620/11518 loss:4.178298
+epoch:10 steps:4720/11518 loss:4.214551
+epoch:10 steps:4820/11518 loss:3.960044
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:4920/11518 loss:4.075843
+epoch:10 steps:5020/11518 loss:4.234569
+epoch:10 steps:5120/11518 loss:4.429963
+epoch:10 steps:5220/11518 loss:3.920030
+epoch:10 steps:5320/11518 loss:3.983304
+epoch:10 steps:5420/11518 loss:4.430905
+epoch:10 steps:5520/11518 loss:4.010179
+epoch:10 steps:5620/11518 loss:3.835935
+epoch:10 steps:5720/11518 loss:3.739198
+epoch:10 steps:5820/11518 loss:4.280304
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:5920/11518 loss:3.863881
+epoch:10 steps:6020/11518 loss:4.402952
+epoch:10 steps:6120/11518 loss:3.750534
+epoch:10 steps:6220/11518 loss:4.011078
+epoch:10 steps:6320/11518 loss:4.140008
+epoch:10 steps:6420/11518 loss:4.137551
+epoch:10 steps:6520/11518 loss:3.979271
+epoch:10 steps:6620/11518 loss:4.103975
+epoch:10 steps:6720/11518 loss:3.923399
+epoch:10 steps:6820/11518 loss:4.807052
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:6920/11518 loss:4.335342
+epoch:10 steps:7020/11518 loss:4.853238
+epoch:10 steps:7120/11518 loss:4.211151
+epoch:10 steps:7220/11518 loss:4.411670
+epoch:10 steps:7320/11518 loss:4.877135
+epoch:10 steps:7420/11518 loss:4.320298
+epoch:10 steps:7520/11518 loss:4.671161
+epoch:10 steps:7620/11518 loss:3.889030
+epoch:10 steps:7720/11518 loss:4.553294
+epoch:10 steps:7820/11518 loss:4.231530
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:7920/11518 loss:4.393545
+epoch:10 steps:8020/11518 loss:4.407670
+epoch:10 steps:8120/11518 loss:4.056198
+epoch:10 steps:8220/11518 loss:4.640238
+epoch:10 steps:8320/11518 loss:4.388210
+epoch:10 steps:8420/11518 loss:4.194595
+epoch:10 steps:8520/11518 loss:4.674859
+epoch:10 steps:8620/11518 loss:4.565035
+epoch:10 steps:8720/11518 loss:4.331667
+epoch:10 steps:8820/11518 loss:4.168688
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:8920/11518 loss:4.430899
+epoch:10 steps:9020/11518 loss:4.625628
+epoch:10 steps:9120/11518 loss:4.574467
+epoch:10 steps:9220/11518 loss:4.356143
+epoch:10 steps:9320/11518 loss:4.650463
+epoch:10 steps:9420/11518 loss:4.728529
+epoch:10 steps:9520/11518 loss:4.646574
+epoch:10 steps:9620/11518 loss:5.088675
+epoch:10 steps:9720/11518 loss:4.904867
+epoch:10 steps:9820/11518 loss:4.763737
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:9920/11518 loss:3.906967
+epoch:10 steps:10020/11518 loss:4.772597
+epoch:10 steps:10120/11518 loss:4.318130
+epoch:10 steps:10220/11518 loss:4.207372
+epoch:10 steps:10320/11518 loss:4.991874
+epoch:10 steps:10420/11518 loss:4.849399
+epoch:10 steps:10520/11518 loss:4.704388
+epoch:10 steps:10620/11518 loss:4.420012
+epoch:10 steps:10720/11518 loss:5.003162
+epoch:10 steps:10820/11518 loss:4.890964
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:10 steps:10920/11518 loss:5.182625
+epoch:10 steps:11020/11518 loss:5.055302
+epoch:10 steps:11120/11518 loss:5.055608
+epoch:10 steps:11220/11518 loss:4.945920
+epoch:10 steps:11320/11518 loss:5.289874
+epoch:10 steps:11420/11518 loss:5.060493
+one more epoch, learning_rate decrease
+epoch:11 steps:2/11518 loss:2.571198
+epoch:11 steps:102/11518 loss:3.601488
+epoch:11 steps:202/11518 loss:4.562209
+epoch:11 steps:302/11518 loss:4.404731
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:402/11518 loss:3.786595
+epoch:11 steps:502/11518 loss:3.678481
+epoch:11 steps:602/11518 loss:3.477446
+epoch:11 steps:702/11518 loss:4.149262
+epoch:11 steps:802/11518 loss:3.917953
+epoch:11 steps:902/11518 loss:3.803030
+epoch:11 steps:1002/11518 loss:4.110384
+epoch:11 steps:1102/11518 loss:4.416594
+epoch:11 steps:1202/11518 loss:3.501823
+epoch:11 steps:1302/11518 loss:3.669388
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:1402/11518 loss:4.048642
+epoch:11 steps:1502/11518 loss:4.046356
+epoch:11 steps:1602/11518 loss:4.179682
+epoch:11 steps:1702/11518 loss:3.687665
+epoch:11 steps:1802/11518 loss:4.060084
+epoch:11 steps:1902/11518 loss:3.652491
+epoch:11 steps:2002/11518 loss:4.059193
+epoch:11 steps:2102/11518 loss:4.105888
+epoch:11 steps:2202/11518 loss:4.133901
+epoch:11 steps:2302/11518 loss:3.740139
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:2402/11518 loss:4.032644
+epoch:11 steps:2502/11518 loss:4.275979
+epoch:11 steps:2602/11518 loss:4.100197
+epoch:11 steps:2702/11518 loss:4.086668
+epoch:11 steps:2802/11518 loss:4.210021
+epoch:11 steps:2902/11518 loss:4.293715
+epoch:11 steps:3002/11518 loss:3.976193
+epoch:11 steps:3102/11518 loss:3.962175
+epoch:11 steps:3202/11518 loss:3.501066
+epoch:11 steps:3302/11518 loss:4.145972
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:3402/11518 loss:4.827845
+epoch:11 steps:3502/11518 loss:4.211239
+epoch:11 steps:3602/11518 loss:4.210099
+epoch:11 steps:3702/11518 loss:4.467374
+epoch:11 steps:3802/11518 loss:4.586966
+epoch:11 steps:3902/11518 loss:4.825817
+epoch:11 steps:4002/11518 loss:3.935094
+epoch:11 steps:4102/11518 loss:4.163075
+epoch:11 steps:4202/11518 loss:3.890859
+epoch:11 steps:4302/11518 loss:4.175728
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:4402/11518 loss:4.079005
+epoch:11 steps:4502/11518 loss:4.537857
+epoch:11 steps:4602/11518 loss:4.557149
+epoch:11 steps:4702/11518 loss:4.134326
+epoch:11 steps:4802/11518 loss:3.820403
+epoch:11 steps:4902/11518 loss:3.868693
+epoch:11 steps:5002/11518 loss:4.044496
+epoch:11 steps:5102/11518 loss:4.526216
+epoch:11 steps:5202/11518 loss:3.898345
+epoch:11 steps:5302/11518 loss:4.052190
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:5402/11518 loss:4.461786
+epoch:11 steps:5502/11518 loss:4.209354
+epoch:11 steps:5602/11518 loss:3.620152
+epoch:11 steps:5702/11518 loss:4.392297
+epoch:11 steps:5802/11518 loss:4.090339
+epoch:11 steps:5902/11518 loss:4.022257
+epoch:11 steps:6002/11518 loss:4.636889
+epoch:11 steps:6102/11518 loss:4.007256
+epoch:11 steps:6202/11518 loss:4.228562
+epoch:11 steps:6302/11518 loss:3.799687
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:6402/11518 loss:4.423133
+epoch:11 steps:6502/11518 loss:4.009854
+epoch:11 steps:6602/11518 loss:4.149049
+epoch:11 steps:6702/11518 loss:3.963871
+epoch:11 steps:6802/11518 loss:4.590517
+epoch:11 steps:6902/11518 loss:4.285260
+epoch:11 steps:7002/11518 loss:4.296360
+epoch:11 steps:7102/11518 loss:4.079070
+epoch:11 steps:7202/11518 loss:4.329159
+epoch:11 steps:7302/11518 loss:4.664991
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:7402/11518 loss:4.905899
+epoch:11 steps:7502/11518 loss:4.844407
+epoch:11 steps:7602/11518 loss:4.345644
+epoch:11 steps:7702/11518 loss:4.361347
+epoch:11 steps:7802/11518 loss:4.284176
+epoch:11 steps:7902/11518 loss:4.527567
+epoch:11 steps:8002/11518 loss:4.007539
+epoch:11 steps:8102/11518 loss:4.492894
+epoch:11 steps:8202/11518 loss:4.519083
+epoch:11 steps:8302/11518 loss:4.458840
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:8402/11518 loss:4.445958
+epoch:11 steps:8502/11518 loss:4.254844
+epoch:11 steps:8602/11518 loss:4.027165
+epoch:11 steps:8702/11518 loss:4.104859
+epoch:11 steps:8802/11518 loss:4.466139
+epoch:11 steps:8902/11518 loss:4.303990
+epoch:11 steps:9002/11518 loss:4.488194
+epoch:11 steps:9102/11518 loss:4.523289
+epoch:11 steps:9202/11518 loss:4.489998
+epoch:11 steps:9302/11518 loss:4.637156
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:9402/11518 loss:3.896850
+epoch:11 steps:9502/11518 loss:4.465807
+epoch:11 steps:9602/11518 loss:3.954981
+epoch:11 steps:9702/11518 loss:4.249686
+epoch:11 steps:9802/11518 loss:4.099290
+epoch:11 steps:9902/11518 loss:4.997729
+epoch:11 steps:10002/11518 loss:4.880939
+epoch:11 steps:10102/11518 loss:4.515129
+epoch:11 steps:10202/11518 loss:4.423686
+epoch:11 steps:10302/11518 loss:4.449230
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:10402/11518 loss:4.536681
+epoch:11 steps:10502/11518 loss:5.000043
+epoch:11 steps:10602/11518 loss:4.743281
+epoch:11 steps:10702/11518 loss:4.913593
+epoch:11 steps:10802/11518 loss:4.601148
+epoch:11 steps:10902/11518 loss:4.989143
+epoch:11 steps:11002/11518 loss:4.977493
+epoch:11 steps:11102/11518 loss:5.233591
+epoch:11 steps:11202/11518 loss:4.732452
+epoch:11 steps:11302/11518 loss:5.052629
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:11 steps:11402/11518 loss:4.996201
+epoch:11 steps:11502/11518 loss:5.157608
+one more epoch, learning_rate decrease
+epoch:12 steps:84/11518 loss:3.9743212018-05-23 03:32:33.128141: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 272287550 get requests, put_count=272288033 evicted_count=38000 eviction_rate=0.000139558 and unsatisfied allocation rate=0.000138299
+
+epoch:12 steps:184/11518 loss:3.885355
+epoch:12 steps:284/11518 loss:4.355935
+epoch:12 steps:384/11518 loss:3.318703
+epoch:12 steps:484/11518 loss:3.419768
+epoch:12 steps:584/11518 loss:4.282450
+epoch:12 steps:684/11518 loss:3.548243
+epoch:12 steps:784/11518 loss:4.180400
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:884/11518 loss:3.572503
+epoch:12 steps:984/11518 loss:4.566141
+epoch:12 steps:1084/11518 loss:3.894231
+epoch:12 steps:1184/11518 loss:3.555679
+epoch:12 steps:1284/11518 loss:4.199440
+epoch:12 steps:1384/11518 loss:3.961643
+epoch:12 steps:1484/11518 loss:3.945735
+epoch:12 steps:1584/11518 loss:4.240240
+epoch:12 steps:1684/11518 loss:3.942605
+epoch:12 steps:1784/11518 loss:3.621437
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:1884/11518 loss:4.041751
+epoch:12 steps:1984/11518 loss:3.907053
+epoch:12 steps:2084/11518 loss:4.173991
+epoch:12 steps:2184/11518 loss:3.651196
+epoch:12 steps:2284/11518 loss:4.307724
+epoch:12 steps:2384/11518 loss:3.591567
+epoch:12 steps:2484/11518 loss:4.200566
+epoch:12 steps:2584/11518 loss:4.063346
+epoch:12 steps:2684/11518 loss:4.515210
+epoch:12 steps:2784/11518 loss:3.809329
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:2884/11518 loss:3.893944
+epoch:12 steps:2984/11518 loss:4.162840
+epoch:12 steps:3084/11518 loss:4.051706
+epoch:12 steps:3184/11518 loss:4.362247
+epoch:12 steps:3284/11518 loss:4.224216
+epoch:12 steps:3384/11518 loss:4.415810
+epoch:12 steps:3484/11518 loss:3.826497
+epoch:12 steps:3584/11518 loss:4.329944
+epoch:12 steps:3684/11518 loss:4.144425
+epoch:12 steps:3784/11518 loss:4.099284
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:3884/11518 loss:3.836381
+epoch:12 steps:3984/11518 loss:4.390394
+epoch:12 steps:4084/11518 loss:4.278575
+epoch:12 steps:4184/11518 loss:4.577056
+epoch:12 steps:4284/11518 loss:4.161583
+epoch:12 steps:4384/11518 loss:3.580252
+epoch:12 steps:4484/11518 loss:4.109731
+epoch:12 steps:4584/11518 loss:4.029004
+epoch:12 steps:4684/11518 loss:4.087127
+epoch:12 steps:4784/11518 loss:3.523325
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:4884/11518 loss:3.796033
+epoch:12 steps:4984/11518 loss:4.152933
+epoch:12 steps:5084/11518 loss:4.078623
+epoch:12 steps:5184/11518 loss:4.453743
+epoch:12 steps:5284/11518 loss:4.630477
+epoch:12 steps:5384/11518 loss:4.568160
+epoch:12 steps:5484/11518 loss:4.051105
+epoch:12 steps:5584/11518 loss:3.614048
+epoch:12 steps:5684/11518 loss:4.173847
+epoch:12 steps:5784/11518 loss:4.135092
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:5884/11518 loss:3.783679
+epoch:12 steps:5984/11518 loss:4.814906
+epoch:12 steps:6084/11518 loss:3.744981
+epoch:12 steps:6184/11518 loss:3.820540
+epoch:12 steps:6284/11518 loss:4.782968
+epoch:12 steps:6384/11518 loss:3.919462
+epoch:12 steps:6484/11518 loss:3.763973
+epoch:12 steps:6584/11518 loss:4.251935
+epoch:12 steps:6684/11518 loss:4.043493
+epoch:12 steps:6784/11518 loss:4.165047
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:6884/11518 loss:4.218217
+epoch:12 steps:6984/11518 loss:3.954144
+epoch:12 steps:7084/11518 loss:4.886244
+epoch:12 steps:7184/11518 loss:4.264068
+epoch:12 steps:7284/11518 loss:5.086592
+epoch:12 steps:7384/11518 loss:4.918538
+epoch:12 steps:7484/11518 loss:5.115125
+epoch:12 steps:7584/11518 loss:4.189958
+epoch:12 steps:7684/11518 loss:4.436551
+epoch:12 steps:7784/11518 loss:4.485318
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:7884/11518 loss:4.373439
+epoch:12 steps:7984/11518 loss:4.176973
+epoch:12 steps:8084/11518 loss:4.217578
+epoch:12 steps:8184/11518 loss:3.976696
+epoch:12 steps:8284/11518 loss:3.957582
+epoch:12 steps:8384/11518 loss:4.381896
+epoch:12 steps:8484/11518 loss:4.226065
+epoch:12 steps:8584/11518 loss:4.267551
+epoch:12 steps:8684/11518 loss:4.653628
+epoch:12 steps:8784/11518 loss:4.232683
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:8884/11518 loss:4.316168
+epoch:12 steps:8984/11518 loss:4.792202
+epoch:12 steps:9084/11518 loss:4.803340
+epoch:12 steps:9184/11518 loss:4.522092
+epoch:12 steps:9284/11518 loss:4.345455
+epoch:12 steps:9384/11518 loss:4.464277
+epoch:12 steps:9484/11518 loss:4.627274
+epoch:12 steps:9584/11518 loss:4.096417
+epoch:12 steps:9684/11518 loss:4.056972
+epoch:12 steps:9784/11518 loss:4.029420
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:9884/11518 loss:4.430480
+epoch:12 steps:9984/11518 loss:3.914922
+epoch:12 steps:10084/11518 loss:4.426144
+epoch:12 steps:10184/11518 loss:4.572678
+epoch:12 steps:10284/11518 loss:5.153605
+epoch:12 steps:10384/11518 loss:4.375492
+epoch:12 steps:10484/11518 loss:4.528169
+epoch:12 steps:10584/11518 loss:4.800084
+epoch:12 steps:10684/11518 loss:4.893727
+epoch:12 steps:10784/11518 loss:5.021469
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:12 steps:10884/11518 loss:4.537548
+epoch:12 steps:10984/11518 loss:4.741068
+epoch:12 steps:11084/11518 loss:4.796597
+epoch:12 steps:11184/11518 loss:4.889116
+epoch:12 steps:11284/11518 loss:5.108606
+epoch:12 steps:11384/11518 loss:5.028372
+epoch:12 steps:11484/11518 loss:5.250281
+one more epoch, learning_rate decrease
+epoch:13 steps:66/11518 loss:4.025967
+epoch:13 steps:166/11518 loss:3.820302
+epoch:13 steps:266/11518 loss:4.533716
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:366/11518 loss:4.087055
+epoch:13 steps:466/11518 loss:4.332976
+epoch:13 steps:566/11518 loss:3.398892
+epoch:13 steps:666/11518 loss:4.122081
+epoch:13 steps:766/11518 loss:3.882668
+epoch:13 steps:866/11518 loss:3.207102
+epoch:13 steps:966/11518 loss:4.378001
+epoch:13 steps:1066/11518 loss:4.715496
+epoch:13 steps:1166/11518 loss:4.564713
+epoch:13 steps:1266/11518 loss:3.906831
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:1366/11518 loss:3.694968
+epoch:13 steps:1466/11518 loss:3.729535
+epoch:13 steps:1566/11518 loss:4.441869
+epoch:13 steps:1666/11518 loss:3.916517
+epoch:13 steps:1766/11518 loss:3.869582
+epoch:13 steps:1866/11518 loss:4.103068
+epoch:13 steps:1966/11518 loss:4.236185
+epoch:13 steps:2066/11518 loss:3.829881
+epoch:13 steps:2166/11518 loss:3.864957
+epoch:13 steps:2266/11518 loss:3.873824
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:2366/11518 loss:4.265232
+epoch:13 steps:2466/11518 loss:4.368705
+epoch:13 steps:2566/11518 loss:4.104503
+epoch:13 steps:2666/11518 loss:4.026693
+epoch:13 steps:2766/11518 loss:4.147210
+epoch:13 steps:2866/11518 loss:4.701904
+epoch:13 steps:2966/11518 loss:3.997550
+epoch:13 steps:3066/11518 loss:4.055180
+epoch:13 steps:3166/11518 loss:4.072058
+epoch:13 steps:3266/11518 loss:4.239073
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:3366/11518 loss:4.575141
+epoch:13 steps:3466/11518 loss:4.009908
+epoch:13 steps:3566/11518 loss:3.963214
+epoch:13 steps:3666/11518 loss:3.850493
+epoch:13 steps:3766/11518 loss:4.646845
+epoch:13 steps:3866/11518 loss:3.695613
+epoch:13 steps:3966/11518 loss:4.288132
+epoch:13 steps:4066/11518 loss:4.054392
+epoch:13 steps:4166/11518 loss:4.531134
+epoch:13 steps:4266/11518 loss:4.240869
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:4366/11518 loss:3.823331
+epoch:13 steps:4466/11518 loss:4.210499
+epoch:13 steps:4566/11518 loss:4.121166
+epoch:13 steps:4666/11518 loss:4.279648
+epoch:13 steps:4766/11518 loss:3.824253
+epoch:13 steps:4866/11518 loss:3.969106
+epoch:13 steps:4966/11518 loss:3.832055
+epoch:13 steps:5066/11518 loss:4.147556
+epoch:13 steps:5166/11518 loss:4.087829
+epoch:13 steps:5266/11518 loss:4.392833
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:5366/11518 loss:3.930411
+epoch:13 steps:5466/11518 loss:3.771252
+epoch:13 steps:5566/11518 loss:3.982505
+epoch:13 steps:5666/11518 loss:4.309707
+epoch:13 steps:5766/11518 loss:4.114951
+epoch:13 steps:5866/11518 loss:3.900869
+epoch:13 steps:5966/11518 loss:4.248974
+epoch:13 steps:6066/11518 loss:4.321523
+epoch:13 steps:6166/11518 loss:4.138928
+epoch:13 steps:6266/11518 loss:4.116034
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:6366/11518 loss:4.262215
+epoch:13 steps:6466/11518 loss:4.336522
+epoch:13 steps:6566/11518 loss:3.808372
+epoch:13 steps:6666/11518 loss:4.253079
+epoch:13 steps:6766/11518 loss:3.597166
+epoch:13 steps:6866/11518 loss:4.830852
+epoch:13 steps:6966/11518 loss:4.307959
+epoch:13 steps:7066/11518 loss:3.856821
+epoch:13 steps:7166/11518 loss:4.800222
+epoch:13 steps:7266/11518 loss:4.377423
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:7366/11518 loss:5.020384
+epoch:13 steps:7466/11518 loss:4.311491
+epoch:13 steps:7566/11518 loss:4.115249
+epoch:13 steps:7666/11518 loss:4.185194
+epoch:13 steps:7766/11518 loss:4.565748
+epoch:13 steps:7866/11518 loss:4.375007
+epoch:13 steps:7966/11518 loss:4.448680
+epoch:13 steps:8066/11518 loss:3.931424
+epoch:13 steps:8166/11518 loss:3.709155
+epoch:13 steps:8266/11518 loss:4.567410
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:8366/11518 loss:4.073205
+epoch:13 steps:8466/11518 loss:4.253098
+epoch:13 steps:8566/11518 loss:4.589530
+epoch:13 steps:8666/11518 loss:4.333499
+epoch:13 steps:8766/11518 loss:4.035167
+epoch:13 steps:8866/11518 loss:3.915073
+epoch:13 steps:8966/11518 loss:4.377068
+epoch:13 steps:9066/11518 loss:4.636725
+epoch:13 steps:9166/11518 loss:4.619897
+epoch:13 steps:9266/11518 loss:4.622159
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:9366/11518 loss:4.328432
+epoch:13 steps:9466/11518 loss:4.335582
+epoch:13 steps:9566/11518 loss:4.239463
+epoch:13 steps:9666/11518 loss:4.402614
+epoch:13 steps:9766/11518 loss:4.745839
+epoch:13 steps:9866/11518 loss:4.860449
+epoch:13 steps:9966/11518 loss:4.553163
+epoch:13 steps:10066/11518 loss:4.584016
+epoch:13 steps:10166/11518 loss:5.163436
+epoch:13 steps:10266/11518 loss:4.713406
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:10366/11518 loss:4.927688
+epoch:13 steps:10466/11518 loss:4.751081
+epoch:13 steps:10566/11518 loss:4.930723
+epoch:13 steps:10666/11518 loss:4.754686
+epoch:13 steps:10766/11518 loss:4.545294
+epoch:13 steps:10866/11518 loss:4.750217
+epoch:13 steps:10966/11518 loss:4.829532
+epoch:13 steps:11066/11518 loss:4.772923
+epoch:13 steps:11166/11518 loss:4.115864
+epoch:13 steps:11266/11518 loss:4.760746
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:13 steps:11366/11518 loss:4.558196
+epoch:13 steps:11466/11518 loss:5.223118
+one more epoch, learning_rate decrease
+epoch:14 steps:48/11518 loss:5.092221
+epoch:14 steps:148/11518 loss:4.579523
+epoch:14 steps:248/11518 loss:4.141002
+epoch:14 steps:348/11518 loss:3.560608
+epoch:14 steps:448/11518 loss:3.562888
+epoch:14 steps:548/11518 loss:4.071921
+epoch:14 steps:648/11518 loss:3.554704
+epoch:14 steps:748/11518 loss:3.794527
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:848/11518 loss:3.268328
+epoch:14 steps:948/11518 loss:3.703050
+epoch:14 steps:1048/11518 loss:3.822207
+epoch:14 steps:1148/11518 loss:4.520908
+epoch:14 steps:1248/11518 loss:4.078731
+epoch:14 steps:1348/11518 loss:4.054128
+epoch:14 steps:1448/11518 loss:4.004914
+epoch:14 steps:1548/11518 loss:4.266437
+epoch:14 steps:1648/11518 loss:3.826498
+epoch:14 steps:1748/11518 loss:3.957552
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:1848/11518 loss:3.841217
+epoch:14 steps:1948/11518 loss:3.611311
+epoch:14 steps:2048/11518 loss:4.072533
+epoch:14 steps:2148/11518 loss:3.703236
+epoch:14 steps:2248/11518 loss:3.874332
+epoch:14 steps:2348/11518 loss:4.039216
+epoch:14 steps:2448/11518 loss:4.114308
+epoch:14 steps:2548/11518 loss:3.593956
+epoch:14 steps:2648/11518 loss:4.104114
+epoch:14 steps:2748/11518 loss:3.945032
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:2848/11518 loss:4.706575
+epoch:14 steps:2948/11518 loss:3.976074
+epoch:14 steps:3048/11518 loss:3.979774
+epoch:14 steps:3148/11518 loss:4.378104
+epoch:14 steps:3248/11518 loss:4.114030
+epoch:14 steps:3348/11518 loss:3.853017
+epoch:14 steps:3448/11518 loss:2.300364
+epoch:14 steps:3548/11518 loss:4.298840
+epoch:14 steps:3648/11518 loss:4.671772
+epoch:14 steps:3748/11518 loss:4.667300
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:3848/11518 loss:3.774175
+epoch:14 steps:3948/11518 loss:3.949239
+epoch:14 steps:4048/11518 loss:3.995480
+epoch:14 steps:4148/11518 loss:4.106397
+epoch:14 steps:4248/11518 loss:3.798663
+epoch:14 steps:4348/11518 loss:3.891984
+epoch:14 steps:4448/11518 loss:4.138196
+epoch:14 steps:4548/11518 loss:4.162858
+epoch:14 steps:4648/11518 loss:4.373452
+epoch:14 steps:4748/11518 loss:3.808934
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:4848/11518 loss:4.168895
+epoch:14 steps:4948/11518 loss:3.995080
+epoch:14 steps:5048/11518 loss:3.995875
+epoch:14 steps:5148/11518 loss:4.094956
+epoch:14 steps:5248/11518 loss:4.470771
+epoch:14 steps:5348/11518 loss:3.940751
+epoch:14 steps:5448/11518 loss:4.073818
+epoch:14 steps:5548/11518 loss:3.859540
+epoch:14 steps:5648/11518 loss:3.537745
+epoch:14 steps:5748/11518 loss:3.707965
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:5848/11518 loss:4.123762
+epoch:14 steps:5948/11518 loss:4.021174
+epoch:14 steps:6048/11518 loss:3.802135
+epoch:14 steps:6148/11518 loss:3.422033
+epoch:14 steps:6248/11518 loss:4.180784
+epoch:14 steps:6348/11518 loss:3.808605
+epoch:14 steps:6448/11518 loss:4.686590
+epoch:14 steps:6548/11518 loss:4.428866
+epoch:14 steps:6648/11518 loss:3.815973
+epoch:14 steps:6748/11518 loss:4.216714
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:6848/11518 loss:3.396429
+epoch:14 steps:6948/11518 loss:4.139291
+epoch:14 steps:7048/11518 loss:4.378553
+epoch:14 steps:7148/11518 loss:3.573268
+epoch:14 steps:7248/11518 loss:4.774728
+epoch:14 steps:7348/11518 loss:4.710480
+epoch:14 steps:7448/11518 loss:3.709109
+epoch:14 steps:7548/11518 loss:4.460835
+epoch:14 steps:7648/11518 loss:4.606445
+epoch:14 steps:7748/11518 loss:4.520374
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:7848/11518 loss:4.295078
+epoch:14 steps:7948/11518 loss:4.206898
+epoch:14 steps:8048/11518 loss:4.186418
+epoch:14 steps:8148/11518 loss:4.105224
+epoch:14 steps:8248/11518 loss:4.443963
+epoch:14 steps:8348/11518 loss:4.168513
+epoch:14 steps:8448/11518 loss:4.175406
+epoch:14 steps:8548/11518 loss:3.972588
+epoch:14 steps:8648/11518 loss:4.781168
+epoch:14 steps:8748/11518 loss:4.230096
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:8848/11518 loss:4.032291
+epoch:14 steps:8948/11518 loss:4.800265
+epoch:14 steps:9048/11518 loss:4.649303
+epoch:14 steps:9148/11518 loss:4.729335
+epoch:14 steps:9248/11518 loss:4.434021
+epoch:14 steps:9348/11518 loss:4.231477
+epoch:14 steps:9448/11518 loss:4.314824
+epoch:14 steps:9548/11518 loss:4.431981
+epoch:14 steps:9648/11518 loss:3.545704
+epoch:14 steps:9748/11518 loss:4.727331
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:9848/11518 loss:4.744004
+epoch:14 steps:9948/11518 loss:4.337434
+epoch:14 steps:10048/11518 loss:4.479734
+epoch:14 steps:10148/11518 loss:4.546588
+epoch:14 steps:10248/11518 loss:4.547233
+epoch:14 steps:10348/11518 loss:5.095183
+epoch:14 steps:10448/11518 loss:5.082170
+epoch:14 steps:10548/11518 loss:4.565954
+epoch:14 steps:10648/11518 loss:4.834283
+epoch:14 steps:10748/11518 loss:4.914171
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:14 steps:10848/11518 loss:4.362063
+epoch:14 steps:10948/11518 loss:4.678487
+epoch:14 steps:11048/11518 loss:5.156054
+epoch:14 steps:11148/11518 loss:5.1678352018-05-23 04:19:47.300636: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 340380642 get requests, put_count=340381289 evicted_count=48000 eviction_rate=0.000141018 and unsatisfied allocation rate=0.000139529
+
+epoch:14 steps:11248/11518 loss:4.939630
+epoch:14 steps:11348/11518 loss:5.041830
+epoch:14 steps:11448/11518 loss:5.356195
+one more epoch, learning_rate decrease
+epoch:15 steps:30/11518 loss:0.000428
+epoch:15 steps:130/11518 loss:3.857216
+epoch:15 steps:230/11518 loss:3.933295
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:330/11518 loss:3.343660
+epoch:15 steps:430/11518 loss:3.716124
+epoch:15 steps:530/11518 loss:3.296604
+epoch:15 steps:630/11518 loss:3.426771
+epoch:15 steps:730/11518 loss:3.463087
+epoch:15 steps:830/11518 loss:3.516888
+epoch:15 steps:930/11518 loss:4.064830
+epoch:15 steps:1030/11518 loss:3.974051
+epoch:15 steps:1130/11518 loss:4.694007
+epoch:15 steps:1230/11518 loss:4.202286
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:1330/11518 loss:4.096468
+epoch:15 steps:1430/11518 loss:4.230009
+epoch:15 steps:1530/11518 loss:3.999967
+epoch:15 steps:1630/11518 loss:3.572707
+epoch:15 steps:1730/11518 loss:3.441886
+epoch:15 steps:1830/11518 loss:3.960467
+epoch:15 steps:1930/11518 loss:3.949252
+epoch:15 steps:2030/11518 loss:3.655528
+epoch:15 steps:2130/11518 loss:3.753826
+epoch:15 steps:2230/11518 loss:3.977937
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:2330/11518 loss:4.120097
+epoch:15 steps:2430/11518 loss:4.407928
+epoch:15 steps:2530/11518 loss:4.181599
+epoch:15 steps:2630/11518 loss:3.934537
+epoch:15 steps:2730/11518 loss:3.888073
+epoch:15 steps:2830/11518 loss:3.594555
+epoch:15 steps:2930/11518 loss:4.039471
+epoch:15 steps:3030/11518 loss:4.443462
+epoch:15 steps:3130/11518 loss:4.267379
+epoch:15 steps:3230/11518 loss:4.379047
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:3330/11518 loss:4.474834
+epoch:15 steps:3430/11518 loss:4.137369
+epoch:15 steps:3530/11518 loss:4.413766
+epoch:15 steps:3630/11518 loss:3.882493
+epoch:15 steps:3730/11518 loss:4.637343
+epoch:15 steps:3830/11518 loss:3.788163
+epoch:15 steps:3930/11518 loss:4.463465
+epoch:15 steps:4030/11518 loss:4.333420
+epoch:15 steps:4130/11518 loss:4.082562
+epoch:15 steps:4230/11518 loss:3.870234
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:4330/11518 loss:4.127005
+epoch:15 steps:4430/11518 loss:3.564754
+epoch:15 steps:4530/11518 loss:4.086851
+epoch:15 steps:4630/11518 loss:4.449028
+epoch:15 steps:4730/11518 loss:3.675436
+epoch:15 steps:4830/11518 loss:4.553063
+epoch:15 steps:4930/11518 loss:4.009831
+epoch:15 steps:5030/11518 loss:4.164285
+epoch:15 steps:5130/11518 loss:4.391620
+epoch:15 steps:5230/11518 loss:4.300988
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:5330/11518 loss:3.896463
+epoch:15 steps:5430/11518 loss:4.288648
+epoch:15 steps:5530/11518 loss:4.013773
+epoch:15 steps:5630/11518 loss:3.583795
+epoch:15 steps:5730/11518 loss:3.962900
+epoch:15 steps:5830/11518 loss:4.096889
+epoch:15 steps:5930/11518 loss:3.619967
+epoch:15 steps:6030/11518 loss:3.844347
+epoch:15 steps:6130/11518 loss:4.075397
+epoch:15 steps:6230/11518 loss:3.945800
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:6330/11518 loss:4.074124
+epoch:15 steps:6430/11518 loss:4.769719
+epoch:15 steps:6530/11518 loss:3.906931
+epoch:15 steps:6630/11518 loss:4.176537
+epoch:15 steps:6730/11518 loss:4.730893
+epoch:15 steps:6830/11518 loss:4.411613
+epoch:15 steps:6930/11518 loss:4.866481
+epoch:15 steps:7030/11518 loss:3.812386
+epoch:15 steps:7130/11518 loss:3.704441
+epoch:15 steps:7230/11518 loss:4.373821
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:7330/11518 loss:4.197780
+epoch:15 steps:7430/11518 loss:4.217022
+epoch:15 steps:7530/11518 loss:4.321399
+epoch:15 steps:7630/11518 loss:4.116136
+epoch:15 steps:7730/11518 loss:4.633918
+epoch:15 steps:7830/11518 loss:4.405600
+epoch:15 steps:7930/11518 loss:4.253865
+epoch:15 steps:8030/11518 loss:4.398508
+epoch:15 steps:8130/11518 loss:4.316298
+epoch:15 steps:8230/11518 loss:4.396946
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:8330/11518 loss:4.365103
+epoch:15 steps:8430/11518 loss:4.213150
+epoch:15 steps:8530/11518 loss:4.002966
+epoch:15 steps:8630/11518 loss:4.560874
+epoch:15 steps:8730/11518 loss:4.520933
+epoch:15 steps:8830/11518 loss:4.434473
+epoch:15 steps:8930/11518 loss:4.759521
+epoch:15 steps:9030/11518 loss:4.638288
+epoch:15 steps:9130/11518 loss:4.471236
+epoch:15 steps:9230/11518 loss:4.375576
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:9330/11518 loss:4.438732
+epoch:15 steps:9430/11518 loss:4.295666
+epoch:15 steps:9530/11518 loss:4.098393
+epoch:15 steps:9630/11518 loss:4.937043
+epoch:15 steps:9730/11518 loss:4.203001
+epoch:15 steps:9830/11518 loss:4.224638
+epoch:15 steps:9930/11518 loss:4.294073
+epoch:15 steps:10030/11518 loss:4.519521
+epoch:15 steps:10130/11518 loss:4.766123
+epoch:15 steps:10230/11518 loss:4.426664
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:10330/11518 loss:4.202394
+epoch:15 steps:10430/11518 loss:5.052824
+epoch:15 steps:10530/11518 loss:4.220284
+epoch:15 steps:10630/11518 loss:4.614295
+epoch:15 steps:10730/11518 loss:4.971832
+epoch:15 steps:10830/11518 loss:4.937892
+epoch:15 steps:10930/11518 loss:4.878706
+epoch:15 steps:11030/11518 loss:4.882393
+epoch:15 steps:11130/11518 loss:4.739515
+epoch:15 steps:11230/11518 loss:4.691147
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:15 steps:11330/11518 loss:5.080254
+epoch:15 steps:11430/11518 loss:5.442573
+one more epoch, learning_rate decrease
+epoch:16 steps:12/11518 loss:0.064955
+epoch:16 steps:112/11518 loss:3.613926
+epoch:16 steps:212/11518 loss:3.795665
+epoch:16 steps:312/11518 loss:3.939737
+epoch:16 steps:412/11518 loss:3.338088
+epoch:16 steps:512/11518 loss:3.634403
+epoch:16 steps:612/11518 loss:3.937608
+epoch:16 steps:712/11518 loss:3.583729
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:812/11518 loss:3.873487
+epoch:16 steps:912/11518 loss:3.881107
+epoch:16 steps:1012/11518 loss:4.272925
+epoch:16 steps:1112/11518 loss:3.265123
+epoch:16 steps:1212/11518 loss:3.273154
+epoch:16 steps:1312/11518 loss:3.952634
+epoch:16 steps:1412/11518 loss:3.895413
+epoch:16 steps:1512/11518 loss:4.290652
+epoch:16 steps:1612/11518 loss:3.871538
+epoch:16 steps:1712/11518 loss:4.360835
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:1812/11518 loss:3.631659
+epoch:16 steps:1912/11518 loss:4.201192
+epoch:16 steps:2012/11518 loss:3.788115
+epoch:16 steps:2112/11518 loss:4.153156
+epoch:16 steps:2212/11518 loss:3.930475
+epoch:16 steps:2312/11518 loss:3.597671
+epoch:16 steps:2412/11518 loss:4.217565
+epoch:16 steps:2512/11518 loss:4.234410
+epoch:16 steps:2612/11518 loss:4.165586
+epoch:16 steps:2712/11518 loss:4.427332
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:2812/11518 loss:4.281027
+epoch:16 steps:2912/11518 loss:4.269075
+epoch:16 steps:3012/11518 loss:3.864285
+epoch:16 steps:3112/11518 loss:3.964391
+epoch:16 steps:3212/11518 loss:3.885480
+epoch:16 steps:3312/11518 loss:4.345016
+epoch:16 steps:3412/11518 loss:4.289330
+epoch:16 steps:3512/11518 loss:3.951638
+epoch:16 steps:3612/11518 loss:3.857990
+epoch:16 steps:3712/11518 loss:4.107489
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:3812/11518 loss:3.893547
+epoch:16 steps:3912/11518 loss:4.231444
+epoch:16 steps:4012/11518 loss:4.821945
+epoch:16 steps:4112/11518 loss:4.309988
+epoch:16 steps:4212/11518 loss:3.830206
+epoch:16 steps:4312/11518 loss:3.942287
+epoch:16 steps:4412/11518 loss:4.098367
+epoch:16 steps:4512/11518 loss:4.324884
+epoch:16 steps:4612/11518 loss:4.228542
+epoch:16 steps:4712/11518 loss:4.111481
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:4812/11518 loss:3.985264
+epoch:16 steps:4912/11518 loss:3.995136
+epoch:16 steps:5012/11518 loss:4.173492
+epoch:16 steps:5112/11518 loss:4.502972
+epoch:16 steps:5212/11518 loss:3.974570
+epoch:16 steps:5312/11518 loss:3.780326
+epoch:16 steps:5412/11518 loss:4.171436
+epoch:16 steps:5512/11518 loss:4.425509
+epoch:16 steps:5612/11518 loss:3.870830
+epoch:16 steps:5712/11518 loss:4.457795
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:5812/11518 loss:4.267556
+epoch:16 steps:5912/11518 loss:4.124430
+epoch:16 steps:6012/11518 loss:4.435705
+epoch:16 steps:6112/11518 loss:3.861115
+epoch:16 steps:6212/11518 loss:3.886484
+epoch:16 steps:6312/11518 loss:3.999697
+epoch:16 steps:6412/11518 loss:4.168228
+epoch:16 steps:6512/11518 loss:4.275886
+epoch:16 steps:6612/11518 loss:4.170690
+epoch:16 steps:6712/11518 loss:4.144742
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:6812/11518 loss:4.121990
+epoch:16 steps:6912/11518 loss:4.376064
+epoch:16 steps:7012/11518 loss:3.937301
+epoch:16 steps:7112/11518 loss:3.988906
+epoch:16 steps:7212/11518 loss:4.744644
+epoch:16 steps:7312/11518 loss:3.404324
+epoch:16 steps:7412/11518 loss:4.446328
+epoch:16 steps:7512/11518 loss:4.829439
+epoch:16 steps:7612/11518 loss:4.263667
+epoch:16 steps:7712/11518 loss:5.400942
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:7812/11518 loss:4.532372
+epoch:16 steps:7912/11518 loss:4.127538
+epoch:16 steps:8012/11518 loss:4.197795
+epoch:16 steps:8112/11518 loss:4.135072
+epoch:16 steps:8212/11518 loss:4.399744
+epoch:16 steps:8312/11518 loss:4.339246
+epoch:16 steps:8412/11518 loss:4.383465
+epoch:16 steps:8512/11518 loss:4.171074
+epoch:16 steps:8612/11518 loss:4.465724
+epoch:16 steps:8712/11518 loss:4.171584
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:8812/11518 loss:4.648392
+epoch:16 steps:8912/11518 loss:4.485785
+epoch:16 steps:9012/11518 loss:4.541811
+epoch:16 steps:9112/11518 loss:4.343180
+epoch:16 steps:9212/11518 loss:4.282651
+epoch:16 steps:9312/11518 loss:4.016888
+epoch:16 steps:9412/11518 loss:4.236627
+epoch:16 steps:9512/11518 loss:4.131510
+epoch:16 steps:9612/11518 loss:4.634836
+epoch:16 steps:9712/11518 loss:4.101383
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:9812/11518 loss:4.756839
+epoch:16 steps:9912/11518 loss:4.537370
+epoch:16 steps:10012/11518 loss:4.861910
+epoch:16 steps:10112/11518 loss:4.421504
+epoch:16 steps:10212/11518 loss:4.644160
+epoch:16 steps:10312/11518 loss:4.557167
+epoch:16 steps:10412/11518 loss:5.161721
+epoch:16 steps:10512/11518 loss:4.665380
+epoch:16 steps:10612/11518 loss:4.407768
+epoch:16 steps:10712/11518 loss:4.899960
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:16 steps:10812/11518 loss:5.221012
+epoch:16 steps:10912/11518 loss:5.262380
+epoch:16 steps:11012/11518 loss:4.797370
+epoch:16 steps:11112/11518 loss:4.309534
+epoch:16 steps:11212/11518 loss:5.170237
+epoch:16 steps:11312/11518 loss:4.986674
+epoch:16 steps:11412/11518 loss:5.150979
+epoch:16 steps:11512/11518 loss:5.317304
+one more epoch, learning_rate decrease
+epoch:17 steps:94/11518 loss:3.655160
+epoch:17 steps:194/11518 loss:3.895444
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:294/11518 loss:4.534994
+epoch:17 steps:394/11518 loss:3.982393
+epoch:17 steps:494/11518 loss:3.652667
+epoch:17 steps:594/11518 loss:3.151096
+epoch:17 steps:694/11518 loss:3.885460
+epoch:17 steps:794/11518 loss:4.114662
+epoch:17 steps:894/11518 loss:4.033602
+epoch:17 steps:994/11518 loss:4.134106
+epoch:17 steps:1094/11518 loss:3.873717
+epoch:17 steps:1194/11518 loss:4.733019
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:1294/11518 loss:4.110188
+epoch:17 steps:1394/11518 loss:4.082103
+epoch:17 steps:1494/11518 loss:3.682313
+epoch:17 steps:1594/11518 loss:4.297479
+epoch:17 steps:1694/11518 loss:3.661087
+epoch:17 steps:1794/11518 loss:4.305635
+epoch:17 steps:1894/11518 loss:4.007737
+epoch:17 steps:1994/11518 loss:4.148664
+epoch:17 steps:2094/11518 loss:4.245960
+epoch:17 steps:2194/11518 loss:4.173736
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:2294/11518 loss:3.982118
+epoch:17 steps:2394/11518 loss:4.502639
+epoch:17 steps:2494/11518 loss:4.270812
+epoch:17 steps:2594/11518 loss:4.118458
+epoch:17 steps:2694/11518 loss:4.046309
+epoch:17 steps:2794/11518 loss:3.730268
+epoch:17 steps:2894/11518 loss:4.032591
+epoch:17 steps:2994/11518 loss:4.018009
+epoch:17 steps:3094/11518 loss:3.708528
+epoch:17 steps:3194/11518 loss:4.217000
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:3294/11518 loss:4.138350
+epoch:17 steps:3394/11518 loss:4.663146
+epoch:17 steps:3494/11518 loss:4.135307
+epoch:17 steps:3594/11518 loss:4.398610
+epoch:17 steps:3694/11518 loss:4.660644
+epoch:17 steps:3794/11518 loss:4.087859
+epoch:17 steps:3894/11518 loss:5.064266
+epoch:17 steps:3994/11518 loss:3.803121
+epoch:17 steps:4094/11518 loss:3.971679
+epoch:17 steps:4194/11518 loss:4.191564
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:4294/11518 loss:3.793040
+epoch:17 steps:4394/11518 loss:3.741418
+epoch:17 steps:4494/11518 loss:4.142924
+epoch:17 steps:4594/11518 loss:3.785058
+epoch:17 steps:4694/11518 loss:4.368066
+epoch:17 steps:4794/11518 loss:4.185925
+epoch:17 steps:4894/11518 loss:3.831694
+epoch:17 steps:4994/11518 loss:3.841146
+epoch:17 steps:5094/11518 loss:3.817361
+epoch:17 steps:5194/11518 loss:4.440602
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:5294/11518 loss:3.778028
+epoch:17 steps:5394/11518 loss:4.255855
+epoch:17 steps:5494/11518 loss:4.220525
+epoch:17 steps:5594/11518 loss:4.667490
+epoch:17 steps:5694/11518 loss:4.242207
+epoch:17 steps:5794/11518 loss:3.987833
+epoch:17 steps:5894/11518 loss:4.314380
+epoch:17 steps:5994/11518 loss:4.470840
+epoch:17 steps:6094/11518 loss:4.107019
+epoch:17 steps:6194/11518 loss:3.870569
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:6294/11518 loss:4.654648
+epoch:17 steps:6394/11518 loss:3.946416
+epoch:17 steps:6494/11518 loss:4.233797
+epoch:17 steps:6594/11518 loss:3.891476
+epoch:17 steps:6694/11518 loss:3.847958
+epoch:17 steps:6794/11518 loss:4.225508
+epoch:17 steps:6894/11518 loss:4.349202
+epoch:17 steps:6994/11518 loss:4.682915
+epoch:17 steps:7094/11518 loss:4.626568
+epoch:17 steps:7194/11518 loss:4.266638
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:7294/11518 loss:4.665387
+epoch:17 steps:7394/11518 loss:4.643288
+epoch:17 steps:7494/11518 loss:4.401007
+epoch:17 steps:7594/11518 loss:4.591889
+epoch:17 steps:7694/11518 loss:4.377082
+epoch:17 steps:7794/11518 loss:4.360950
+epoch:17 steps:7894/11518 loss:4.506194
+epoch:17 steps:7994/11518 loss:4.205313
+epoch:17 steps:8094/11518 loss:4.451002
+epoch:17 steps:8194/11518 loss:4.543131
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:8294/11518 loss:4.287523
+epoch:17 steps:8394/11518 loss:4.303761
+epoch:17 steps:8494/11518 loss:4.034504
+epoch:17 steps:8594/11518 loss:4.407219
+epoch:17 steps:8694/11518 loss:4.272176
+epoch:17 steps:8794/11518 loss:4.553791
+epoch:17 steps:8894/11518 loss:4.369713
+epoch:17 steps:8994/11518 loss:4.077701
+epoch:17 steps:9094/11518 loss:4.489706
+epoch:17 steps:9194/11518 loss:4.362341
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:9294/11518 loss:4.856261
+epoch:17 steps:9394/11518 loss:4.772970
+epoch:17 steps:9494/11518 loss:4.221332
+epoch:17 steps:9594/11518 loss:4.399406
+epoch:17 steps:9694/11518 loss:5.180484
+epoch:17 steps:9794/11518 loss:4.037910
+epoch:17 steps:9894/11518 loss:4.219817
+epoch:17 steps:9994/11518 loss:4.904255
+epoch:17 steps:10094/11518 loss:4.753674
+epoch:17 steps:10194/11518 loss:4.882229
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:10294/11518 loss:4.264363
+epoch:17 steps:10394/11518 loss:4.945797
+epoch:17 steps:10494/11518 loss:4.683620
+epoch:17 steps:10594/11518 loss:4.7197352018-05-23 05:06:52.776334: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 408471927 get requests, put_count=408472739 evicted_count=58000 eviction_rate=0.000141992 and unsatisfied allocation rate=0.000140347
+
+epoch:17 steps:10694/11518 loss:4.193422
+epoch:17 steps:10794/11518 loss:5.006561
+epoch:17 steps:10894/11518 loss:4.777601
+epoch:17 steps:10994/11518 loss:5.065641
+epoch:17 steps:11094/11518 loss:4.767567
+epoch:17 steps:11194/11518 loss:4.829501
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:17 steps:11294/11518 loss:4.987304
+epoch:17 steps:11394/11518 loss:5.161708
+epoch:17 steps:11494/11518 loss:5.032816
+one more epoch, learning_rate decrease
+epoch:18 steps:76/11518 loss:3.863374
+epoch:18 steps:176/11518 loss:4.075437
+epoch:18 steps:276/11518 loss:3.194472
+epoch:18 steps:376/11518 loss:3.661056
+epoch:18 steps:476/11518 loss:3.978817
+epoch:18 steps:576/11518 loss:3.843840
+epoch:18 steps:676/11518 loss:3.714187
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:776/11518 loss:3.700030
+epoch:18 steps:876/11518 loss:4.254836
+epoch:18 steps:976/11518 loss:3.945186
+epoch:18 steps:1076/11518 loss:4.719247
+epoch:18 steps:1176/11518 loss:4.769161
+epoch:18 steps:1276/11518 loss:3.722230
+epoch:18 steps:1376/11518 loss:3.682849
+epoch:18 steps:1476/11518 loss:4.012982
+epoch:18 steps:1576/11518 loss:4.115180
+epoch:18 steps:1676/11518 loss:3.926240
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:1776/11518 loss:3.879835
+epoch:18 steps:1876/11518 loss:4.153578
+epoch:18 steps:1976/11518 loss:4.579820
+epoch:18 steps:2076/11518 loss:4.003049
+epoch:18 steps:2176/11518 loss:3.573585
+epoch:18 steps:2276/11518 loss:4.089222
+epoch:18 steps:2376/11518 loss:3.974629
+epoch:18 steps:2476/11518 loss:4.610975
+epoch:18 steps:2576/11518 loss:3.498113
+epoch:18 steps:2676/11518 loss:3.828478
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:2776/11518 loss:3.468916
+epoch:18 steps:2876/11518 loss:3.910118
+epoch:18 steps:2976/11518 loss:4.202463
+epoch:18 steps:3076/11518 loss:4.611487
+epoch:18 steps:3176/11518 loss:4.711081
+epoch:18 steps:3276/11518 loss:4.414003
+epoch:18 steps:3376/11518 loss:4.809933
+epoch:18 steps:3476/11518 loss:4.407436
+epoch:18 steps:3576/11518 loss:4.156787
+epoch:18 steps:3676/11518 loss:4.150219
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:3776/11518 loss:3.568397
+epoch:18 steps:3876/11518 loss:4.983997
+epoch:18 steps:3976/11518 loss:3.953331
+epoch:18 steps:4076/11518 loss:3.752287
+epoch:18 steps:4176/11518 loss:4.366394
+epoch:18 steps:4276/11518 loss:4.057839
+epoch:18 steps:4376/11518 loss:3.620446
+epoch:18 steps:4476/11518 loss:4.636123
+epoch:18 steps:4576/11518 loss:4.153452
+epoch:18 steps:4676/11518 loss:4.214098
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:4776/11518 loss:4.096900
+epoch:18 steps:4876/11518 loss:4.022881
+epoch:18 steps:4976/11518 loss:3.930937
+epoch:18 steps:5076/11518 loss:4.253957
+epoch:18 steps:5176/11518 loss:4.037579
+epoch:18 steps:5276/11518 loss:4.636064
+epoch:18 steps:5376/11518 loss:4.055872
+epoch:18 steps:5476/11518 loss:4.084178
+epoch:18 steps:5576/11518 loss:3.786269
+epoch:18 steps:5676/11518 loss:4.246058
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:5776/11518 loss:4.565483
+epoch:18 steps:5876/11518 loss:3.817138
+epoch:18 steps:5976/11518 loss:4.613385
+epoch:18 steps:6076/11518 loss:3.726808
+epoch:18 steps:6176/11518 loss:3.789789
+epoch:18 steps:6276/11518 loss:4.201354
+epoch:18 steps:6376/11518 loss:3.735739
+epoch:18 steps:6476/11518 loss:3.857411
+epoch:18 steps:6576/11518 loss:4.015624
+epoch:18 steps:6676/11518 loss:4.011087
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:6776/11518 loss:4.144867
+epoch:18 steps:6876/11518 loss:4.183455
+epoch:18 steps:6976/11518 loss:4.619658
+epoch:18 steps:7076/11518 loss:4.518556
+epoch:18 steps:7176/11518 loss:4.915430
+epoch:18 steps:7276/11518 loss:4.756220
+epoch:18 steps:7376/11518 loss:4.497680
+epoch:18 steps:7476/11518 loss:3.982721
+epoch:18 steps:7576/11518 loss:3.901333
+epoch:18 steps:7676/11518 loss:4.445656
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:7776/11518 loss:4.457132
+epoch:18 steps:7876/11518 loss:4.443364
+epoch:18 steps:7976/11518 loss:3.854784
+epoch:18 steps:8076/11518 loss:4.471012
+epoch:18 steps:8176/11518 loss:3.905403
+epoch:18 steps:8276/11518 loss:4.346058
+epoch:18 steps:8376/11518 loss:4.017363
+epoch:18 steps:8476/11518 loss:4.568832
+epoch:18 steps:8576/11518 loss:4.082464
+epoch:18 steps:8676/11518 loss:4.139956
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:8776/11518 loss:4.024095
+epoch:18 steps:8876/11518 loss:4.680699
+epoch:18 steps:8976/11518 loss:4.408522
+epoch:18 steps:9076/11518 loss:4.115384
+epoch:18 steps:9176/11518 loss:4.430170
+epoch:18 steps:9276/11518 loss:4.101798
+epoch:18 steps:9376/11518 loss:4.347791
+epoch:18 steps:9476/11518 loss:4.278101
+epoch:18 steps:9576/11518 loss:4.404834
+epoch:18 steps:9676/11518 loss:5.023676
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:9776/11518 loss:3.529442
+epoch:18 steps:9876/11518 loss:5.219926
+epoch:18 steps:9976/11518 loss:4.369246
+epoch:18 steps:10076/11518 loss:4.752575
+epoch:18 steps:10176/11518 loss:4.698401
+epoch:18 steps:10276/11518 loss:4.487497
+epoch:18 steps:10376/11518 loss:4.616305
+epoch:18 steps:10476/11518 loss:3.779936
+epoch:18 steps:10576/11518 loss:4.419667
+epoch:18 steps:10676/11518 loss:4.788754
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:18 steps:10776/11518 loss:4.647691
+epoch:18 steps:10876/11518 loss:4.945184
+epoch:18 steps:10976/11518 loss:4.378761
+epoch:18 steps:11076/11518 loss:4.780875
+epoch:18 steps:11176/11518 loss:4.896892
+epoch:18 steps:11276/11518 loss:5.026555
+epoch:18 steps:11376/11518 loss:5.022042
+epoch:18 steps:11476/11518 loss:5.412634
+one more epoch, learning_rate decrease
+epoch:19 steps:58/11518 loss:4.381980
+epoch:19 steps:158/11518 loss:4.024241
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:258/11518 loss:4.348873
+epoch:19 steps:358/11518 loss:3.585285
+epoch:19 steps:458/11518 loss:3.886255
+epoch:19 steps:558/11518 loss:3.391986
+epoch:19 steps:658/11518 loss:3.832741
+epoch:19 steps:758/11518 loss:4.068555
+epoch:19 steps:858/11518 loss:3.276923
+epoch:19 steps:958/11518 loss:4.132771
+epoch:19 steps:1058/11518 loss:4.536087
+epoch:19 steps:1158/11518 loss:4.548483
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:1258/11518 loss:4.206510
+epoch:19 steps:1358/11518 loss:3.807673
+epoch:19 steps:1458/11518 loss:4.008369
+epoch:19 steps:1558/11518 loss:3.789543
+epoch:19 steps:1658/11518 loss:4.115209
+epoch:19 steps:1758/11518 loss:3.759110
+epoch:19 steps:1858/11518 loss:3.894430
+epoch:19 steps:1958/11518 loss:4.204301
+epoch:19 steps:2058/11518 loss:3.809937
+epoch:19 steps:2158/11518 loss:4.396639
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:2258/11518 loss:4.374843
+epoch:19 steps:2358/11518 loss:3.834146
+epoch:19 steps:2458/11518 loss:4.183071
+epoch:19 steps:2558/11518 loss:4.127465
+epoch:19 steps:2658/11518 loss:3.897742
+epoch:19 steps:2758/11518 loss:4.311901
+epoch:19 steps:2858/11518 loss:4.784782
+epoch:19 steps:2958/11518 loss:3.978800
+epoch:19 steps:3058/11518 loss:3.907541
+epoch:19 steps:3158/11518 loss:4.256586
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:3258/11518 loss:3.811146
+epoch:19 steps:3358/11518 loss:4.697978
+epoch:19 steps:3458/11518 loss:3.953035
+epoch:19 steps:3558/11518 loss:4.294566
+epoch:19 steps:3658/11518 loss:4.317041
+epoch:19 steps:3758/11518 loss:4.350434
+epoch:19 steps:3858/11518 loss:3.536434
+epoch:19 steps:3958/11518 loss:3.886808
+epoch:19 steps:4058/11518 loss:3.870576
+epoch:19 steps:4158/11518 loss:4.399053
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:4258/11518 loss:4.217244
+epoch:19 steps:4358/11518 loss:3.448546
+epoch:19 steps:4458/11518 loss:3.839114
+epoch:19 steps:4558/11518 loss:4.198024
+epoch:19 steps:4658/11518 loss:4.118593
+epoch:19 steps:4758/11518 loss:4.188858
+epoch:19 steps:4858/11518 loss:3.727546
+epoch:19 steps:4958/11518 loss:4.112298
+epoch:19 steps:5058/11518 loss:4.482255
+epoch:19 steps:5158/11518 loss:3.943194
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:5258/11518 loss:4.371044
+epoch:19 steps:5358/11518 loss:4.034926
+epoch:19 steps:5458/11518 loss:3.893751
+epoch:19 steps:5558/11518 loss:3.899698
+epoch:19 steps:5658/11518 loss:4.530865
+epoch:19 steps:5758/11518 loss:3.854929
+epoch:19 steps:5858/11518 loss:4.041900
+epoch:19 steps:5958/11518 loss:3.996415
+epoch:19 steps:6058/11518 loss:3.922391
+epoch:19 steps:6158/11518 loss:3.877045
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:6258/11518 loss:4.435234
+epoch:19 steps:6358/11518 loss:4.054670
+epoch:19 steps:6458/11518 loss:4.413232
+epoch:19 steps:6558/11518 loss:3.851670
+epoch:19 steps:6658/11518 loss:3.982586
+epoch:19 steps:6758/11518 loss:4.101480
+epoch:19 steps:6858/11518 loss:4.977308
+epoch:19 steps:6958/11518 loss:4.473615
+epoch:19 steps:7058/11518 loss:4.277032
+epoch:19 steps:7158/11518 loss:3.456076
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:7258/11518 loss:4.314876
+epoch:19 steps:7358/11518 loss:3.354417
+epoch:19 steps:7458/11518 loss:4.537466
+epoch:19 steps:7558/11518 loss:4.459277
+epoch:19 steps:7658/11518 loss:4.414955
+epoch:19 steps:7758/11518 loss:4.046291
+epoch:19 steps:7858/11518 loss:4.094628
+epoch:19 steps:7958/11518 loss:4.576690
+epoch:19 steps:8058/11518 loss:3.947146
+epoch:19 steps:8158/11518 loss:3.858214
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:8258/11518 loss:4.051769
+epoch:19 steps:8358/11518 loss:4.337106
+epoch:19 steps:8458/11518 loss:4.546234
+epoch:19 steps:8558/11518 loss:3.884641
+epoch:19 steps:8658/11518 loss:4.069689
+epoch:19 steps:8758/11518 loss:4.401458
+epoch:19 steps:8858/11518 loss:4.221091
+epoch:19 steps:8958/11518 loss:4.260602
+epoch:19 steps:9058/11518 loss:4.842682
+epoch:19 steps:9158/11518 loss:4.442738
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:9258/11518 loss:4.323648
+epoch:19 steps:9358/11518 loss:4.099054
+epoch:19 steps:9458/11518 loss:4.272554
+epoch:19 steps:9558/11518 loss:4.705338
+epoch:19 steps:9658/11518 loss:4.462240
+epoch:19 steps:9758/11518 loss:5.089556
+epoch:19 steps:9858/11518 loss:4.576080
+epoch:19 steps:9958/11518 loss:4.203038
+epoch:19 steps:10058/11518 loss:4.561211
+epoch:19 steps:10158/11518 loss:4.789905
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:10258/11518 loss:4.668778
+epoch:19 steps:10358/11518 loss:4.290153
+epoch:19 steps:10458/11518 loss:4.049984
+epoch:19 steps:10558/11518 loss:4.516531
+epoch:19 steps:10658/11518 loss:4.736309
+epoch:19 steps:10758/11518 loss:4.814101
+epoch:19 steps:10858/11518 loss:4.667607
+epoch:19 steps:10958/11518 loss:4.947389
+epoch:19 steps:11058/11518 loss:4.713006
+epoch:19 steps:11158/11518 loss:4.741010
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:19 steps:11258/11518 loss:4.774510
+epoch:19 steps:11358/11518 loss:4.980917
+epoch:19 steps:11458/11518 loss:4.982549
+one more epoch, learning_rate decrease
+epoch:20 steps:40/11518 loss:3.839353
+epoch:20 steps:140/11518 loss:3.893132
+epoch:20 steps:240/11518 loss:3.663642
+epoch:20 steps:340/11518 loss:3.461279
+epoch:20 steps:440/11518 loss:3.690492
+epoch:20 steps:540/11518 loss:3.952332
+epoch:20 steps:640/11518 loss:3.660391
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:740/11518 loss:4.013986
+epoch:20 steps:840/11518 loss:3.640986
+epoch:20 steps:940/11518 loss:3.847586
+epoch:20 steps:1040/11518 loss:4.157359
+epoch:20 steps:1140/11518 loss:4.688611
+epoch:20 steps:1240/11518 loss:4.111896
+epoch:20 steps:1340/11518 loss:3.572418
+epoch:20 steps:1440/11518 loss:4.155756
+epoch:20 steps:1540/11518 loss:3.858544
+epoch:20 steps:1640/11518 loss:3.674932
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:1740/11518 loss:3.874525
+epoch:20 steps:1840/11518 loss:4.147679
+epoch:20 steps:1940/11518 loss:4.071104
+epoch:20 steps:2040/11518 loss:3.569924
+epoch:20 steps:2140/11518 loss:3.819116
+epoch:20 steps:2240/11518 loss:3.641809
+epoch:20 steps:2340/11518 loss:3.722819
+epoch:20 steps:2440/11518 loss:3.995144
+epoch:20 steps:2540/11518 loss:4.473597
+epoch:20 steps:2640/11518 loss:3.907462
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:2740/11518 loss:4.100802
+epoch:20 steps:2840/11518 loss:4.747802
+epoch:20 steps:2940/11518 loss:3.886632
+epoch:20 steps:3040/11518 loss:4.382308
+epoch:20 steps:3140/11518 loss:3.870612
+epoch:20 steps:3240/11518 loss:4.209984
+epoch:20 steps:3340/11518 loss:4.662121
+epoch:20 steps:3440/11518 loss:2.675146
+epoch:20 steps:3540/11518 loss:3.874921
+epoch:20 steps:3640/11518 loss:3.620431
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:3740/11518 loss:4.869220
+epoch:20 steps:3840/11518 loss:4.531262
+epoch:20 steps:3940/11518 loss:4.698256
+epoch:20 steps:4040/11518 loss:4.312047
+epoch:20 steps:4140/11518 loss:4.303586
+epoch:20 steps:4240/11518 loss:3.925631
+epoch:20 steps:4340/11518 loss:4.008535
+epoch:20 steps:4440/11518 loss:3.578938
+epoch:20 steps:4540/11518 loss:3.883969
+epoch:20 steps:4640/11518 loss:4.226305
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:4740/11518 loss:4.013833
+epoch:20 steps:4840/11518 loss:3.785535
+epoch:20 steps:4940/11518 loss:3.871156
+epoch:20 steps:5040/11518 loss:3.958378
+epoch:20 steps:5140/11518 loss:4.245629
+epoch:20 steps:5240/11518 loss:4.542143
+epoch:20 steps:5340/11518 loss:4.235290
+epoch:20 steps:5440/11518 loss:3.985390
+epoch:20 steps:5540/11518 loss:4.091593
+epoch:20 steps:5640/11518 loss:4.028808
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:5740/11518 loss:4.244694
+epoch:20 steps:5840/11518 loss:4.266300
+epoch:20 steps:5940/11518 loss:3.761013
+epoch:20 steps:6040/11518 loss:3.826662
+epoch:20 steps:6140/11518 loss:4.053736
+epoch:20 steps:6240/11518 loss:3.878985
+epoch:20 steps:6340/11518 loss:3.875041
+epoch:20 steps:6440/11518 loss:4.461728
+epoch:20 steps:6540/11518 loss:3.934433
+epoch:20 steps:6640/11518 loss:3.927861
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:6740/11518 loss:4.217273
+epoch:20 steps:6840/11518 loss:4.301045
+epoch:20 steps:6940/11518 loss:3.536123
+epoch:20 steps:7040/11518 loss:4.532033
+epoch:20 steps:7140/11518 loss:4.400643
+epoch:20 steps:7240/11518 loss:4.640105
+epoch:20 steps:7340/11518 loss:4.991234
+epoch:20 steps:7440/11518 loss:4.344416
+epoch:20 steps:7540/11518 loss:3.801497
+epoch:20 steps:7640/11518 loss:4.511361
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:7740/11518 loss:4.227852
+epoch:20 steps:7840/11518 loss:4.380074
+epoch:20 steps:7940/11518 loss:4.373947
+epoch:20 steps:8040/11518 loss:4.313954
+epoch:20 steps:8140/11518 loss:3.760683
+epoch:20 steps:8240/11518 loss:4.627810
+epoch:20 steps:8340/11518 loss:4.175971
+epoch:20 steps:8440/11518 loss:4.233976
+epoch:20 steps:8540/11518 loss:4.300811
+epoch:20 steps:8640/11518 loss:4.541594
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:8740/11518 loss:4.334280
+epoch:20 steps:8840/11518 loss:4.240809
+epoch:20 steps:8940/11518 loss:4.369558
+epoch:20 steps:9040/11518 loss:4.282390
+epoch:20 steps:9140/11518 loss:4.599977
+epoch:20 steps:9240/11518 loss:4.439450
+epoch:20 steps:9340/11518 loss:4.382792
+epoch:20 steps:9440/11518 loss:4.471435
+epoch:20 steps:9540/11518 loss:4.754771
+epoch:20 steps:9640/11518 loss:4.593258
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:9740/11518 loss:4.488607
+epoch:20 steps:9840/11518 loss:4.436316
+epoch:20 steps:9940/11518 loss:4.520340
+epoch:20 steps:10040/11518 loss:4.317465
+epoch:20 steps:10140/11518 loss:4.4392982018-05-23 05:53:55.099517: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 476623920 get requests, put_count=476623216 evicted_count=68000 eviction_rate=0.00014267 and unsatisfied allocation rate=0.000144441
+
+epoch:20 steps:10240/11518 loss:4.462124
+epoch:20 steps:10340/11518 loss:4.400670
+epoch:20 steps:10440/11518 loss:4.914309
+epoch:20 steps:10540/11518 loss:4.144297
+epoch:20 steps:10640/11518 loss:4.457455
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:20 steps:10740/11518 loss:4.483320
+epoch:20 steps:10840/11518 loss:4.710544
+epoch:20 steps:10940/11518 loss:4.537097
+epoch:20 steps:11040/11518 loss:5.045638
+epoch:20 steps:11140/11518 loss:5.057999
+epoch:20 steps:11240/11518 loss:4.947190
+epoch:20 steps:11340/11518 loss:4.775146
+epoch:20 steps:11440/11518 loss:5.133582
+one more epoch, learning_rate decrease
+epoch:21 steps:22/11518 loss:0.000643
+epoch:21 steps:122/11518 loss:3.500257
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:222/11518 loss:3.873511
+epoch:21 steps:322/11518 loss:3.898623
+epoch:21 steps:422/11518 loss:3.730146
+epoch:21 steps:522/11518 loss:3.845277
+epoch:21 steps:622/11518 loss:3.651722
+epoch:21 steps:722/11518 loss:3.600418
+epoch:21 steps:822/11518 loss:4.296470
+epoch:21 steps:922/11518 loss:3.524747
+epoch:21 steps:1022/11518 loss:4.133179
+epoch:21 steps:1122/11518 loss:4.454675
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:1222/11518 loss:4.280766
+epoch:21 steps:1322/11518 loss:3.750202
+epoch:21 steps:1422/11518 loss:4.486744
+epoch:21 steps:1522/11518 loss:3.651872
+epoch:21 steps:1622/11518 loss:3.931072
+epoch:21 steps:1722/11518 loss:3.929830
+epoch:21 steps:1822/11518 loss:4.216363
+epoch:21 steps:1922/11518 loss:4.359652
+epoch:21 steps:2022/11518 loss:3.820086
+epoch:21 steps:2122/11518 loss:4.105141
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:2222/11518 loss:4.015581
+epoch:21 steps:2322/11518 loss:4.054002
+epoch:21 steps:2422/11518 loss:3.727111
+epoch:21 steps:2522/11518 loss:3.996702
+epoch:21 steps:2622/11518 loss:3.780763
+epoch:21 steps:2722/11518 loss:4.020600
+epoch:21 steps:2822/11518 loss:3.987946
+epoch:21 steps:2922/11518 loss:4.546019
+epoch:21 steps:3022/11518 loss:3.415556
+epoch:21 steps:3122/11518 loss:4.280263
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:3222/11518 loss:3.803466
+epoch:21 steps:3322/11518 loss:4.179006
+epoch:21 steps:3422/11518 loss:4.675420
+epoch:21 steps:3522/11518 loss:4.421832
+epoch:21 steps:3622/11518 loss:4.414560
+epoch:21 steps:3722/11518 loss:5.054101
+epoch:21 steps:3822/11518 loss:4.066714
+epoch:21 steps:3922/11518 loss:4.431312
+epoch:21 steps:4022/11518 loss:4.589742
+epoch:21 steps:4122/11518 loss:4.070960
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:4222/11518 loss:4.239716
+epoch:21 steps:4322/11518 loss:3.982059
+epoch:21 steps:4422/11518 loss:4.075538
+epoch:21 steps:4522/11518 loss:4.045004
+epoch:21 steps:4622/11518 loss:4.059630
+epoch:21 steps:4722/11518 loss:4.043441
+epoch:21 steps:4822/11518 loss:4.107108
+epoch:21 steps:4922/11518 loss:4.012971
+epoch:21 steps:5022/11518 loss:3.752631
+epoch:21 steps:5122/11518 loss:4.262852
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:5222/11518 loss:4.398818
+epoch:21 steps:5322/11518 loss:4.091481
+epoch:21 steps:5422/11518 loss:4.515423
+epoch:21 steps:5522/11518 loss:3.933527
+epoch:21 steps:5622/11518 loss:3.935104
+epoch:21 steps:5722/11518 loss:3.761383
+epoch:21 steps:5822/11518 loss:4.054830
+epoch:21 steps:5922/11518 loss:3.464296
+epoch:21 steps:6022/11518 loss:4.133400
+epoch:21 steps:6122/11518 loss:3.880484
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:6222/11518 loss:4.008735
+epoch:21 steps:6322/11518 loss:4.117545
+epoch:21 steps:6422/11518 loss:4.132821
+epoch:21 steps:6522/11518 loss:4.203915
+epoch:21 steps:6622/11518 loss:3.926007
+epoch:21 steps:6722/11518 loss:3.931336
+epoch:21 steps:6822/11518 loss:4.413118
+epoch:21 steps:6922/11518 loss:4.598135
+epoch:21 steps:7022/11518 loss:4.292437
+epoch:21 steps:7122/11518 loss:4.044477
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:7222/11518 loss:4.499829
+epoch:21 steps:7322/11518 loss:4.706812
+epoch:21 steps:7422/11518 loss:4.495784
+epoch:21 steps:7522/11518 loss:4.367341
+epoch:21 steps:7622/11518 loss:4.280441
+epoch:21 steps:7722/11518 loss:4.422294
+epoch:21 steps:7822/11518 loss:4.247886
+epoch:21 steps:7922/11518 loss:4.544024
+epoch:21 steps:8022/11518 loss:4.289382
+epoch:21 steps:8122/11518 loss:4.405170
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:8222/11518 loss:4.620697
+epoch:21 steps:8322/11518 loss:4.307668
+epoch:21 steps:8422/11518 loss:4.474129
+epoch:21 steps:8522/11518 loss:4.363233
+epoch:21 steps:8622/11518 loss:4.387590
+epoch:21 steps:8722/11518 loss:4.343696
+epoch:21 steps:8822/11518 loss:4.392071
+epoch:21 steps:8922/11518 loss:4.835532
+epoch:21 steps:9022/11518 loss:4.381988
+epoch:21 steps:9122/11518 loss:4.865744
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:9222/11518 loss:4.263666
+epoch:21 steps:9322/11518 loss:4.491100
+epoch:21 steps:9422/11518 loss:4.801075
+epoch:21 steps:9522/11518 loss:4.129823
+epoch:21 steps:9622/11518 loss:4.687721
+epoch:21 steps:9722/11518 loss:4.266387
+epoch:21 steps:9822/11518 loss:4.440054
+epoch:21 steps:9922/11518 loss:5.250813
+epoch:21 steps:10022/11518 loss:4.383522
+epoch:21 steps:10122/11518 loss:4.486466
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:10222/11518 loss:4.793531
+epoch:21 steps:10322/11518 loss:4.868685
+epoch:21 steps:10422/11518 loss:4.540156
+epoch:21 steps:10522/11518 loss:4.800591
+epoch:21 steps:10622/11518 loss:4.553289
+epoch:21 steps:10722/11518 loss:4.871027
+epoch:21 steps:10822/11518 loss:4.758101
+epoch:21 steps:10922/11518 loss:4.435447
+epoch:21 steps:11022/11518 loss:4.654098
+epoch:21 steps:11122/11518 loss:5.189758
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:21 steps:11222/11518 loss:4.859342
+epoch:21 steps:11322/11518 loss:4.672628
+epoch:21 steps:11422/11518 loss:5.036592
+one more epoch, learning_rate decrease
+epoch:22 steps:4/11518 loss:1.677957
+epoch:22 steps:104/11518 loss:3.065706
+epoch:22 steps:204/11518 loss:3.640979
+epoch:22 steps:304/11518 loss:4.214672
+epoch:22 steps:404/11518 loss:3.653545
+epoch:22 steps:504/11518 loss:3.594268
+epoch:22 steps:604/11518 loss:4.031188
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:704/11518 loss:3.735924
+epoch:22 steps:804/11518 loss:4.159096
+epoch:22 steps:904/11518 loss:3.590350
+epoch:22 steps:1004/11518 loss:4.481701
+epoch:22 steps:1104/11518 loss:4.145697
+epoch:22 steps:1204/11518 loss:3.709038
+epoch:22 steps:1304/11518 loss:4.233130
+epoch:22 steps:1404/11518 loss:3.763087
+epoch:22 steps:1504/11518 loss:3.786521
+epoch:22 steps:1604/11518 loss:4.033803
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:1704/11518 loss:3.916460
+epoch:22 steps:1804/11518 loss:4.391569
+epoch:22 steps:1904/11518 loss:3.738214
+epoch:22 steps:2004/11518 loss:4.564568
+epoch:22 steps:2104/11518 loss:4.016164
+epoch:22 steps:2204/11518 loss:4.118974
+epoch:22 steps:2304/11518 loss:3.817388
+epoch:22 steps:2404/11518 loss:4.179549
+epoch:22 steps:2504/11518 loss:4.239591
+epoch:22 steps:2604/11518 loss:4.434536
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:2704/11518 loss:3.646805
+epoch:22 steps:2804/11518 loss:4.149223
+epoch:22 steps:2904/11518 loss:4.540187
+epoch:22 steps:3004/11518 loss:3.593232
+epoch:22 steps:3104/11518 loss:3.536535
+epoch:22 steps:3204/11518 loss:4.037352
+epoch:22 steps:3304/11518 loss:4.229813
+epoch:22 steps:3404/11518 loss:4.361196
+epoch:22 steps:3504/11518 loss:3.854598
+epoch:22 steps:3604/11518 loss:3.464445
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:3704/11518 loss:4.164428
+epoch:22 steps:3804/11518 loss:3.592268
+epoch:22 steps:3904/11518 loss:4.445478
+epoch:22 steps:4004/11518 loss:4.120536
+epoch:22 steps:4104/11518 loss:4.648490
+epoch:22 steps:4204/11518 loss:4.559891
+epoch:22 steps:4304/11518 loss:3.778722
+epoch:22 steps:4404/11518 loss:4.094041
+epoch:22 steps:4504/11518 loss:4.483944
+epoch:22 steps:4604/11518 loss:4.241233
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:4704/11518 loss:4.433872
+epoch:22 steps:4804/11518 loss:3.885206
+epoch:22 steps:4904/11518 loss:3.900133
+epoch:22 steps:5004/11518 loss:3.509062
+epoch:22 steps:5104/11518 loss:4.524107
+epoch:22 steps:5204/11518 loss:3.737038
+epoch:22 steps:5304/11518 loss:3.887508
+epoch:22 steps:5404/11518 loss:4.259634
+epoch:22 steps:5504/11518 loss:3.929066
+epoch:22 steps:5604/11518 loss:3.704271
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:5704/11518 loss:3.990461
+epoch:22 steps:5804/11518 loss:4.302776
+epoch:22 steps:5904/11518 loss:4.235552
+epoch:22 steps:6004/11518 loss:4.438702
+epoch:22 steps:6104/11518 loss:4.003321
+epoch:22 steps:6204/11518 loss:4.244065
+epoch:22 steps:6304/11518 loss:3.673001
+epoch:22 steps:6404/11518 loss:4.073080
+epoch:22 steps:6504/11518 loss:3.970318
+epoch:22 steps:6604/11518 loss:3.829592
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:6704/11518 loss:4.108617
+epoch:22 steps:6804/11518 loss:4.058784
+epoch:22 steps:6904/11518 loss:3.994406
+epoch:22 steps:7004/11518 loss:4.200753
+epoch:22 steps:7104/11518 loss:4.737033
+epoch:22 steps:7204/11518 loss:4.403500
+epoch:22 steps:7304/11518 loss:4.835916
+epoch:22 steps:7404/11518 loss:4.566301
+epoch:22 steps:7504/11518 loss:4.154301
+epoch:22 steps:7604/11518 loss:4.607982
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:7704/11518 loss:3.993467
+epoch:22 steps:7804/11518 loss:4.364429
+epoch:22 steps:7904/11518 loss:4.368043
+epoch:22 steps:8004/11518 loss:3.837587
+epoch:22 steps:8104/11518 loss:4.221831
+epoch:22 steps:8204/11518 loss:4.628117
+epoch:22 steps:8304/11518 loss:4.332707
+epoch:22 steps:8404/11518 loss:4.241261
+epoch:22 steps:8504/11518 loss:4.267746
+epoch:22 steps:8604/11518 loss:4.453485
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:8704/11518 loss:4.142449
+epoch:22 steps:8804/11518 loss:4.436692
+epoch:22 steps:8904/11518 loss:4.160815
+epoch:22 steps:9004/11518 loss:4.315322
+epoch:22 steps:9104/11518 loss:4.248139
+epoch:22 steps:9204/11518 loss:4.200974
+epoch:22 steps:9304/11518 loss:4.514201
+epoch:22 steps:9404/11518 loss:4.643421
+epoch:22 steps:9504/11518 loss:4.018743
+epoch:22 steps:9604/11518 loss:4.094878
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:9704/11518 loss:3.373989
+epoch:22 steps:9804/11518 loss:3.683837
+epoch:22 steps:9904/11518 loss:4.317426
+epoch:22 steps:10004/11518 loss:4.535263
+epoch:22 steps:10104/11518 loss:4.476639
+epoch:22 steps:10204/11518 loss:4.618532
+epoch:22 steps:10304/11518 loss:3.774135
+epoch:22 steps:10404/11518 loss:4.220518
+epoch:22 steps:10504/11518 loss:4.605918
+epoch:22 steps:10604/11518 loss:4.642632
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:22 steps:10704/11518 loss:4.664925
+epoch:22 steps:10804/11518 loss:5.429481
+epoch:22 steps:10904/11518 loss:4.922187
+epoch:22 steps:11004/11518 loss:4.763208
+epoch:22 steps:11104/11518 loss:4.836475
+epoch:22 steps:11204/11518 loss:5.449479
+epoch:22 steps:11304/11518 loss:4.864543
+epoch:22 steps:11404/11518 loss:5.561214
+epoch:22 steps:11504/11518 loss:5.300709
+one more epoch, learning_rate decrease
+epoch:23 steps:86/11518 loss:3.348829
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:186/11518 loss:3.746854
+epoch:23 steps:286/11518 loss:4.187615
+epoch:23 steps:386/11518 loss:3.479933
+epoch:23 steps:486/11518 loss:3.561981
+epoch:23 steps:586/11518 loss:3.458279
+epoch:23 steps:686/11518 loss:4.069032
+epoch:23 steps:786/11518 loss:4.033328
+epoch:23 steps:886/11518 loss:3.653942
+epoch:23 steps:986/11518 loss:4.387220
+epoch:23 steps:1086/11518 loss:4.273884
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:1186/11518 loss:3.443419
+epoch:23 steps:1286/11518 loss:4.098495
+epoch:23 steps:1386/11518 loss:4.159127
+epoch:23 steps:1486/11518 loss:3.703185
+epoch:23 steps:1586/11518 loss:4.260332
+epoch:23 steps:1686/11518 loss:4.325634
+epoch:23 steps:1786/11518 loss:3.744339
+epoch:23 steps:1886/11518 loss:4.101264
+epoch:23 steps:1986/11518 loss:3.939804
+epoch:23 steps:2086/11518 loss:3.902373
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:2186/11518 loss:3.691621
+epoch:23 steps:2286/11518 loss:3.926425
+epoch:23 steps:2386/11518 loss:3.443228
+epoch:23 steps:2486/11518 loss:4.444081
+epoch:23 steps:2586/11518 loss:3.904321
+epoch:23 steps:2686/11518 loss:3.727089
+epoch:23 steps:2786/11518 loss:3.919349
+epoch:23 steps:2886/11518 loss:4.321035
+epoch:23 steps:2986/11518 loss:4.250230
+epoch:23 steps:3086/11518 loss:4.311402
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:3186/11518 loss:4.340659
+epoch:23 steps:3286/11518 loss:4.430166
+epoch:23 steps:3386/11518 loss:4.407502
+epoch:23 steps:3486/11518 loss:3.975405
+epoch:23 steps:3586/11518 loss:4.058288
+epoch:23 steps:3686/11518 loss:3.893602
+epoch:23 steps:3786/11518 loss:4.186355
+epoch:23 steps:3886/11518 loss:3.505540
+epoch:23 steps:3986/11518 loss:4.158399
+epoch:23 steps:4086/11518 loss:4.281503
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:4186/11518 loss:4.525695
+epoch:23 steps:4286/11518 loss:4.335583
+epoch:23 steps:4386/11518 loss:3.909448
+epoch:23 steps:4486/11518 loss:4.012806
+epoch:23 steps:4586/11518 loss:4.270624
+epoch:23 steps:4686/11518 loss:3.641006
+epoch:23 steps:4786/11518 loss:3.620231
+epoch:23 steps:4886/11518 loss:4.030473
+epoch:23 steps:4986/11518 loss:3.989318
+epoch:23 steps:5086/11518 loss:4.108523
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:5186/11518 loss:4.517869
+epoch:23 steps:5286/11518 loss:4.161170
+epoch:23 steps:5386/11518 loss:4.407035
+epoch:23 steps:5486/11518 loss:3.913291
+epoch:23 steps:5586/11518 loss:3.748339
+epoch:23 steps:5686/11518 loss:4.376000
+epoch:23 steps:5786/11518 loss:4.514196
+epoch:23 steps:5886/11518 loss:4.053235
+epoch:23 steps:5986/11518 loss:4.536489
+epoch:23 steps:6086/11518 loss:4.042198
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:6186/11518 loss:4.060405
+epoch:23 steps:6286/11518 loss:4.537591
+epoch:23 steps:6386/11518 loss:3.616239
+epoch:23 steps:6486/11518 loss:4.113302
+epoch:23 steps:6586/11518 loss:3.850629
+epoch:23 steps:6686/11518 loss:4.081436
+epoch:23 steps:6786/11518 loss:4.440651
+epoch:23 steps:6886/11518 loss:3.535450
+epoch:23 steps:6986/11518 loss:4.755455
+epoch:23 steps:7086/11518 loss:4.332947
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:7186/11518 loss:4.734779
+epoch:23 steps:7286/11518 loss:4.552872
+epoch:23 steps:7386/11518 loss:4.092302
+epoch:23 steps:7486/11518 loss:4.551244
+epoch:23 steps:7586/11518 loss:4.267929
+epoch:23 steps:7686/11518 loss:4.261431
+epoch:23 steps:7786/11518 loss:4.326628
+epoch:23 steps:7886/11518 loss:4.702559
+epoch:23 steps:7986/11518 loss:4.051475
+epoch:23 steps:8086/11518 loss:4.365732
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:8186/11518 loss:4.528607
+epoch:23 steps:8286/11518 loss:4.191508
+epoch:23 steps:8386/11518 loss:4.275724
+epoch:23 steps:8486/11518 loss:4.262620
+epoch:23 steps:8586/11518 loss:4.708746
+epoch:23 steps:8686/11518 loss:4.370524
+epoch:23 steps:8786/11518 loss:4.379361
+epoch:23 steps:8886/11518 loss:4.396620
+epoch:23 steps:8986/11518 loss:4.490974
+epoch:23 steps:9086/11518 loss:3.974628
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:9186/11518 loss:4.433694
+epoch:23 steps:9286/11518 loss:4.109493
+epoch:23 steps:9386/11518 loss:4.344532
+epoch:23 steps:9486/11518 loss:3.935468
+epoch:23 steps:9586/11518 loss:4.119253
+epoch:23 steps:9686/11518 loss:3.2945782018-05-23 06:41:07.546984: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 544718347 get requests, put_count=544717808 evicted_count=78000 eviction_rate=0.000143193 and unsatisfied allocation rate=0.00014444
+
+epoch:23 steps:9786/11518 loss:4.183781
+epoch:23 steps:9886/11518 loss:4.549443
+epoch:23 steps:9986/11518 loss:4.006722
+epoch:23 steps:10086/11518 loss:4.407651
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:10186/11518 loss:4.380515
+epoch:23 steps:10286/11518 loss:4.931843
+epoch:23 steps:10386/11518 loss:4.759605
+epoch:23 steps:10486/11518 loss:4.475799
+epoch:23 steps:10586/11518 loss:4.461987
+epoch:23 steps:10686/11518 loss:4.630925
+epoch:23 steps:10786/11518 loss:4.591381
+epoch:23 steps:10886/11518 loss:4.845918
+epoch:23 steps:10986/11518 loss:4.865770
+epoch:23 steps:11086/11518 loss:5.000059
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:23 steps:11186/11518 loss:4.626827
+epoch:23 steps:11286/11518 loss:4.928472
+epoch:23 steps:11386/11518 loss:4.940671
+epoch:23 steps:11486/11518 loss:5.142534
+one more epoch, learning_rate decrease
+epoch:24 steps:68/11518 loss:3.968466
+epoch:24 steps:168/11518 loss:3.668828
+epoch:24 steps:268/11518 loss:3.513886
+epoch:24 steps:368/11518 loss:3.947072
+epoch:24 steps:468/11518 loss:3.881965
+epoch:24 steps:568/11518 loss:3.099346
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:668/11518 loss:3.662451
+epoch:24 steps:768/11518 loss:3.465978
+epoch:24 steps:868/11518 loss:3.903910
+epoch:24 steps:968/11518 loss:3.766687
+epoch:24 steps:1068/11518 loss:4.520531
+epoch:24 steps:1168/11518 loss:4.099735
+epoch:24 steps:1268/11518 loss:3.633825
+epoch:24 steps:1368/11518 loss:3.594171
+epoch:24 steps:1468/11518 loss:3.563273
+epoch:24 steps:1568/11518 loss:4.209959
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:1668/11518 loss:4.046585
+epoch:24 steps:1768/11518 loss:4.354242
+epoch:24 steps:1868/11518 loss:4.075455
+epoch:24 steps:1968/11518 loss:3.977350
+epoch:24 steps:2068/11518 loss:4.138880
+epoch:24 steps:2168/11518 loss:3.847230
+epoch:24 steps:2268/11518 loss:4.222841
+epoch:24 steps:2368/11518 loss:3.617068
+epoch:24 steps:2468/11518 loss:4.050238
+epoch:24 steps:2568/11518 loss:3.599082
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:2668/11518 loss:3.747266
+epoch:24 steps:2768/11518 loss:3.773026
+epoch:24 steps:2868/11518 loss:4.349430
+epoch:24 steps:2968/11518 loss:3.445230
+epoch:24 steps:3068/11518 loss:3.688040
+epoch:24 steps:3168/11518 loss:4.148322
+epoch:24 steps:3268/11518 loss:3.915081
+epoch:24 steps:3368/11518 loss:4.849219
+epoch:24 steps:3468/11518 loss:4.078603
+epoch:24 steps:3568/11518 loss:3.986704
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:3668/11518 loss:3.899104
+epoch:24 steps:3768/11518 loss:4.732059
+epoch:24 steps:3868/11518 loss:4.195229
+epoch:24 steps:3968/11518 loss:4.076395
+epoch:24 steps:4068/11518 loss:4.368956
+epoch:24 steps:4168/11518 loss:3.999612
+epoch:24 steps:4268/11518 loss:4.077298
+epoch:24 steps:4368/11518 loss:3.427211
+epoch:24 steps:4468/11518 loss:4.125288
+epoch:24 steps:4568/11518 loss:4.073008
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:4668/11518 loss:4.292773
+epoch:24 steps:4768/11518 loss:3.626435
+epoch:24 steps:4868/11518 loss:3.977082
+epoch:24 steps:4968/11518 loss:4.056317
+epoch:24 steps:5068/11518 loss:4.287899
+epoch:24 steps:5168/11518 loss:4.521619
+epoch:24 steps:5268/11518 loss:4.291124
+epoch:24 steps:5368/11518 loss:4.175765
+epoch:24 steps:5468/11518 loss:3.742460
+epoch:24 steps:5568/11518 loss:4.001823
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:5668/11518 loss:4.410770
+epoch:24 steps:5768/11518 loss:3.827317
+epoch:24 steps:5868/11518 loss:3.785949
+epoch:24 steps:5968/11518 loss:4.112185
+epoch:24 steps:6068/11518 loss:3.830532
+epoch:24 steps:6168/11518 loss:4.020411
+epoch:24 steps:6268/11518 loss:4.285664
+epoch:24 steps:6368/11518 loss:4.128237
+epoch:24 steps:6468/11518 loss:4.207192
+epoch:24 steps:6568/11518 loss:4.130943
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:6668/11518 loss:3.962310
+epoch:24 steps:6768/11518 loss:3.948812
+epoch:24 steps:6868/11518 loss:4.283713
+epoch:24 steps:6968/11518 loss:3.460601
+epoch:24 steps:7068/11518 loss:3.881765
+epoch:24 steps:7168/11518 loss:4.404120
+epoch:24 steps:7268/11518 loss:4.362412
+epoch:24 steps:7368/11518 loss:4.520623
+epoch:24 steps:7468/11518 loss:4.031926
+epoch:24 steps:7568/11518 loss:4.316302
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:7668/11518 loss:4.284024
+epoch:24 steps:7768/11518 loss:4.456491
+epoch:24 steps:7868/11518 loss:4.491359
+epoch:24 steps:7968/11518 loss:4.232380
+epoch:24 steps:8068/11518 loss:4.312685
+epoch:24 steps:8168/11518 loss:3.749043
+epoch:24 steps:8268/11518 loss:3.936748
+epoch:24 steps:8368/11518 loss:4.152243
+epoch:24 steps:8468/11518 loss:4.253144
+epoch:24 steps:8568/11518 loss:4.267198
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:8668/11518 loss:4.436553
+epoch:24 steps:8768/11518 loss:4.054004
+epoch:24 steps:8868/11518 loss:4.562211
+epoch:24 steps:8968/11518 loss:4.107083
+epoch:24 steps:9068/11518 loss:4.622813
+epoch:24 steps:9168/11518 loss:4.666104
+epoch:24 steps:9268/11518 loss:4.600675
+epoch:24 steps:9368/11518 loss:4.316100
+epoch:24 steps:9468/11518 loss:4.276840
+epoch:24 steps:9568/11518 loss:4.287586
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:9668/11518 loss:5.082273
+epoch:24 steps:9768/11518 loss:4.366889
+epoch:24 steps:9868/11518 loss:4.562868
+epoch:24 steps:9968/11518 loss:4.683689
+epoch:24 steps:10068/11518 loss:4.340979
+epoch:24 steps:10168/11518 loss:4.915100
+epoch:24 steps:10268/11518 loss:4.807416
+epoch:24 steps:10368/11518 loss:4.556796
+epoch:24 steps:10468/11518 loss:3.969670
+epoch:24 steps:10568/11518 loss:5.056869
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:24 steps:10668/11518 loss:4.207966
+epoch:24 steps:10768/11518 loss:4.693238
+epoch:24 steps:10868/11518 loss:4.724167
+epoch:24 steps:10968/11518 loss:4.855371
+epoch:24 steps:11068/11518 loss:5.125593
+epoch:24 steps:11168/11518 loss:5.130639
+epoch:24 steps:11268/11518 loss:5.163237
+epoch:24 steps:11368/11518 loss:4.711006
+epoch:24 steps:11468/11518 loss:5.204904
+one more epoch, learning_rate decrease
+epoch:25 steps:50/11518 loss:4.081382
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:150/11518 loss:2.720517
+epoch:25 steps:250/11518 loss:4.192538
+epoch:25 steps:350/11518 loss:3.511241
+epoch:25 steps:450/11518 loss:3.506293
+epoch:25 steps:550/11518 loss:2.895197
+epoch:25 steps:650/11518 loss:3.517897
+epoch:25 steps:750/11518 loss:4.076804
+epoch:25 steps:850/11518 loss:3.348253
+epoch:25 steps:950/11518 loss:3.976890
+epoch:25 steps:1050/11518 loss:3.989157
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:1150/11518 loss:4.350490
+epoch:25 steps:1250/11518 loss:3.949342
+epoch:25 steps:1350/11518 loss:3.727142
+epoch:25 steps:1450/11518 loss:3.781653
+epoch:25 steps:1550/11518 loss:3.674237
+epoch:25 steps:1650/11518 loss:3.907815
+epoch:25 steps:1750/11518 loss:4.264547
+epoch:25 steps:1850/11518 loss:3.611760
+epoch:25 steps:1950/11518 loss:4.234355
+epoch:25 steps:2050/11518 loss:3.479052
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:2150/11518 loss:3.610957
+epoch:25 steps:2250/11518 loss:3.820799
+epoch:25 steps:2350/11518 loss:4.219436
+epoch:25 steps:2450/11518 loss:4.155503
+epoch:25 steps:2550/11518 loss:4.006944
+epoch:25 steps:2650/11518 loss:4.081067
+epoch:25 steps:2750/11518 loss:3.797807
+epoch:25 steps:2850/11518 loss:4.397753
+epoch:25 steps:2950/11518 loss:4.094081
+epoch:25 steps:3050/11518 loss:4.039260
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:3150/11518 loss:4.129552
+epoch:25 steps:3250/11518 loss:3.611951
+epoch:25 steps:3350/11518 loss:4.256460
+epoch:25 steps:3450/11518 loss:4.255528
+epoch:25 steps:3550/11518 loss:4.257015
+epoch:25 steps:3650/11518 loss:4.304121
+epoch:25 steps:3750/11518 loss:4.399469
+epoch:25 steps:3850/11518 loss:3.968054
+epoch:25 steps:3950/11518 loss:4.544314
+epoch:25 steps:4050/11518 loss:4.048172
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:4150/11518 loss:4.471245
+epoch:25 steps:4250/11518 loss:4.162534
+epoch:25 steps:4350/11518 loss:4.072626
+epoch:25 steps:4450/11518 loss:4.023787
+epoch:25 steps:4550/11518 loss:4.290965
+epoch:25 steps:4650/11518 loss:3.873846
+epoch:25 steps:4750/11518 loss:3.854728
+epoch:25 steps:4850/11518 loss:3.697833
+epoch:25 steps:4950/11518 loss:3.687879
+epoch:25 steps:5050/11518 loss:3.833966
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:5150/11518 loss:4.311768
+epoch:25 steps:5250/11518 loss:4.653929
+epoch:25 steps:5350/11518 loss:3.781449
+epoch:25 steps:5450/11518 loss:3.708767
+epoch:25 steps:5550/11518 loss:4.162303
+epoch:25 steps:5650/11518 loss:3.435230
+epoch:25 steps:5750/11518 loss:3.831932
+epoch:25 steps:5850/11518 loss:3.918903
+epoch:25 steps:5950/11518 loss:4.058719
+epoch:25 steps:6050/11518 loss:3.987072
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:6150/11518 loss:3.768484
+epoch:25 steps:6250/11518 loss:4.320747
+epoch:25 steps:6350/11518 loss:3.928921
+epoch:25 steps:6450/11518 loss:4.507228
+epoch:25 steps:6550/11518 loss:4.567248
+epoch:25 steps:6650/11518 loss:4.266988
+epoch:25 steps:6750/11518 loss:4.847594
+epoch:25 steps:6850/11518 loss:4.106761
+epoch:25 steps:6950/11518 loss:4.376042
+epoch:25 steps:7050/11518 loss:4.573660
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:7150/11518 loss:4.335827
+epoch:25 steps:7250/11518 loss:4.623489
+epoch:25 steps:7350/11518 loss:4.255637
+epoch:25 steps:7450/11518 loss:3.983351
+epoch:25 steps:7550/11518 loss:4.507107
+epoch:25 steps:7650/11518 loss:4.360976
+epoch:25 steps:7750/11518 loss:4.361254
+epoch:25 steps:7850/11518 loss:4.349869
+epoch:25 steps:7950/11518 loss:4.171156
+epoch:25 steps:8050/11518 loss:4.375642
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:8150/11518 loss:4.268985
+epoch:25 steps:8250/11518 loss:4.532629
+epoch:25 steps:8350/11518 loss:4.046373
+epoch:25 steps:8450/11518 loss:4.235682
+epoch:25 steps:8550/11518 loss:3.894550
+epoch:25 steps:8650/11518 loss:4.529731
+epoch:25 steps:8750/11518 loss:4.309460
+epoch:25 steps:8850/11518 loss:4.088570
+epoch:25 steps:8950/11518 loss:4.349006
+epoch:25 steps:9050/11518 loss:4.311614
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:9150/11518 loss:4.400597
+epoch:25 steps:9250/11518 loss:4.217017
+epoch:25 steps:9350/11518 loss:4.113794
+epoch:25 steps:9450/11518 loss:4.065678
+epoch:25 steps:9550/11518 loss:4.068571
+epoch:25 steps:9650/11518 loss:3.738521
+epoch:25 steps:9750/11518 loss:4.500219
+epoch:25 steps:9850/11518 loss:4.611111
+epoch:25 steps:9950/11518 loss:3.782361
+epoch:25 steps:10050/11518 loss:4.274417
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:10150/11518 loss:4.707581
+epoch:25 steps:10250/11518 loss:4.352946
+epoch:25 steps:10350/11518 loss:4.314939
+epoch:25 steps:10450/11518 loss:4.744053
+epoch:25 steps:10550/11518 loss:4.463971
+epoch:25 steps:10650/11518 loss:4.680223
+epoch:25 steps:10750/11518 loss:4.686277
+epoch:25 steps:10850/11518 loss:4.646450
+epoch:25 steps:10950/11518 loss:4.711986
+epoch:25 steps:11050/11518 loss:4.791342
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:25 steps:11150/11518 loss:4.743147
+epoch:25 steps:11250/11518 loss:5.290736
+epoch:25 steps:11350/11518 loss:5.226855
+epoch:25 steps:11450/11518 loss:5.072323
+one more epoch, learning_rate decrease
+epoch:26 steps:32/11518 loss:0.000177
+epoch:26 steps:132/11518 loss:3.240342
+epoch:26 steps:232/11518 loss:3.754907
+epoch:26 steps:332/11518 loss:3.808341
+epoch:26 steps:432/11518 loss:3.539610
+epoch:26 steps:532/11518 loss:3.933480
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:632/11518 loss:3.889689
+epoch:26 steps:732/11518 loss:3.455703
+epoch:26 steps:832/11518 loss:3.720045
+epoch:26 steps:932/11518 loss:3.612807
+epoch:26 steps:1032/11518 loss:3.929459
+epoch:26 steps:1132/11518 loss:3.660486
+epoch:26 steps:1232/11518 loss:4.433921
+epoch:26 steps:1332/11518 loss:3.537057
+epoch:26 steps:1432/11518 loss:4.721904
+epoch:26 steps:1532/11518 loss:3.983600
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:1632/11518 loss:3.860133
+epoch:26 steps:1732/11518 loss:3.681551
+epoch:26 steps:1832/11518 loss:4.125342
+epoch:26 steps:1932/11518 loss:4.055990
+epoch:26 steps:2032/11518 loss:3.975577
+epoch:26 steps:2132/11518 loss:3.756763
+epoch:26 steps:2232/11518 loss:3.956272
+epoch:26 steps:2332/11518 loss:3.960312
+epoch:26 steps:2432/11518 loss:4.053061
+epoch:26 steps:2532/11518 loss:4.159980
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:2632/11518 loss:4.077406
+epoch:26 steps:2732/11518 loss:3.492147
+epoch:26 steps:2832/11518 loss:3.944915
+epoch:26 steps:2932/11518 loss:3.687744
+epoch:26 steps:3032/11518 loss:4.046055
+epoch:26 steps:3132/11518 loss:4.232630
+epoch:26 steps:3232/11518 loss:4.501379
+epoch:26 steps:3332/11518 loss:4.730931
+epoch:26 steps:3432/11518 loss:4.869207
+epoch:26 steps:3532/11518 loss:4.245754
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:3632/11518 loss:4.076016
+epoch:26 steps:3732/11518 loss:3.796679
+epoch:26 steps:3832/11518 loss:4.026660
+epoch:26 steps:3932/11518 loss:4.371408
+epoch:26 steps:4032/11518 loss:4.321400
+epoch:26 steps:4132/11518 loss:4.350943
+epoch:26 steps:4232/11518 loss:4.313068
+epoch:26 steps:4332/11518 loss:3.800669
+epoch:26 steps:4432/11518 loss:3.743488
+epoch:26 steps:4532/11518 loss:4.277914
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:4632/11518 loss:4.413006
+epoch:26 steps:4732/11518 loss:4.026128
+epoch:26 steps:4832/11518 loss:4.156336
+epoch:26 steps:4932/11518 loss:4.014968
+epoch:26 steps:5032/11518 loss:3.715108
+epoch:26 steps:5132/11518 loss:4.473165
+epoch:26 steps:5232/11518 loss:4.414945
+epoch:26 steps:5332/11518 loss:4.117088
+epoch:26 steps:5432/11518 loss:3.840089
+epoch:26 steps:5532/11518 loss:4.073294
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:5632/11518 loss:3.638052
+epoch:26 steps:5732/11518 loss:4.069301
+epoch:26 steps:5832/11518 loss:4.074672
+epoch:26 steps:5932/11518 loss:4.300521
+epoch:26 steps:6032/11518 loss:4.005939
+epoch:26 steps:6132/11518 loss:4.060252
+epoch:26 steps:6232/11518 loss:4.287783
+epoch:26 steps:6332/11518 loss:3.939218
+epoch:26 steps:6432/11518 loss:4.639021
+epoch:26 steps:6532/11518 loss:4.016798
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:6632/11518 loss:4.070093
+epoch:26 steps:6732/11518 loss:4.784942
+epoch:26 steps:6832/11518 loss:4.298095
+epoch:26 steps:6932/11518 loss:4.368748
+epoch:26 steps:7032/11518 loss:3.948096
+epoch:26 steps:7132/11518 loss:4.200103
+epoch:26 steps:7232/11518 loss:4.601386
+epoch:26 steps:7332/11518 loss:3.322098
+epoch:26 steps:7432/11518 loss:4.380676
+epoch:26 steps:7532/11518 loss:4.094814
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:7632/11518 loss:4.573371
+epoch:26 steps:7732/11518 loss:4.572816
+epoch:26 steps:7832/11518 loss:4.357435
+epoch:26 steps:7932/11518 loss:4.189931
+epoch:26 steps:8032/11518 loss:4.427589
+epoch:26 steps:8132/11518 loss:4.673066
+epoch:26 steps:8232/11518 loss:4.789469
+epoch:26 steps:8332/11518 loss:4.140746
+epoch:26 steps:8432/11518 loss:4.293263
+epoch:26 steps:8532/11518 loss:4.654926
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:8632/11518 loss:4.649456
+epoch:26 steps:8732/11518 loss:4.551208
+epoch:26 steps:8832/11518 loss:4.227821
+epoch:26 steps:8932/11518 loss:4.121830
+epoch:26 steps:9032/11518 loss:3.974365
+epoch:26 steps:9132/11518 loss:4.391704
+epoch:26 steps:9232/11518 loss:4.1256462018-05-23 07:28:09.946768: I tensorflow/core/common_runtime/gpu/pool_allocator.cc:247] PoolAllocator: After 612812724 get requests, put_count=612812348 evicted_count=88000 eviction_rate=0.0001436 and unsatisfied allocation rate=0.000144442
+
+epoch:26 steps:9332/11518 loss:4.425483
+epoch:26 steps:9432/11518 loss:4.785799
+epoch:26 steps:9532/11518 loss:4.224644
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:9632/11518 loss:4.373945
+epoch:26 steps:9732/11518 loss:4.575484
+epoch:26 steps:9832/11518 loss:4.675348
+epoch:26 steps:9932/11518 loss:4.300149
+epoch:26 steps:10032/11518 loss:4.555334
+epoch:26 steps:10132/11518 loss:4.968886
+epoch:26 steps:10232/11518 loss:4.587628
+epoch:26 steps:10332/11518 loss:3.923033
+epoch:26 steps:10432/11518 loss:3.931036
+epoch:26 steps:10532/11518 loss:4.524404
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:26 steps:10632/11518 loss:4.568038
+epoch:26 steps:10732/11518 loss:4.943188
+epoch:26 steps:10832/11518 loss:4.514358
+epoch:26 steps:10932/11518 loss:4.477227
+epoch:26 steps:11032/11518 loss:4.863976
+epoch:26 steps:11132/11518 loss:4.631473
+epoch:26 steps:11232/11518 loss:5.131832
+epoch:26 steps:11332/11518 loss:4.942085
+epoch:26 steps:11432/11518 loss:4.990072
+one more epoch, learning_rate decrease
+epoch:27 steps:14/11518 loss:0.060705
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:114/11518 loss:4.185822
+epoch:27 steps:214/11518 loss:3.722942
+epoch:27 steps:314/11518 loss:3.688103
+epoch:27 steps:414/11518 loss:3.305349
+epoch:27 steps:514/11518 loss:3.764940
+epoch:27 steps:614/11518 loss:3.863120
+epoch:27 steps:714/11518 loss:3.612463
+epoch:27 steps:814/11518 loss:3.830515
+epoch:27 steps:914/11518 loss:3.805793
+epoch:27 steps:1014/11518 loss:4.472149
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:1114/11518 loss:4.097888
+epoch:27 steps:1214/11518 loss:3.694636
+epoch:27 steps:1314/11518 loss:3.770860
+epoch:27 steps:1414/11518 loss:3.446710
+epoch:27 steps:1514/11518 loss:3.858787
+epoch:27 steps:1614/11518 loss:3.865725
+epoch:27 steps:1714/11518 loss:4.138054
+epoch:27 steps:1814/11518 loss:4.037949
+epoch:27 steps:1914/11518 loss:3.989294
+epoch:27 steps:2014/11518 loss:3.984077
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:2114/11518 loss:3.727753
+epoch:27 steps:2214/11518 loss:4.242645
+epoch:27 steps:2314/11518 loss:3.518789
+epoch:27 steps:2414/11518 loss:3.967473
+epoch:27 steps:2514/11518 loss:4.273152
+epoch:27 steps:2614/11518 loss:4.127496
+epoch:27 steps:2714/11518 loss:4.239299
+epoch:27 steps:2814/11518 loss:3.981725
+epoch:27 steps:2914/11518 loss:4.007928
+epoch:27 steps:3014/11518 loss:4.046592
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:3114/11518 loss:3.766374
+epoch:27 steps:3214/11518 loss:3.713153
+epoch:27 steps:3314/11518 loss:4.377917
+epoch:27 steps:3414/11518 loss:4.198998
+epoch:27 steps:3514/11518 loss:4.274170
+epoch:27 steps:3614/11518 loss:4.353065
+epoch:27 steps:3714/11518 loss:4.095587
+epoch:27 steps:3814/11518 loss:4.301659
+epoch:27 steps:3914/11518 loss:4.479710
+epoch:27 steps:4014/11518 loss:4.596501
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:4114/11518 loss:4.280202
+epoch:27 steps:4214/11518 loss:4.461194
+epoch:27 steps:4314/11518 loss:3.768410
+epoch:27 steps:4414/11518 loss:4.109411
+epoch:27 steps:4514/11518 loss:3.684526
+epoch:27 steps:4614/11518 loss:4.279202
+epoch:27 steps:4714/11518 loss:4.190413
+epoch:27 steps:4814/11518 loss:3.810996
+epoch:27 steps:4914/11518 loss:4.386691
+epoch:27 steps:5014/11518 loss:4.324007
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:5114/11518 loss:4.067953
+epoch:27 steps:5214/11518 loss:3.936943
+epoch:27 steps:5314/11518 loss:4.323907
+epoch:27 steps:5414/11518 loss:3.800575
+epoch:27 steps:5514/11518 loss:3.717880
+epoch:27 steps:5614/11518 loss:3.609657
+epoch:27 steps:5714/11518 loss:4.140688
+epoch:27 steps:5814/11518 loss:4.392324
+epoch:27 steps:5914/11518 loss:3.907106
+epoch:27 steps:6014/11518 loss:4.223059
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:6114/11518 loss:4.618580
+epoch:27 steps:6214/11518 loss:4.027015
+epoch:27 steps:6314/11518 loss:4.114902
+epoch:27 steps:6414/11518 loss:3.876534
+epoch:27 steps:6514/11518 loss:3.886621
+epoch:27 steps:6614/11518 loss:4.016971
+epoch:27 steps:6714/11518 loss:4.001676
+epoch:27 steps:6814/11518 loss:4.214720
+epoch:27 steps:6914/11518 loss:4.733749
+epoch:27 steps:7014/11518 loss:3.604239
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:7114/11518 loss:4.325221
+epoch:27 steps:7214/11518 loss:4.354215
+epoch:27 steps:7314/11518 loss:3.048972
+epoch:27 steps:7414/11518 loss:4.352020
+epoch:27 steps:7514/11518 loss:4.503984
+epoch:27 steps:7614/11518 loss:3.772313
+epoch:27 steps:7714/11518 loss:5.051436
+epoch:27 steps:7814/11518 loss:4.301001
+epoch:27 steps:7914/11518 loss:4.403517
+epoch:27 steps:8014/11518 loss:3.383193
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:8114/11518 loss:4.570525
+epoch:27 steps:8214/11518 loss:4.820049
+epoch:27 steps:8314/11518 loss:4.361272
+epoch:27 steps:8414/11518 loss:4.283183
+epoch:27 steps:8514/11518 loss:4.494689
+epoch:27 steps:8614/11518 loss:4.218421
+epoch:27 steps:8714/11518 loss:3.977575
+epoch:27 steps:8814/11518 loss:4.028567
+epoch:27 steps:8914/11518 loss:4.312025
+epoch:27 steps:9014/11518 loss:4.479284
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:9114/11518 loss:4.053852
+epoch:27 steps:9214/11518 loss:4.283968
+epoch:27 steps:9314/11518 loss:4.279250
+epoch:27 steps:9414/11518 loss:4.491328
+epoch:27 steps:9514/11518 loss:4.420489
+epoch:27 steps:9614/11518 loss:4.303491
+epoch:27 steps:9714/11518 loss:3.877345
+epoch:27 steps:9814/11518 loss:4.881446
+epoch:27 steps:9914/11518 loss:5.305929
+epoch:27 steps:10014/11518 loss:4.616595
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:10114/11518 loss:4.229121
+epoch:27 steps:10214/11518 loss:4.600973
+epoch:27 steps:10314/11518 loss:4.032434
+epoch:27 steps:10414/11518 loss:4.672028
+epoch:27 steps:10514/11518 loss:4.611608
+epoch:27 steps:10614/11518 loss:4.574051
+epoch:27 steps:10714/11518 loss:4.884185
+epoch:27 steps:10814/11518 loss:5.395449
+epoch:27 steps:10914/11518 loss:5.165273
+epoch:27 steps:11014/11518 loss:4.737570
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:27 steps:11114/11518 loss:5.015292
+epoch:27 steps:11214/11518 loss:5.037555
+epoch:27 steps:11314/11518 loss:5.114368
+epoch:27 steps:11414/11518 loss:4.994448
+epoch:27 steps:11514/11518 loss:5.342462
+one more epoch, learning_rate decrease
+epoch:28 steps:96/11518 loss:3.538297
+epoch:28 steps:196/11518 loss:4.503295
+epoch:28 steps:296/11518 loss:3.985329
+epoch:28 steps:396/11518 loss:3.471980
+epoch:28 steps:496/11518 loss:3.493033
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:28 steps:596/11518 loss:3.788361
+epoch:28 steps:696/11518 loss:3.779765
+epoch:28 steps:796/11518 loss:4.007545
+epoch:28 steps:896/11518 loss:3.617316
+epoch:28 steps:996/11518 loss:3.936183
+epoch:28 steps:1096/11518 loss:4.201347
+epoch:28 steps:1196/11518 loss:5.055707
+epoch:28 steps:1296/11518 loss:3.742944
+epoch:28 steps:1396/11518 loss:3.961841
+epoch:28 steps:1496/11518 loss:3.615739
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:28 steps:1596/11518 loss:4.326524
+epoch:28 steps:1696/11518 loss:4.250793
+epoch:28 steps:1796/11518 loss:4.127197
+epoch:28 steps:1896/11518 loss:3.827442
+epoch:28 steps:1996/11518 loss:4.195894
+epoch:28 steps:2096/11518 loss:3.868087
+epoch:28 steps:2196/11518 loss:4.299810
+epoch:28 steps:2296/11518 loss:3.861672
+epoch:28 steps:2396/11518 loss:4.739456
+epoch:28 steps:2496/11518 loss:4.207115
+ ======  save model in /home/iiihunter/writePoems/peotry/peotry_bigdb  ====== 
+epoch:28 steps:2596/11518 loss:3.840643
+epoch:28 steps:2696/11518 loss:3.907750
+epoch:28 steps:2796/11518 loss:3.797093
+epoch:28 steps:2896/11518 loss:4.062608
+epoch:28 steps:2996/11518 loss:3.753735
+epoch:28 steps:3096/11518 loss:3.909584
+epoch:28 steps:3196/11518 loss:4.146568
