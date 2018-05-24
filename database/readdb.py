@@ -11,7 +11,7 @@ def read_db(file_path, author=None, tag=None):
     with open(file_path) as file:
         file_content = json.load(file)
         poet_num = len(file_content)
-        with open("/home/iiihunter/space/WritePoems-master/database/json/tags.json") as tags_file:
+        with open("/home/iiihunter/writePoems/database/json/tags.json") as tags_file:
             tags = json.load(tags_file)
         for i in range(poet_num):
             one_poet = file_content[i]
@@ -23,8 +23,10 @@ def read_db(file_path, author=None, tag=None):
                     print("Tag error, the tag is not exit!")
                 if "tags" not in one_poet.keys() or (tag not in one_poet["tags"]):
                     continue
-            if (author != None) & (_author != author):
-                continue
+            if author != None:
+                if _author != author:
+                    continue
+
             poet_len = len(paragraph)
             one_poet_str = "["
             for i in range(poet_len):
@@ -37,7 +39,7 @@ def read_db(file_path, author=None, tag=None):
     return poetrys, tags
 
 
-def get_data(poetry_file=None, batch_size=1, poet_index=0):
+def get_data(poetry_file=None, batch_size=1, poet_index=0, tag=None, author=None):
     result_all = []
     if poetry_file == None:
         print("Please give the poetry path!")
@@ -45,21 +47,21 @@ def get_data(poetry_file=None, batch_size=1, poet_index=0):
     if poet_index == 0:
         for index in range(0, 58000, 1000):
             shi_path = os.path.join(poetry_file, "poet.tang.%s.json" % index)
-            result, _ = read_db(shi_path)
+            result, _ = read_db(shi_path, tag=tag, author=author)
             result_all += result
     elif poet_index == 1:
         for index in range(0, 255000, 1000):
             shi_path = os.path.join(poetry_file, "poet.song.%s.json" % index)
-            result, _ = read_db(shi_path)
+            result, _ = read_db(shi_path, tag=tag, author=author)
             result_all += result
     elif poet_index == 2:
         for index in range(0, 58000, 1000):
             shi_path = os.path.join(poetry_file, "poet.tang.%s.json" % index)
-            result, _ = read_db(shi_path)
+            result, _ = read_db(shi_path, tag=tag, author=author)
             result_all += result
         for index in range(0, 255000, 1000):
             shi_path = os.path.join(poetry_file, "poet.song.%s.json" % index)
-            result, _ = read_db(shi_path)
+            result, _ = read_db(shi_path, tag=tag, author=author)
             result_all += result
     # 按诗的字数排序
     poetrys = sorted(result_all, key=lambda line: len(line))
@@ -101,27 +103,21 @@ if __name__=="__main__":
     # X, Y, w, w2id = get_data(os.path.join(os.getcwd(), "json"), poet_index=2)
 
     poetry_file = os.path.join(os.getcwd(), "json")
-    tags_big = []
 
-    with open(os.path.join(os.getcwd(), "json", "tags.json")) as tags_file:
-        tags = json.load(tags_file)
-    print(tags)
-    for t in tags:
-        result_all = []
-        print(t)
-        for index in range(0, 58000, 1000):
-            shi_path = os.path.join(poetry_file, "poet.tang.%s.json" % index)
-            result, tags = read_db(shi_path, tag=t)
-            result_all += result
-        for index in range(0, 255000, 1000):
-            shi_path = os.path.join(poetry_file, "poet.song.%s.json" % index)
-            result, tags = read_db(shi_path, tag=t)
-            result_all += result
+    result_all = []
+    t = '庐山'
 
-        print(len(result_all))
+    for index in range(0, 58000, 1000):
+        shi_path = os.path.join(poetry_file, "poet.tang.%s.json" % index)
+        result, tags = read_db(shi_path, tag=t)
+        result_all += result
+    for index in range(0, 255000, 1000):
+        shi_path = os.path.join(poetry_file, "poet.song.%s.json" % index)
+        result, tags = read_db(shi_path, tag=t)
+        result_all += result
 
-        if len(result_all) > 800:
-            tags_big.append(t)
-    with open(os.path.join(os.getcwd(),"json","tags_big.json"),"w") as tags_big_file:
-        tags_big_file.write(json.dumps(tags_big, ensure_ascii=False))
+    print(len(result_all))
+
+    # with open(os.path.join(os.getcwd(),"json","tags_big.json"),"w") as tags_big_file:
+    #     tags_big_file.write(json.dumps(tags_big, ensure_ascii=False))
 

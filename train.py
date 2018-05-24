@@ -1,21 +1,21 @@
 # coding = utf-8
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = "2, 3"
+os.environ["CUDA_VISIBLE_DEVICES"] = "3"
 import tensorflow as tf
-import os
 #from prepare_data import get_data
 from database.readdb import get_data
 from lstm import build_rnn
 
 
 def train(reload=False):
-    file_name = "save_model"
-    save_dir = "peotry_bigdb"
+    file_name = "save_model_dufu"
+    save_dir = "peotry_bigdb_dufu"
     model_save_path = os.path.join(os.getcwd(), save_dir, file_name)
     # build rnn
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
     output_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
-    logits, probs, _, _, _ = build_rnn(batch_size=batch_size, vocab_size=vocab_size,input_sequences=input_sequences)
+    logits, probs, _, _, _ = build_rnn(batch_size=batch_size, vocab_size=vocab_size,
+                                       input_sequences=input_sequences)
     targets = tf.reshape(output_sequences, [-1])
 
     loss = tf.contrib.legacy_seq2seq.sequence_loss_by_example(
@@ -45,7 +45,7 @@ def train(reload=False):
         for epoch in range(start_epoch, 50):
             print("one more epoch, learning_rate decrease")
             if global_step % 80 == 0:
-                sess.run(tf.assign(learning_rate, 0.002 * (0.97 ** epoch)))
+                sess.run(tf.assign(learning_rate, 0.002 * (0.9 ** epoch)))
             epoch_steps = len(list(zip(X_data, Y_data)))
             for step, (x, y) in enumerate(zip(X_data, Y_data)):
                 global_step = epoch * epoch_steps + step
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     batch_size = 5
     #X_data, Y_data, words, word2idfunc = get_data(poetry_file='data/poetry.txt', batch_size=batch_size)
     X_data, Y_data, words, word2idfunc = get_data(poetry_file= os.path.join(os.getcwd(), "database", "json"),
-                                                  batch_size=batch_size, poet_index=2)
+                                                  batch_size=batch_size, poet_index=2, author="杜甫")
     vocab_size = len(words) + 1
     # input_size:(batch_size, feature_length)
     train(reload=False)
