@@ -1,0 +1,6 @@
+model_checkpoint_path: "/home/iiihunter/writePoems/peotry_bigdb_dufu/save_model_dufu-16"
+all_model_checkpoint_paths: "/home/iiihunter/writePoems/peotry_bigdb_dufu/save_model_dufu-3"
+all_model_checkpoint_paths: "/home/iiihunter/writePoems/peotry_bigdb_dufu/save_model_dufu-6"
+all_model_checkpoint_paths: "/home/iiihunter/writePoems/peotry_bigdb_dufu/save_model_dufu-10"
+all_model_checkpoint_paths: "/home/iiihunter/writePoems/peotry_bigdb_dufu/save_model_dufu-13"
+all_model_checkpoint_paths: "/home/iiihunter/writePoems/peotry_bigdb_dufu/save_model_dufu-16"

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d29759-041e-4b2b-bae8-369fef375f72" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WritePoems-master.iml" afterPath="$PROJECT_DIR$/.idea/WritePoems-master.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="40d29759-041e-4b2b-bae8-369fef375f72" name="Default" comment="read poetry of specific author or with specific tag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/database/readdb.py" afterPath="$PROJECT_DIR$/database/readdb.py" />
-      <change beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/train.py" />
-      <change beforePath="$PROJECT_DIR$/write_poems.py" afterPath="$PROJECT_DIR$/write_poems.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/write_poems.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-954">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -336,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527063040242</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="read poetry of specific author or with specific tag">
+      <created>1527133336107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527133336107</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -404,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add big database" />
-    <option name="LAST_COMMIT_MESSAGE" value="add big database" />
+    <MESSAGE value="read poetry of specific author or with specific tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="read poetry of specific author or with specific tag" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -794,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/write_poems.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-954">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
