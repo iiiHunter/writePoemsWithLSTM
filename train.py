@@ -8,8 +8,8 @@ from lstm import build_rnn
 
 
 def train(reload=False):
-    file_name = "save_model_dufu"
-    save_dir = "peotry_bigdb_dufu"
+    file_name = "save_model"
+    save_dir = "peotry_bigdb"
     model_save_path = os.path.join(os.getcwd(), save_dir, file_name)
     # build rnn
     input_sequences = tf.placeholder(tf.int32, shape=[batch_size, None])
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     batch_size = 5
     #X_data, Y_data, words, word2idfunc = get_data(poetry_file='data/poetry.txt', batch_size=batch_size)
     X_data, Y_data, words, word2idfunc = get_data(poetry_file= os.path.join(os.getcwd(), "database", "json"),
-                                                  batch_size=batch_size, poet_index=2, author="杜甫")
+                                                  batch_size=batch_size, poet_index=2)
     vocab_size = len(words) + 1
     # input_size:(batch_size, feature_length)
     train(reload=False)
