@@ -8,7 +8,7 @@ import os
 from database.readdb import get_data
 from lstm import build_rnn
 
-save_dir = "peotry_bigdb_dufu"
+save_dir = "peotry_bigdb_shijing"
 def write_poem():  # 根据概率分布选择与直接选择可能性最大的
     def to_word(weights):
         t = np.cumsum(weights)
@@ -89,7 +89,7 @@ def write_head_poem(heads):
 if __name__ == '__main__':
     batch_size = 1
     _, _, words, word2idfunc = get_data(poetry_file=os.path.join(os.getcwd(), "database", "json"),
-                                        batch_size=batch_size, poet_index=2, author="杜甫")
+                                        batch_size=batch_size, poet_index=4)
     vocab_size = len(words) + 1
     print(write_poem())
     #print(write_head_poem(u"春风十里"))
